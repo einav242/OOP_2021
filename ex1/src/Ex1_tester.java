@@ -9,6 +9,7 @@ public class Ex1_tester {
             args[2] = "data/Ex1_Calls_case_2_b.csv";
             long time = System.currentTimeMillis();
             args[3] = "out/Ex1_report_case_" + "_" + time + "_ID_.log";
+            // shalom einav
         }
         Ex1_main.main(args);
     }
