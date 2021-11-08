@@ -1,0 +1,2391 @@
+**** The Simulator log: stage 3
+0.0,OOP_Ex0_Elevator_Simulator
+0.0,Simulated Building, ex0.simulator.Builging_A [-3,20]
+0) ex0.simulator.Elevator_A, Elev_0, speed: 1.0, open/close: 2.0,  start/stop: 3.0
+1) ex0.simulator.Elevator_A, Elev_1, speed: 1.0, open/close: 2.0,  start/stop: 3.0
+2) ex0.simulator.Elevator_A, Elev_2, speed: 1.0, open/close: 2.0,  start/stop: 3.0
+3) ex0.simulator.Elevator_A, Elev_3, speed: 1.0, open/close: 2.0,  start/stop: 3.0
+0.0,Simulated Period starTime,0.0,  endTime,3600.0,  dt,1.0
+0.0,Simulated  calls,Elevetor log, size: 400
+0.0,**** Simulation starts!! ****
+0.0, elevID,0,  pos,-3,  cmd, goto,7
+0.0, elevID,1,  pos,-3,  cmd, goto,1
+0.0, elevID,2,  pos,-3,  cmd, goto,7
+0.0, elevID,3,  pos,-3,  cmd, goto,6
+14.0, elevID,1,  pos,1,  cmd, goto,2
+16.0,Elevator call,15.749018245415527,0,-1,1,0, got allocated to elevator, 0
+19.0, elevID,3,  pos,6,  cmd, goto,7
+20.0, elevID,0,  pos,7,  cmd, goto,6
+20.0, elevID,2,  pos,7,  cmd, goto,6
+25.0, elevID,1,  pos,2,  cmd, goto,3
+30.0,Elevator call,29.795724992354963,0,13,1,1, got allocated to elevator, 1
+30.0, elevID,3,  pos,7,  cmd, goto,8
+31.0, elevID,0,  pos,6,  cmd, goto,5
+31.0, elevID,2,  pos,6,  cmd, goto,5
+36.0, elevID,1,  pos,3,  cmd, goto,4
+41.0, elevID,3,  pos,8,  cmd, goto,9
+42.0, elevID,0,  pos,5,  cmd, goto,4
+42.0, elevID,2,  pos,5,  cmd, goto,4
+47.0, elevID,1,  pos,4,  cmd, goto,5
+52.0, elevID,3,  pos,9,  cmd, goto,10
+53.0, elevID,0,  pos,4,  cmd, goto,3
+53.0, elevID,2,  pos,4,  cmd, goto,3
+58.0, elevID,1,  pos,5,  cmd, goto,6
+62.0,Elevator call,61.04837839712013,-2,15,1,1, got allocated to elevator, 1
+63.0, elevID,3,  pos,10,  cmd, goto,11
+64.0, elevID,0,  pos,3,  cmd, goto,2
+64.0, elevID,2,  pos,3,  cmd, goto,2
+68.0,Elevator call,67.39684559916532,0,12,1,1, got allocated to elevator, 1
+69.0, elevID,1,  pos,6,  cmd, goto,7
+73.0,Elevator call,72.32053834730914,0,11,1,1, got allocated to elevator, 1
+74.0, elevID,3,  pos,11,  cmd, goto,12
+75.0, elevID,0,  pos,2,  cmd, goto,1
+75.0, elevID,2,  pos,2,  cmd, goto,1
+76.0,Elevator call,75.45009626287265,-2,0,1,1, got allocated to elevator, 1
+80.0,Elevator call,79.5386026857368,0,-1,1,0, got allocated to elevator, 0
+80.0, elevID,1,  pos,7,  cmd, goto,8
+85.0, elevID,3,  pos,12,  cmd, goto,13
+86.0,Elevator call,85.05084296434165,0,17,1,1, got allocated to elevator, 1
+86.0, elevID,0,  pos,1,  cmd, goto,0
+86.0, elevID,2,  pos,1,  cmd, goto,0
+91.0, elevID,1,  pos,8,  cmd, goto,9
+96.0, elevID,3,  pos,13,  cmd, goto,14
+97.0,Elev,0,  arrived at src, 0, Elevator call,15.749018245415527,0,-1,2,0
+97.0,Elev,0,  arrived at src, 0, Elevator call,79.5386026857368,0,-1,2,0
+97.0, elevID,0,  pos,0,  cmd, goto,-1
+97.0, elevID,2,  pos,0,  cmd, goto,-1
+100.0,Elevator call,99.09729234442648,0,11,1,1, got allocated to elevator, 1
+102.0, elevID,1,  pos,9,  cmd, goto,10
+105.0,Elevator call,104.82846934416693,0,4,1,1, got allocated to elevator, 1
+107.0, elevID,3,  pos,14,  cmd, goto,15
+108.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,15.749018245415527,0,-1,3,0, Done, dt, 92.25098175458447
+108.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,79.5386026857368,0,-1,3,0, Done, dt, 28.461397314263195
+108.0, elevID,0,  pos,-1,  cmd, goto,-2
+108.0, elevID,2,  pos,-1,  cmd, goto,-2
+113.0, elevID,1,  pos,10,  cmd, goto,11
+115.0,Elevator call,114.81417324516474,0,8,1,1, got allocated to elevator, 1
+118.0, elevID,3,  pos,15,  cmd, goto,16
+119.0, elevID,0,  pos,-2,  cmd, goto,-3
+119.0, elevID,2,  pos,-2,  cmd, goto,-3
+124.0, elevID,1,  pos,11,  cmd, goto,12
+129.0, elevID,3,  pos,16,  cmd, goto,17
+130.0, elevID,0,  pos,-3,  cmd, goto,20
+130.0, elevID,2,  pos,-3,  cmd, goto,20
+133.0,Elevator call,132.22282787251766,18,-1,1,0, got allocated to elevator, 0
+135.0, elevID,1,  pos,12,  cmd, goto,13
+140.0, elevID,3,  pos,17,  cmd, goto,18
+146.0, elevID,1,  pos,13,  cmd, goto,14
+151.0, elevID,3,  pos,18,  cmd, goto,19
+157.0, elevID,1,  pos,14,  cmd, goto,15
+159.0,Elevator call,158.57843474073547,0,-1,1,0, got allocated to elevator, 0
+162.0, elevID,3,  pos,19,  cmd, goto,20
+163.0, elevID,0,  pos,20,  cmd, goto,19
+163.0, elevID,2,  pos,20,  cmd, goto,19
+168.0, elevID,1,  pos,15,  cmd, goto,16
+173.0, elevID,3,  pos,20,  cmd, goto,-3
+174.0, elevID,0,  pos,19,  cmd, goto,18
+174.0, elevID,2,  pos,19,  cmd, goto,18
+179.0, elevID,1,  pos,16,  cmd, goto,17
+185.0,Elev,0,  arrived at src, 18, Elevator call,132.22282787251766,18,-1,2,0
+185.0, elevID,0,  pos,18,  cmd, goto,17
+185.0, elevID,2,  pos,18,  cmd, goto,17
+190.0, elevID,1,  pos,17,  cmd, goto,18
+196.0, elevID,0,  pos,17,  cmd, goto,16
+196.0, elevID,2,  pos,17,  cmd, goto,16
+199.0,Elevator call,198.24467886016964,0,1,1,3, got allocated to elevator, 3
+201.0, elevID,1,  pos,18,  cmd, goto,19
+206.0, elevID,3,  pos,-3,  cmd, goto,-2
+207.0, elevID,0,  pos,16,  cmd, goto,15
+207.0, elevID,2,  pos,16,  cmd, goto,15
+212.0, elevID,1,  pos,19,  cmd, goto,20
+216.0,Elevator call,215.59051445419368,-2,11,1,3, got allocated to elevator, 3
+217.0,Elev,3,  arrived at src, -2, Elevator call,215.59051445419368,-2,11,2,3
+217.0, elevID,3,  pos,-2,  cmd, goto,-1
+218.0, elevID,0,  pos,15,  cmd, goto,14
+218.0, elevID,2,  pos,15,  cmd, goto,14
+222.0,Elevator call,221.97598265680836,0,-2,1,0, got allocated to elevator, 0
+223.0, elevID,1,  pos,20,  cmd, goto,-3
+228.0, elevID,3,  pos,-1,  cmd, goto,0
+229.0,Elevator call,228.54160571475745,5,-2,1,0, got allocated to elevator, 0
+229.0, elevID,0,  pos,14,  cmd, goto,13
+229.0, elevID,2,  pos,14,  cmd, goto,13
+239.0,Elev,3,  arrived at src, 0, Elevator call,198.24467886016964,0,1,2,3
+239.0, elevID,3,  pos,0,  cmd, goto,1
+240.0, elevID,0,  pos,13,  cmd, goto,12
+240.0, elevID,2,  pos,13,  cmd, goto,12
+250.0,Elev,3,  arrived at dest, 1, this call is done!, Elevator call,198.24467886016964,0,1,3,3, Done, dt, 51.75532113983036
+250.0, elevID,3,  pos,1,  cmd, goto,2
+251.0, elevID,0,  pos,12,  cmd, goto,11
+251.0, elevID,2,  pos,12,  cmd, goto,11
+256.0, elevID,1,  pos,-3,  cmd, goto,-2
+261.0, elevID,3,  pos,2,  cmd, goto,3
+262.0, elevID,0,  pos,11,  cmd, goto,10
+262.0, elevID,2,  pos,11,  cmd, goto,10
+267.0,Elev,1,  arrived at src, -2, Elevator call,61.04837839712013,-2,15,2,1
+267.0,Elev,1,  arrived at src, -2, Elevator call,75.45009626287265,-2,0,2,1
+267.0, elevID,1,  pos,-2,  cmd, goto,-1
+270.0,Elevator call,269.20102863151715,0,11,1,1, got allocated to elevator, 1
+272.0, elevID,3,  pos,3,  cmd, goto,4
+273.0, elevID,0,  pos,10,  cmd, goto,9
+273.0, elevID,2,  pos,10,  cmd, goto,9
+278.0, elevID,1,  pos,-1,  cmd, goto,0
+283.0,Elevator call,282.3742556797197,13,11,1,0, got allocated to elevator, 0
+283.0, elevID,3,  pos,4,  cmd, goto,5
+284.0, elevID,0,  pos,9,  cmd, goto,8
+284.0, elevID,2,  pos,9,  cmd, goto,8
+286.0,Elevator call,285.98693024600857,-1,-2,1,0, got allocated to elevator, 0
+289.0,Elev,1,  arrived at src, 0, Elevator call,29.795724992354963,0,13,2,1
+289.0,Elev,1,  arrived at src, 0, Elevator call,67.39684559916532,0,12,2,1
+289.0,Elev,1,  arrived at src, 0, Elevator call,72.32053834730914,0,11,2,1
+289.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,75.45009626287265,-2,0,3,1, Done, dt, 213.54990373712735
+289.0,Elev,1,  arrived at src, 0, Elevator call,85.05084296434165,0,17,2,1
+289.0,Elev,1,  arrived at src, 0, Elevator call,99.09729234442648,0,11,2,1
+289.0,Elev,1,  arrived at src, 0, Elevator call,104.82846934416693,0,4,2,1
+289.0,Elev,1,  arrived at src, 0, Elevator call,114.81417324516474,0,8,2,1
+289.0,Elev,1,  arrived at src, 0, Elevator call,269.20102863151715,0,11,2,1
+289.0, elevID,1,  pos,0,  cmd, goto,1
+294.0, elevID,3,  pos,5,  cmd, goto,6
+295.0, elevID,0,  pos,8,  cmd, goto,7
+295.0, elevID,2,  pos,8,  cmd, goto,7
+300.0, elevID,1,  pos,1,  cmd, goto,2
+305.0, elevID,3,  pos,6,  cmd, goto,7
+306.0, elevID,0,  pos,7,  cmd, goto,6
+306.0, elevID,2,  pos,7,  cmd, goto,6
+308.0,Elevator call,307.87547983371155,6,5,1,0, got allocated to elevator, 0
+311.0,Elevator call,310.61716965870755,10,13,1,3, got allocated to elevator, 3
+311.0, elevID,1,  pos,2,  cmd, goto,3
+313.0,Elevator call,312.0106401629912,9,0,1,0, got allocated to elevator, 0
+316.0,Elevator call,315.10202800168577,-1,-2,1,0, got allocated to elevator, 0
+316.0, elevID,3,  pos,7,  cmd, goto,8
+317.0,Elev,0,  arrived at src, 6, Elevator call,307.87547983371155,6,5,2,0
+317.0, elevID,0,  pos,6,  cmd, goto,5
+317.0, elevID,2,  pos,6,  cmd, goto,5
+322.0, elevID,1,  pos,3,  cmd, goto,4
+327.0,Elevator call,326.89462213255365,0,-1,1,0, got allocated to elevator, 0
+327.0, elevID,3,  pos,8,  cmd, goto,9
+328.0,Elev,0,  arrived at src, 5, Elevator call,228.54160571475745,5,-2,2,0
+328.0,Elev,0,  arrived at dest, 5, this call is done!, Elevator call,307.87547983371155,6,5,3,0, Done, dt, 20.12452016628845
+328.0, elevID,0,  pos,5,  cmd, goto,4
+328.0, elevID,2,  pos,5,  cmd, goto,4
+329.0,Elevator call,328.356698884342,-1,-2,1,0, got allocated to elevator, 0
+333.0,Elev,1,  arrived at dest, 4, this call is done!, Elevator call,104.82846934416693,0,4,3,1, Done, dt, 228.17153065583307
+333.0, elevID,1,  pos,4,  cmd, goto,5
+338.0, elevID,3,  pos,9,  cmd, goto,10
+339.0, elevID,0,  pos,4,  cmd, goto,3
+339.0, elevID,2,  pos,4,  cmd, goto,3
+344.0, elevID,1,  pos,5,  cmd, goto,6
+349.0,Elev,3,  arrived at src, 10, Elevator call,310.61716965870755,10,13,2,3
+349.0, elevID,3,  pos,10,  cmd, goto,11
+350.0, elevID,0,  pos,3,  cmd, goto,2
+350.0, elevID,2,  pos,3,  cmd, goto,2
+355.0, elevID,1,  pos,6,  cmd, goto,7
+357.0,Elevator call,356.7750171885598,-2,0,1,1, got allocated to elevator, 1
+360.0,Elev,3,  arrived at dest, 11, this call is done!, Elevator call,215.59051445419368,-2,11,3,3, Done, dt, 144.40948554580632
+360.0, elevID,3,  pos,11,  cmd, goto,12
+361.0, elevID,0,  pos,2,  cmd, goto,1
+361.0, elevID,2,  pos,2,  cmd, goto,1
+366.0, elevID,1,  pos,7,  cmd, goto,8
+370.0,Elevator call,369.88592756734556,0,-1,1,0, got allocated to elevator, 0
+371.0, elevID,3,  pos,12,  cmd, goto,13
+372.0, elevID,0,  pos,1,  cmd, goto,0
+372.0, elevID,2,  pos,1,  cmd, goto,0
+375.0,Elevator call,374.7234961849488,0,4,1,1, got allocated to elevator, 1
+375.0,Elevator call,374.8932447072923,0,12,1,1, got allocated to elevator, 1
+377.0,Elev,1,  arrived at dest, 8, this call is done!, Elevator call,114.81417324516474,0,8,3,1, Done, dt, 262.18582675483526
+377.0, elevID,1,  pos,8,  cmd, goto,9
+382.0,Elev,3,  arrived at dest, 13, this call is done!, Elevator call,310.61716965870755,10,13,3,3, Done, dt, 71.38283034129245
+382.0, elevID,3,  pos,13,  cmd, goto,14
+383.0,Elev,0,  arrived at src, 0, Elevator call,158.57843474073547,0,-1,2,0
+383.0,Elev,0,  arrived at src, 0, Elevator call,221.97598265680836,0,-2,2,0
+383.0,Elev,0,  arrived at src, 0, Elevator call,326.89462213255365,0,-1,2,0
+383.0,Elev,0,  arrived at src, 0, Elevator call,369.88592756734556,0,-1,2,0
+383.0, elevID,0,  pos,0,  cmd, goto,-1
+383.0, elevID,2,  pos,0,  cmd, goto,-1
+388.0, elevID,1,  pos,9,  cmd, goto,10
+393.0, elevID,3,  pos,14,  cmd, goto,15
+394.0,Elevator call,393.16870473647714,-1,0,1,1, got allocated to elevator, 1
+394.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,132.22282787251766,18,-1,3,0, Done, dt, 261.77717212748234
+394.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,158.57843474073547,0,-1,3,0, Done, dt, 235.42156525926453
+394.0,Elev,0,  arrived at src, -1, Elevator call,285.98693024600857,-1,-2,2,0
+394.0,Elev,0,  arrived at src, -1, Elevator call,315.10202800168577,-1,-2,2,0
+394.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,326.89462213255365,0,-1,3,0, Done, dt, 67.10537786744635
+394.0,Elev,0,  arrived at src, -1, Elevator call,328.356698884342,-1,-2,2,0
+394.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,369.88592756734556,0,-1,3,0, Done, dt, 24.11407243265444
+394.0, elevID,0,  pos,-1,  cmd, goto,-2
+394.0, elevID,2,  pos,-1,  cmd, goto,-2
+399.0, elevID,1,  pos,10,  cmd, goto,11
+404.0, elevID,3,  pos,15,  cmd, goto,16
+405.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,221.97598265680836,0,-2,3,0, Done, dt, 183.02401734319164
+405.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,228.54160571475745,5,-2,3,0, Done, dt, 176.45839428524255
+405.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,285.98693024600857,-1,-2,3,0, Done, dt, 119.01306975399143
+405.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,315.10202800168577,-1,-2,3,0, Done, dt, 89.89797199831423
+405.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,328.356698884342,-1,-2,3,0, Done, dt, 76.643301115658
+405.0, elevID,0,  pos,-2,  cmd, goto,-3
+405.0, elevID,2,  pos,-2,  cmd, goto,-3
+410.0,Elev,1,  arrived at dest, 11, this call is done!, Elevator call,72.32053834730914,0,11,3,1, Done, dt, 337.67946165269086
+410.0,Elev,1,  arrived at dest, 11, this call is done!, Elevator call,99.09729234442648,0,11,3,1, Done, dt, 310.9027076555735
+410.0,Elev,1,  arrived at dest, 11, this call is done!, Elevator call,269.20102863151715,0,11,3,1, Done, dt, 140.79897136848285
+410.0, elevID,1,  pos,11,  cmd, goto,12
+412.0,Elevator call,411.8124634838655,20,0,1,0, got allocated to elevator, 0
+415.0, elevID,3,  pos,16,  cmd, goto,17
+416.0, elevID,0,  pos,-3,  cmd, goto,20
+416.0, elevID,2,  pos,-3,  cmd, goto,20
+421.0,Elev,1,  arrived at dest, 12, this call is done!, Elevator call,67.39684559916532,0,12,3,1, Done, dt, 353.6031544008347
+421.0, elevID,1,  pos,12,  cmd, goto,13
+426.0, elevID,3,  pos,17,  cmd, goto,18
+432.0,Elev,1,  arrived at dest, 13, this call is done!, Elevator call,29.795724992354963,0,13,3,1, Done, dt, 402.20427500764504
+432.0, elevID,1,  pos,13,  cmd, goto,14
+437.0, elevID,3,  pos,18,  cmd, goto,19
+439.0,Elevator call,438.99163815922134,-1,14,1,1, got allocated to elevator, 1
+443.0, elevID,1,  pos,14,  cmd, goto,15
+448.0,Elevator call,447.93205545529304,0,16,1,1, got allocated to elevator, 1
+448.0, elevID,3,  pos,19,  cmd, goto,20
+449.0,Elev,0,  arrived at src, 20, Elevator call,411.8124634838655,20,0,2,0
+449.0, elevID,0,  pos,20,  cmd, goto,19
+449.0, elevID,2,  pos,20,  cmd, goto,19
+452.0,Elevator call,451.3692847322909,-1,19,1,1, got allocated to elevator, 1
+453.0,Elevator call,452.03633893661413,-2,5,1,1, got allocated to elevator, 1
+454.0,Elev,1,  arrived at dest, 15, this call is done!, Elevator call,61.04837839712013,-2,15,3,1, Done, dt, 392.95162160287987
+454.0, elevID,1,  pos,15,  cmd, goto,16
+459.0, elevID,3,  pos,20,  cmd, goto,-3
+460.0, elevID,0,  pos,19,  cmd, goto,18
+460.0, elevID,2,  pos,19,  cmd, goto,18
+465.0, elevID,1,  pos,16,  cmd, goto,17
+469.0,Elevator call,468.0898444148602,3,4,1,1, got allocated to elevator, 1
+469.0,Elevator call,468.8096805917712,-2,11,1,1, got allocated to elevator, 1
+471.0, elevID,0,  pos,18,  cmd, goto,17
+471.0, elevID,2,  pos,18,  cmd, goto,17
+474.0,Elevator call,473.7625230253907,0,16,1,1, got allocated to elevator, 1
+476.0,Elevator call,475.6592720845995,-1,19,1,1, got allocated to elevator, 1
+476.0,Elev,1,  arrived at dest, 17, this call is done!, Elevator call,85.05084296434165,0,17,3,1, Done, dt, 390.94915703565835
+476.0, elevID,1,  pos,17,  cmd, goto,18
+482.0,Elevator call,481.281534942201,-2,4,1,1, got allocated to elevator, 1
+482.0, elevID,0,  pos,17,  cmd, goto,16
+482.0, elevID,2,  pos,17,  cmd, goto,16
+487.0, elevID,1,  pos,18,  cmd, goto,19
+492.0, elevID,3,  pos,-3,  cmd, goto,-2
+493.0, elevID,0,  pos,16,  cmd, goto,15
+493.0, elevID,2,  pos,16,  cmd, goto,15
+495.0,Elevator call,494.9607965395985,0,1,1,3, got allocated to elevator, 3
+497.0,Elevator call,496.6254987576124,0,2,1,3, got allocated to elevator, 3
+498.0, elevID,1,  pos,19,  cmd, goto,20
+500.0,Elevator call,499.05586101531685,0,5,1,3, got allocated to elevator, 3
+503.0, elevID,3,  pos,-2,  cmd, goto,-1
+504.0, elevID,0,  pos,15,  cmd, goto,14
+504.0, elevID,2,  pos,15,  cmd, goto,14
+506.0,Elevator call,505.16613839243473,14,0,1,0, got allocated to elevator, 0
+506.0,Elevator call,505.6566422952949,0,-2,1,0, got allocated to elevator, 0
+509.0, elevID,1,  pos,20,  cmd, goto,-3
+514.0, elevID,3,  pos,-1,  cmd, goto,0
+515.0,Elev,0,  arrived at src, 14, Elevator call,505.16613839243473,14,0,2,0
+515.0, elevID,0,  pos,14,  cmd, goto,13
+515.0, elevID,2,  pos,14,  cmd, goto,13
+519.0,Elevator call,518.0880901967789,16,17,1,1, got allocated to elevator, 1
+525.0,Elev,3,  arrived at src, 0, Elevator call,494.9607965395985,0,1,2,3
+525.0,Elev,3,  arrived at src, 0, Elevator call,496.6254987576124,0,2,2,3
+525.0,Elev,3,  arrived at src, 0, Elevator call,499.05586101531685,0,5,2,3
+525.0, elevID,3,  pos,0,  cmd, goto,1
+526.0,Elev,0,  arrived at src, 13, Elevator call,282.3742556797197,13,11,2,0
+526.0, elevID,0,  pos,13,  cmd, goto,12
+526.0, elevID,2,  pos,13,  cmd, goto,12
+536.0,Elev,3,  arrived at dest, 1, this call is done!, Elevator call,494.9607965395985,0,1,3,3, Done, dt, 41.039203460401495
+536.0, elevID,3,  pos,1,  cmd, goto,2
+537.0, elevID,0,  pos,12,  cmd, goto,11
+537.0, elevID,2,  pos,12,  cmd, goto,11
+541.0,Elevator call,540.3602365444688,-2,0,1,1, got allocated to elevator, 1
+542.0, elevID,1,  pos,-3,  cmd, goto,-2
+547.0,Elevator call,546.6587095561388,12,-1,1,0, got allocated to elevator, 0
+547.0,Elev,3,  arrived at dest, 2, this call is done!, Elevator call,496.6254987576124,0,2,3,3, Done, dt, 50.37450124238762
+547.0, elevID,3,  pos,2,  cmd, goto,3
+548.0,Elev,0,  arrived at dest, 11, this call is done!, Elevator call,282.3742556797197,13,11,3,0, Done, dt, 265.6257443202803
+548.0, elevID,0,  pos,11,  cmd, goto,10
+548.0, elevID,2,  pos,11,  cmd, goto,10
+553.0,Elevator call,552.3403654341223,0,9,1,1, got allocated to elevator, 1
+553.0,Elev,1,  arrived at src, -2, Elevator call,356.7750171885598,-2,0,2,1
+553.0,Elev,1,  arrived at src, -2, Elevator call,452.03633893661413,-2,5,2,1
+553.0,Elev,1,  arrived at src, -2, Elevator call,468.8096805917712,-2,11,2,1
+553.0,Elev,1,  arrived at src, -2, Elevator call,481.281534942201,-2,4,2,1
+553.0,Elev,1,  arrived at src, -2, Elevator call,540.3602365444688,-2,0,2,1
+553.0, elevID,1,  pos,-2,  cmd, goto,-1
+558.0, elevID,3,  pos,3,  cmd, goto,4
+559.0, elevID,0,  pos,10,  cmd, goto,9
+559.0, elevID,2,  pos,10,  cmd, goto,9
+560.0,Elevator call,559.0984936097279,0,5,1,1, got allocated to elevator, 1
+564.0,Elev,1,  arrived at src, -1, Elevator call,393.16870473647714,-1,0,2,1
+564.0,Elev,1,  arrived at src, -1, Elevator call,438.99163815922134,-1,14,2,1
+564.0,Elev,1,  arrived at src, -1, Elevator call,451.3692847322909,-1,19,2,1
+564.0,Elev,1,  arrived at src, -1, Elevator call,475.6592720845995,-1,19,2,1
+564.0, elevID,1,  pos,-1,  cmd, goto,0
+569.0, elevID,3,  pos,4,  cmd, goto,5
+570.0,Elev,0,  arrived at src, 9, Elevator call,312.0106401629912,9,0,2,0
+570.0, elevID,0,  pos,9,  cmd, goto,8
+570.0, elevID,2,  pos,9,  cmd, goto,8
+575.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,356.7750171885598,-2,0,3,1, Done, dt, 218.2249828114402
+575.0,Elev,1,  arrived at src, 0, Elevator call,374.7234961849488,0,4,2,1
+575.0,Elev,1,  arrived at src, 0, Elevator call,374.8932447072923,0,12,2,1
+575.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,393.16870473647714,-1,0,3,1, Done, dt, 181.83129526352286
+575.0,Elev,1,  arrived at src, 0, Elevator call,447.93205545529304,0,16,2,1
+575.0,Elev,1,  arrived at src, 0, Elevator call,473.7625230253907,0,16,2,1
+575.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,540.3602365444688,-2,0,3,1, Done, dt, 34.63976345553124
+575.0,Elev,1,  arrived at src, 0, Elevator call,552.3403654341223,0,9,2,1
+575.0,Elev,1,  arrived at src, 0, Elevator call,559.0984936097279,0,5,2,1
+575.0, elevID,1,  pos,0,  cmd, goto,1
+580.0,Elev,3,  arrived at dest, 5, this call is done!, Elevator call,499.05586101531685,0,5,3,3, Done, dt, 80.94413898468315
+580.0, elevID,3,  pos,5,  cmd, goto,6
+581.0, elevID,0,  pos,8,  cmd, goto,7
+581.0, elevID,2,  pos,8,  cmd, goto,7
+586.0, elevID,1,  pos,1,  cmd, goto,2
+590.0,Elevator call,589.0230372565832,-1,0,1,1, got allocated to elevator, 1
+591.0, elevID,3,  pos,6,  cmd, goto,7
+592.0, elevID,0,  pos,7,  cmd, goto,6
+592.0, elevID,2,  pos,7,  cmd, goto,6
+596.0,Elevator call,595.490775913092,-1,5,1,1, got allocated to elevator, 1
+597.0, elevID,1,  pos,2,  cmd, goto,3
+598.0,Elevator call,597.5318029103412,-2,10,1,1, got allocated to elevator, 1
+602.0, elevID,3,  pos,7,  cmd, goto,8
+603.0, elevID,0,  pos,6,  cmd, goto,5
+603.0, elevID,2,  pos,6,  cmd, goto,5
+608.0,Elevator call,607.5990041120776,0,5,1,1, got allocated to elevator, 1
+608.0,Elev,1,  arrived at src, 3, Elevator call,468.0898444148602,3,4,2,1
+608.0, elevID,1,  pos,3,  cmd, goto,4
+612.0,Elevator call,611.224500217684,-2,1,1,1, got allocated to elevator, 1
+613.0,Elevator call,612.0358635006885,0,6,1,1, got allocated to elevator, 1
+613.0, elevID,3,  pos,8,  cmd, goto,9
+614.0,Elevator call,613.9293840790681,-1,4,1,1, got allocated to elevator, 1
+614.0, elevID,0,  pos,5,  cmd, goto,4
+614.0, elevID,2,  pos,5,  cmd, goto,4
+617.0,Elevator call,616.3622393479691,-2,2,1,1, got allocated to elevator, 1
+619.0,Elev,1,  arrived at dest, 4, this call is done!, Elevator call,374.7234961849488,0,4,3,1, Done, dt, 244.27650381505123
+619.0,Elev,1,  arrived at dest, 4, this call is done!, Elevator call,468.0898444148602,3,4,3,1, Done, dt, 150.91015558513982
+619.0,Elev,1,  arrived at dest, 4, this call is done!, Elevator call,481.281534942201,-2,4,3,1, Done, dt, 137.718465057799
+619.0, elevID,1,  pos,4,  cmd, goto,5
+624.0,Elevator call,623.189995332772,-1,19,1,1, got allocated to elevator, 1
+624.0, elevID,3,  pos,9,  cmd, goto,10
+625.0,Elevator call,624.9698485206718,-2,14,1,1, got allocated to elevator, 1
+625.0, elevID,0,  pos,4,  cmd, goto,3
+625.0, elevID,2,  pos,4,  cmd, goto,3
+630.0,Elevator call,629.4378654758448,0,-2,1,0, got allocated to elevator, 0
+630.0,Elev,1,  arrived at dest, 5, this call is done!, Elevator call,452.03633893661413,-2,5,3,1, Done, dt, 177.96366106338587
+630.0,Elev,1,  arrived at dest, 5, this call is done!, Elevator call,559.0984936097279,0,5,3,1, Done, dt, 70.90150639027206
+630.0, elevID,1,  pos,5,  cmd, goto,6
+635.0, elevID,3,  pos,10,  cmd, goto,11
+636.0, elevID,0,  pos,3,  cmd, goto,2
+636.0, elevID,2,  pos,3,  cmd, goto,2
+641.0, elevID,1,  pos,6,  cmd, goto,7
+646.0, elevID,3,  pos,11,  cmd, goto,12
+647.0, elevID,0,  pos,2,  cmd, goto,1
+647.0, elevID,2,  pos,2,  cmd, goto,1
+652.0,Elevator call,651.3868818369699,-2,0,1,1, got allocated to elevator, 1
+652.0, elevID,1,  pos,7,  cmd, goto,8
+657.0, elevID,3,  pos,12,  cmd, goto,13
+658.0, elevID,0,  pos,1,  cmd, goto,0
+658.0, elevID,2,  pos,1,  cmd, goto,0
+663.0, elevID,1,  pos,8,  cmd, goto,9
+668.0, elevID,3,  pos,13,  cmd, goto,14
+669.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,312.0106401629912,9,0,3,0, Done, dt, 356.9893598370088
+669.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,411.8124634838655,20,0,3,0, Done, dt, 257.1875365161345
+669.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,505.16613839243473,14,0,3,0, Done, dt, 163.83386160756527
+669.0,Elev,0,  arrived at src, 0, Elevator call,505.6566422952949,0,-2,2,0
+669.0,Elev,0,  arrived at src, 0, Elevator call,629.4378654758448,0,-2,2,0
+669.0, elevID,0,  pos,0,  cmd, goto,-1
+669.0, elevID,2,  pos,0,  cmd, goto,-1
+671.0,Elevator call,670.989016205667,0,12,1,1, got allocated to elevator, 1
+674.0,Elevator call,673.6204302245446,-1,-2,1,0, got allocated to elevator, 0
+674.0,Elev,1,  arrived at dest, 9, this call is done!, Elevator call,552.3403654341223,0,9,3,1, Done, dt, 121.6596345658777
+674.0, elevID,1,  pos,9,  cmd, goto,10
+676.0,Elevator call,675.8277544680782,-1,-2,1,0, got allocated to elevator, 0
+679.0, elevID,3,  pos,14,  cmd, goto,15
+680.0,Elev,0,  arrived at src, -1, Elevator call,673.6204302245446,-1,-2,2,0
+680.0,Elev,0,  arrived at src, -1, Elevator call,675.8277544680782,-1,-2,2,0
+680.0, elevID,0,  pos,-1,  cmd, goto,-2
+680.0, elevID,2,  pos,-1,  cmd, goto,-2
+685.0, elevID,1,  pos,10,  cmd, goto,11
+690.0, elevID,3,  pos,15,  cmd, goto,16
+691.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,505.6566422952949,0,-2,3,0, Done, dt, 185.3433577047051
+691.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,629.4378654758448,0,-2,3,0, Done, dt, 61.562134524155226
+691.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,673.6204302245446,-1,-2,3,0, Done, dt, 17.379569775455366
+691.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,675.8277544680782,-1,-2,3,0, Done, dt, 15.172245531921817
+691.0, elevID,0,  pos,-2,  cmd, goto,-3
+691.0, elevID,2,  pos,-2,  cmd, goto,-3
+696.0,Elev,1,  arrived at dest, 11, this call is done!, Elevator call,468.8096805917712,-2,11,3,1, Done, dt, 227.1903194082288
+696.0, elevID,1,  pos,11,  cmd, goto,12
+701.0, elevID,3,  pos,16,  cmd, goto,17
+702.0, elevID,0,  pos,-3,  cmd, goto,20
+702.0, elevID,2,  pos,-3,  cmd, goto,20
+706.0,Elevator call,705.2713073876516,0,15,1,1, got allocated to elevator, 1
+707.0,Elev,1,  arrived at dest, 12, this call is done!, Elevator call,374.8932447072923,0,12,3,1, Done, dt, 332.1067552927077
+707.0, elevID,1,  pos,12,  cmd, goto,13
+712.0,Elevator call,711.129308865326,-2,14,1,1, got allocated to elevator, 1
+712.0, elevID,3,  pos,17,  cmd, goto,18
+714.0,Elevator call,713.1376730035772,-2,15,1,1, got allocated to elevator, 1
+718.0,Elevator call,717.5512012445001,-2,-3,1,0, got allocated to elevator, 0
+718.0, elevID,1,  pos,13,  cmd, goto,14
+723.0, elevID,3,  pos,18,  cmd, goto,19
+729.0,Elev,1,  arrived at dest, 14, this call is done!, Elevator call,438.99163815922134,-1,14,3,1, Done, dt, 290.00836184077866
+729.0, elevID,1,  pos,14,  cmd, goto,15
+734.0, elevID,3,  pos,19,  cmd, goto,20
+735.0, elevID,0,  pos,20,  cmd, goto,19
+735.0, elevID,2,  pos,20,  cmd, goto,19
+740.0, elevID,1,  pos,15,  cmd, goto,16
+742.0,Elevator call,741.5622717619144,-1,0,1,1, got allocated to elevator, 1
+745.0, elevID,3,  pos,20,  cmd, goto,-3
+746.0, elevID,0,  pos,19,  cmd, goto,18
+746.0, elevID,2,  pos,19,  cmd, goto,18
+751.0,Elev,1,  arrived at dest, 16, this call is done!, Elevator call,447.93205545529304,0,16,3,1, Done, dt, 303.06794454470696
+751.0,Elev,1,  arrived at dest, 16, this call is done!, Elevator call,473.7625230253907,0,16,3,1, Done, dt, 277.2374769746093
+751.0,Elev,1,  arrived at src, 16, Elevator call,518.0880901967789,16,17,2,1
+751.0, elevID,1,  pos,16,  cmd, goto,17
+755.0,Elevator call,754.6284250093952,-1,7,1,1, got allocated to elevator, 1
+757.0, elevID,0,  pos,18,  cmd, goto,17
+757.0, elevID,2,  pos,18,  cmd, goto,17
+762.0,Elev,1,  arrived at dest, 17, this call is done!, Elevator call,518.0880901967789,16,17,3,1, Done, dt, 243.91190980322108
+762.0, elevID,1,  pos,17,  cmd, goto,18
+768.0, elevID,0,  pos,17,  cmd, goto,16
+768.0, elevID,2,  pos,17,  cmd, goto,16
+773.0, elevID,1,  pos,18,  cmd, goto,19
+776.0,Elevator call,775.2702685445281,-2,16,1,3, got allocated to elevator, 3
+778.0, elevID,3,  pos,-3,  cmd, goto,-2
+779.0, elevID,0,  pos,16,  cmd, goto,15
+779.0, elevID,2,  pos,16,  cmd, goto,15
+784.0,Elev,1,  arrived at dest, 19, this call is done!, Elevator call,451.3692847322909,-1,19,3,1, Done, dt, 332.6307152677091
+784.0,Elev,1,  arrived at dest, 19, this call is done!, Elevator call,475.6592720845995,-1,19,3,1, Done, dt, 308.3407279154005
+784.0, elevID,1,  pos,19,  cmd, goto,20
+789.0,Elev,3,  arrived at src, -2, Elevator call,775.2702685445281,-2,16,2,3
+789.0, elevID,3,  pos,-2,  cmd, goto,-1
+790.0, elevID,0,  pos,15,  cmd, goto,14
+790.0, elevID,2,  pos,15,  cmd, goto,14
+795.0, elevID,1,  pos,20,  cmd, goto,-3
+800.0, elevID,3,  pos,-1,  cmd, goto,0
+801.0, elevID,0,  pos,14,  cmd, goto,13
+801.0, elevID,2,  pos,14,  cmd, goto,13
+811.0, elevID,3,  pos,0,  cmd, goto,1
+812.0, elevID,0,  pos,13,  cmd, goto,12
+812.0, elevID,2,  pos,13,  cmd, goto,12
+818.0,Elevator call,817.4873896408544,-2,16,1,1, got allocated to elevator, 1
+822.0, elevID,3,  pos,1,  cmd, goto,2
+823.0,Elev,0,  arrived at src, 12, Elevator call,546.6587095561388,12,-1,2,0
+823.0, elevID,0,  pos,12,  cmd, goto,11
+823.0, elevID,2,  pos,12,  cmd, goto,11
+828.0, elevID,1,  pos,-3,  cmd, goto,-2
+833.0, elevID,3,  pos,2,  cmd, goto,3
+834.0,Elevator call,833.4568374273454,-2,0,1,1, got allocated to elevator, 1
+834.0, elevID,0,  pos,11,  cmd, goto,10
+834.0, elevID,2,  pos,11,  cmd, goto,10
+837.0,Elevator call,836.0439962699525,0,13,1,1, got allocated to elevator, 1
+839.0,Elevator call,838.621570462085,3,-1,1,0, got allocated to elevator, 0
+839.0,Elev,1,  arrived at src, -2, Elevator call,597.5318029103412,-2,10,2,1
+839.0,Elev,1,  arrived at src, -2, Elevator call,611.224500217684,-2,1,2,1
+839.0,Elev,1,  arrived at src, -2, Elevator call,616.3622393479691,-2,2,2,1
+839.0,Elev,1,  arrived at src, -2, Elevator call,624.9698485206718,-2,14,2,1
+839.0,Elev,1,  arrived at src, -2, Elevator call,651.3868818369699,-2,0,2,1
+839.0,Elev,1,  arrived at src, -2, Elevator call,711.129308865326,-2,14,2,1
+839.0,Elev,1,  arrived at src, -2, Elevator call,713.1376730035772,-2,15,2,1
+839.0,Elev,1,  arrived at src, -2, Elevator call,817.4873896408544,-2,16,2,1
+839.0,Elev,1,  arrived at src, -2, Elevator call,833.4568374273454,-2,0,2,1
+839.0, elevID,1,  pos,-2,  cmd, goto,-1
+844.0, elevID,3,  pos,3,  cmd, goto,4
+845.0, elevID,0,  pos,10,  cmd, goto,9
+845.0, elevID,2,  pos,10,  cmd, goto,9
+850.0,Elev,1,  arrived at src, -1, Elevator call,589.0230372565832,-1,0,2,1
+850.0,Elev,1,  arrived at src, -1, Elevator call,595.490775913092,-1,5,2,1
+850.0,Elev,1,  arrived at src, -1, Elevator call,613.9293840790681,-1,4,2,1
+850.0,Elev,1,  arrived at src, -1, Elevator call,623.189995332772,-1,19,2,1
+850.0,Elev,1,  arrived at src, -1, Elevator call,741.5622717619144,-1,0,2,1
+850.0,Elev,1,  arrived at src, -1, Elevator call,754.6284250093952,-1,7,2,1
+850.0, elevID,1,  pos,-1,  cmd, goto,0
+855.0, elevID,3,  pos,4,  cmd, goto,5
+856.0, elevID,0,  pos,9,  cmd, goto,8
+856.0, elevID,2,  pos,9,  cmd, goto,8
+859.0,Elevator call,858.0973433429377,-2,0,1,1, got allocated to elevator, 1
+861.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,589.0230372565832,-1,0,3,1, Done, dt, 271.97696274341683
+861.0,Elev,1,  arrived at src, 0, Elevator call,607.5990041120776,0,5,2,1
+861.0,Elev,1,  arrived at src, 0, Elevator call,612.0358635006885,0,6,2,1
+861.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,651.3868818369699,-2,0,3,1, Done, dt, 209.6131181630301
+861.0,Elev,1,  arrived at src, 0, Elevator call,670.989016205667,0,12,2,1
+861.0,Elev,1,  arrived at src, 0, Elevator call,705.2713073876516,0,15,2,1
+861.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,741.5622717619144,-1,0,3,1, Done, dt, 119.43772823808558
+861.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,833.4568374273454,-2,0,3,1, Done, dt, 27.543162572654637
+861.0,Elev,1,  arrived at src, 0, Elevator call,836.0439962699525,0,13,2,1
+861.0, elevID,1,  pos,0,  cmd, goto,1
+866.0, elevID,3,  pos,5,  cmd, goto,6
+867.0,Elevator call,866.5927868088187,10,6,1,0, got allocated to elevator, 0
+867.0, elevID,0,  pos,8,  cmd, goto,7
+867.0, elevID,2,  pos,8,  cmd, goto,7
+872.0,Elev,1,  arrived at dest, 1, this call is done!, Elevator call,611.224500217684,-2,1,3,1, Done, dt, 260.77549978231605
+872.0, elevID,1,  pos,1,  cmd, goto,2
+874.0,Elevator call,873.723507324602,0,-1,1,0, got allocated to elevator, 0
+877.0, elevID,3,  pos,6,  cmd, goto,7
+878.0, elevID,0,  pos,7,  cmd, goto,6
+878.0, elevID,2,  pos,7,  cmd, goto,6
+883.0,Elev,1,  arrived at dest, 2, this call is done!, Elevator call,616.3622393479691,-2,2,3,1, Done, dt, 266.6377606520309
+883.0, elevID,1,  pos,2,  cmd, goto,3
+888.0, elevID,3,  pos,7,  cmd, goto,8
+889.0, elevID,0,  pos,6,  cmd, goto,5
+889.0, elevID,2,  pos,6,  cmd, goto,5
+894.0, elevID,1,  pos,3,  cmd, goto,4
+899.0, elevID,3,  pos,8,  cmd, goto,9
+900.0, elevID,0,  pos,5,  cmd, goto,4
+900.0, elevID,2,  pos,5,  cmd, goto,4
+904.0,Elevator call,903.9760088669913,-2,-1,1,1, got allocated to elevator, 1
+905.0,Elevator call,904.4493607498194,0,13,1,1, got allocated to elevator, 1
+905.0,Elevator call,904.7476220042074,-1,15,1,1, got allocated to elevator, 1
+905.0,Elev,1,  arrived at dest, 4, this call is done!, Elevator call,613.9293840790681,-1,4,3,1, Done, dt, 291.0706159209319
+905.0, elevID,1,  pos,4,  cmd, goto,5
+910.0, elevID,3,  pos,9,  cmd, goto,10
+911.0, elevID,0,  pos,4,  cmd, goto,3
+911.0, elevID,2,  pos,4,  cmd, goto,3
+916.0,Elev,1,  arrived at dest, 5, this call is done!, Elevator call,595.490775913092,-1,5,3,1, Done, dt, 320.50922408690803
+916.0,Elev,1,  arrived at dest, 5, this call is done!, Elevator call,607.5990041120776,0,5,3,1, Done, dt, 308.40099588792236
+916.0, elevID,1,  pos,5,  cmd, goto,6
+917.0,Elevator call,916.9117749072182,1,13,1,1, got allocated to elevator, 1
+921.0,Elevator call,920.3691333028187,-1,1,1,1, got allocated to elevator, 1
+921.0, elevID,3,  pos,10,  cmd, goto,11
+922.0,Elev,0,  arrived at src, 3, Elevator call,838.621570462085,3,-1,2,0
+922.0, elevID,0,  pos,3,  cmd, goto,2
+922.0, elevID,2,  pos,3,  cmd, goto,2
+927.0,Elevator call,926.6693132841524,-2,0,1,1, got allocated to elevator, 1
+927.0,Elev,1,  arrived at dest, 6, this call is done!, Elevator call,612.0358635006885,0,6,3,1, Done, dt, 314.9641364993115
+927.0, elevID,1,  pos,6,  cmd, goto,7
+929.0,Elevator call,928.0707967206309,-1,14,1,1, got allocated to elevator, 1
+932.0, elevID,3,  pos,11,  cmd, goto,12
+933.0, elevID,0,  pos,2,  cmd, goto,1
+933.0, elevID,2,  pos,2,  cmd, goto,1
+938.0,Elev,1,  arrived at dest, 7, this call is done!, Elevator call,754.6284250093952,-1,7,3,1, Done, dt, 183.3715749906048
+938.0, elevID,1,  pos,7,  cmd, goto,8
+943.0, elevID,3,  pos,12,  cmd, goto,13
+944.0, elevID,0,  pos,1,  cmd, goto,0
+944.0, elevID,2,  pos,1,  cmd, goto,0
+949.0, elevID,1,  pos,8,  cmd, goto,9
+954.0, elevID,3,  pos,13,  cmd, goto,14
+955.0,Elev,0,  arrived at src, 0, Elevator call,873.723507324602,0,-1,2,0
+955.0, elevID,0,  pos,0,  cmd, goto,-1
+955.0, elevID,2,  pos,0,  cmd, goto,-1
+957.0,Elevator call,956.5930699726732,0,13,1,1, got allocated to elevator, 1
+960.0, elevID,1,  pos,9,  cmd, goto,10
+965.0, elevID,3,  pos,14,  cmd, goto,15
+966.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,546.6587095561388,12,-1,3,0, Done, dt, 419.3412904438612
+966.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,838.621570462085,3,-1,3,0, Done, dt, 127.37842953791505
+966.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,873.723507324602,0,-1,3,0, Done, dt, 92.276492675398
+966.0, elevID,0,  pos,-1,  cmd, goto,-2
+966.0, elevID,2,  pos,-1,  cmd, goto,-2
+971.0,Elev,1,  arrived at dest, 10, this call is done!, Elevator call,597.5318029103412,-2,10,3,1, Done, dt, 373.4681970896588
+971.0, elevID,1,  pos,10,  cmd, goto,11
+976.0, elevID,3,  pos,15,  cmd, goto,16
+977.0,Elev,0,  arrived at src, -2, Elevator call,717.5512012445001,-2,-3,2,0
+977.0, elevID,0,  pos,-2,  cmd, goto,-3
+977.0, elevID,2,  pos,-2,  cmd, goto,-3
+978.0,Elevator call,977.2552179973972,0,6,1,1, got allocated to elevator, 1
+982.0, elevID,1,  pos,11,  cmd, goto,12
+987.0,Elevator call,986.5456660052421,0,16,1,1, got allocated to elevator, 1
+987.0,Elev,3,  arrived at dest, 16, this call is done!, Elevator call,775.2702685445281,-2,16,3,3, Done, dt, 211.7297314554719
+987.0, elevID,3,  pos,16,  cmd, goto,17
+988.0,Elev,0,  arrived at dest, -3, this call is done!, Elevator call,717.5512012445001,-2,-3,3,0, Done, dt, 270.44879875549987
+988.0, elevID,0,  pos,-3,  cmd, goto,20
+988.0, elevID,2,  pos,-3,  cmd, goto,20
+993.0,Elev,1,  arrived at dest, 12, this call is done!, Elevator call,670.989016205667,0,12,3,1, Done, dt, 322.010983794333
+993.0, elevID,1,  pos,12,  cmd, goto,13
+997.0,Elevator call,996.3578078670561,0,9,1,1, got allocated to elevator, 1
+998.0, elevID,3,  pos,17,  cmd, goto,18
+1004.0,Elev,1,  arrived at dest, 13, this call is done!, Elevator call,836.0439962699525,0,13,3,1, Done, dt, 167.95600373004754
+1004.0, elevID,1,  pos,13,  cmd, goto,14
+1008.0,Elevator call,1007.7458269955551,17,4,1,0, got allocated to elevator, 0
+1009.0, elevID,3,  pos,18,  cmd, goto,19
+1015.0,Elev,1,  arrived at dest, 14, this call is done!, Elevator call,624.9698485206718,-2,14,3,1, Done, dt, 390.0301514793282
+1015.0,Elev,1,  arrived at dest, 14, this call is done!, Elevator call,711.129308865326,-2,14,3,1, Done, dt, 303.87069113467396
+1015.0, elevID,1,  pos,14,  cmd, goto,15
+1020.0, elevID,3,  pos,19,  cmd, goto,20
+1021.0, elevID,0,  pos,20,  cmd, goto,19
+1021.0, elevID,2,  pos,20,  cmd, goto,19
+1026.0,Elev,1,  arrived at dest, 15, this call is done!, Elevator call,705.2713073876516,0,15,3,1, Done, dt, 320.72869261234837
+1026.0,Elev,1,  arrived at dest, 15, this call is done!, Elevator call,713.1376730035772,-2,15,3,1, Done, dt, 312.8623269964228
+1026.0, elevID,1,  pos,15,  cmd, goto,16
+1031.0, elevID,3,  pos,20,  cmd, goto,-3
+1032.0, elevID,0,  pos,19,  cmd, goto,18
+1032.0, elevID,2,  pos,19,  cmd, goto,18
+1037.0,Elev,1,  arrived at dest, 16, this call is done!, Elevator call,817.4873896408544,-2,16,3,1, Done, dt, 219.51261035914558
+1037.0, elevID,1,  pos,16,  cmd, goto,17
+1038.0,Elevator call,1037.5381863870532,8,11,1,1, got allocated to elevator, 1
+1043.0, elevID,0,  pos,18,  cmd, goto,17
+1043.0, elevID,2,  pos,18,  cmd, goto,17
+1048.0, elevID,1,  pos,17,  cmd, goto,18
+1053.0,Elevator call,1052.1533586579985,0,-1,1,0, got allocated to elevator, 0
+1054.0,Elev,0,  arrived at src, 17, Elevator call,1007.7458269955551,17,4,2,0
+1054.0, elevID,0,  pos,17,  cmd, goto,16
+1054.0, elevID,2,  pos,17,  cmd, goto,16
+1057.0,Elevator call,1056.025973584793,19,0,1,0, got allocated to elevator, 0
+1059.0,Elevator call,1058.3081232225413,-1,0,1,3, got allocated to elevator, 3
+1059.0, elevID,1,  pos,18,  cmd, goto,19
+1064.0, elevID,3,  pos,-3,  cmd, goto,-2
+1065.0,Elevator call,1064.8596084053365,0,3,1,3, got allocated to elevator, 3
+1065.0, elevID,0,  pos,16,  cmd, goto,15
+1065.0, elevID,2,  pos,16,  cmd, goto,15
+1070.0,Elev,1,  arrived at dest, 19, this call is done!, Elevator call,623.189995332772,-1,19,3,1, Done, dt, 446.810004667228
+1070.0, elevID,1,  pos,19,  cmd, goto,20
+1075.0, elevID,3,  pos,-2,  cmd, goto,-1
+1076.0, elevID,0,  pos,15,  cmd, goto,14
+1076.0, elevID,2,  pos,15,  cmd, goto,14
+1081.0, elevID,1,  pos,20,  cmd, goto,-3
+1082.0,Elevator call,1081.876341151392,16,-2,1,0, got allocated to elevator, 0
+1086.0,Elev,3,  arrived at src, -1, Elevator call,1058.3081232225413,-1,0,2,3
+1086.0, elevID,3,  pos,-1,  cmd, goto,0
+1087.0, elevID,0,  pos,14,  cmd, goto,13
+1087.0, elevID,2,  pos,14,  cmd, goto,13
+1088.0,Elevator call,1087.096912309178,0,1,1,3, got allocated to elevator, 3
+1097.0,Elevator call,1096.1940935251605,1,0,1,0, got allocated to elevator, 0
+1097.0,Elevator call,1096.3608057449887,17,-2,1,0, got allocated to elevator, 0
+1097.0,Elev,3,  arrived at dest, 0, this call is done!, Elevator call,1058.3081232225413,-1,0,3,3, Done, dt, 38.691876777458674
+1097.0,Elev,3,  arrived at src, 0, Elevator call,1064.8596084053365,0,3,2,3
+1097.0,Elev,3,  arrived at src, 0, Elevator call,1087.096912309178,0,1,2,3
+1097.0, elevID,3,  pos,0,  cmd, goto,1
+1098.0,Elevator call,1097.9943797079113,8,0,1,0, got allocated to elevator, 0
+1098.0, elevID,0,  pos,13,  cmd, goto,12
+1098.0, elevID,2,  pos,13,  cmd, goto,12
+1108.0,Elev,3,  arrived at dest, 1, this call is done!, Elevator call,1087.096912309178,0,1,3,3, Done, dt, 20.903087690822076
+1108.0, elevID,3,  pos,1,  cmd, goto,2
+1109.0, elevID,0,  pos,12,  cmd, goto,11
+1109.0, elevID,2,  pos,12,  cmd, goto,11
+1110.0,Elevator call,1109.5092579654965,4,0,1,0, got allocated to elevator, 0
+1114.0,Elevator call,1113.4819378281786,0,-1,1,0, got allocated to elevator, 0
+1114.0, elevID,1,  pos,-3,  cmd, goto,-2
+1119.0, elevID,3,  pos,2,  cmd, goto,3
+1120.0, elevID,0,  pos,11,  cmd, goto,10
+1120.0, elevID,2,  pos,11,  cmd, goto,10
+1125.0,Elevator call,1124.2866803183526,0,-1,1,0, got allocated to elevator, 0
+1125.0,Elev,1,  arrived at src, -2, Elevator call,858.0973433429377,-2,0,2,1
+1125.0,Elev,1,  arrived at src, -2, Elevator call,903.9760088669913,-2,-1,2,1
+1125.0,Elev,1,  arrived at src, -2, Elevator call,926.6693132841524,-2,0,2,1
+1125.0, elevID,1,  pos,-2,  cmd, goto,-1
+1128.0,Elevator call,1127.2771396873368,0,12,1,1, got allocated to elevator, 1
+1130.0,Elev,3,  arrived at dest, 3, this call is done!, Elevator call,1064.8596084053365,0,3,3,3, Done, dt, 65.14039159466347
+1130.0, elevID,3,  pos,3,  cmd, goto,4
+1131.0,Elev,0,  arrived at src, 10, Elevator call,866.5927868088187,10,6,2,0
+1131.0, elevID,0,  pos,10,  cmd, goto,9
+1131.0, elevID,2,  pos,10,  cmd, goto,9
+1132.0,Elevator call,1131.9386400734377,0,10,1,1, got allocated to elevator, 1
+1136.0,Elev,1,  arrived at dest, -1, this call is done!, Elevator call,903.9760088669913,-2,-1,3,1, Done, dt, 232.02399113300874
+1136.0,Elev,1,  arrived at src, -1, Elevator call,904.7476220042074,-1,15,2,1
+1136.0,Elev,1,  arrived at src, -1, Elevator call,920.3691333028187,-1,1,2,1
+1136.0,Elev,1,  arrived at src, -1, Elevator call,928.0707967206309,-1,14,2,1
+1136.0, elevID,1,  pos,-1,  cmd, goto,0
+1138.0,Elevator call,1137.7165617865576,0,-1,1,0, got allocated to elevator, 0
+1141.0,Elevator call,1140.1116595096928,1,10,1,1, got allocated to elevator, 1
+1141.0, elevID,3,  pos,4,  cmd, goto,5
+1142.0, elevID,0,  pos,9,  cmd, goto,8
+1142.0, elevID,2,  pos,9,  cmd, goto,8
+1147.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,858.0973433429377,-2,0,3,1, Done, dt, 288.90265665706227
+1147.0,Elev,1,  arrived at src, 0, Elevator call,904.4493607498194,0,13,2,1
+1147.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,926.6693132841524,-2,0,3,1, Done, dt, 220.3306867158476
+1147.0,Elev,1,  arrived at src, 0, Elevator call,956.5930699726732,0,13,2,1
+1147.0,Elev,1,  arrived at src, 0, Elevator call,977.2552179973972,0,6,2,1
+1147.0,Elev,1,  arrived at src, 0, Elevator call,986.5456660052421,0,16,2,1
+1147.0,Elev,1,  arrived at src, 0, Elevator call,996.3578078670561,0,9,2,1
+1147.0,Elev,1,  arrived at src, 0, Elevator call,1127.2771396873368,0,12,2,1
+1147.0,Elev,1,  arrived at src, 0, Elevator call,1131.9386400734377,0,10,2,1
+1147.0, elevID,1,  pos,0,  cmd, goto,1
+1148.0,Elevator call,1147.586188832025,0,6,1,1, got allocated to elevator, 1
+1151.0,Elevator call,1150.267507837832,0,15,1,1, got allocated to elevator, 1
+1152.0,Elevator call,1151.658727358963,20,14,1,0, got allocated to elevator, 0
+1152.0, elevID,3,  pos,5,  cmd, goto,6
+1153.0,Elev,0,  arrived at src, 8, Elevator call,1097.9943797079113,8,0,2,0
+1153.0, elevID,0,  pos,8,  cmd, goto,7
+1153.0, elevID,2,  pos,8,  cmd, goto,7
+1156.0,Elevator call,1155.2478699706228,16,-1,1,0, got allocated to elevator, 0
+1156.0,Elevator call,1155.513869719589,-2,0,1,1, got allocated to elevator, 1
+1157.0,Elevator call,1156.9334725726774,0,-1,1,0, got allocated to elevator, 0
+1158.0,Elev,1,  arrived at src, 1, Elevator call,916.9117749072182,1,13,2,1
+1158.0,Elev,1,  arrived at dest, 1, this call is done!, Elevator call,920.3691333028187,-1,1,3,1, Done, dt, 237.63086669718132
+1158.0,Elev,1,  arrived at src, 1, Elevator call,1140.1116595096928,1,10,2,1
+1158.0, elevID,1,  pos,1,  cmd, goto,2
+1163.0, elevID,3,  pos,6,  cmd, goto,7
+1164.0, elevID,0,  pos,7,  cmd, goto,6
+1164.0, elevID,2,  pos,7,  cmd, goto,6
+1165.0,Elevator call,1164.728331519608,-2,5,1,1, got allocated to elevator, 1
+1169.0, elevID,1,  pos,2,  cmd, goto,3
+1174.0, elevID,3,  pos,7,  cmd, goto,8
+1175.0,Elev,0,  arrived at dest, 6, this call is done!, Elevator call,866.5927868088187,10,6,3,0, Done, dt, 308.4072131911813
+1175.0, elevID,0,  pos,6,  cmd, goto,5
+1175.0, elevID,2,  pos,6,  cmd, goto,5
+1176.0,Elevator call,1175.8064061576379,0,-2,1,0, got allocated to elevator, 0
+1179.0,Elevator call,1178.015835246246,0,-1,1,0, got allocated to elevator, 0
+1180.0, elevID,1,  pos,3,  cmd, goto,4
+1185.0, elevID,3,  pos,8,  cmd, goto,9
+1186.0, elevID,0,  pos,5,  cmd, goto,4
+1186.0, elevID,2,  pos,5,  cmd, goto,4
+1191.0, elevID,1,  pos,4,  cmd, goto,5
+1196.0, elevID,3,  pos,9,  cmd, goto,10
+1197.0,Elevator call,1196.736234981608,0,20,1,1, got allocated to elevator, 1
+1197.0,Elev,0,  arrived at dest, 4, this call is done!, Elevator call,1007.7458269955551,17,4,3,0, Done, dt, 189.25417300444485
+1197.0,Elev,0,  arrived at src, 4, Elevator call,1109.5092579654965,4,0,2,0
+1197.0, elevID,0,  pos,4,  cmd, goto,3
+1197.0, elevID,2,  pos,4,  cmd, goto,3
+1202.0, elevID,1,  pos,5,  cmd, goto,6
+1207.0, elevID,3,  pos,10,  cmd, goto,11
+1208.0, elevID,0,  pos,3,  cmd, goto,2
+1208.0, elevID,2,  pos,3,  cmd, goto,2
+1213.0,Elevator call,1212.9495496617437,-1,0,1,1, got allocated to elevator, 1
+1213.0,Elev,1,  arrived at dest, 6, this call is done!, Elevator call,977.2552179973972,0,6,3,1, Done, dt, 235.74478200260285
+1213.0, elevID,1,  pos,6,  cmd, goto,7
+1218.0, elevID,3,  pos,11,  cmd, goto,12
+1219.0, elevID,0,  pos,2,  cmd, goto,1
+1219.0, elevID,2,  pos,2,  cmd, goto,1
+1224.0, elevID,1,  pos,7,  cmd, goto,8
+1229.0, elevID,3,  pos,12,  cmd, goto,13
+1230.0,Elev,0,  arrived at src, 1, Elevator call,1096.1940935251605,1,0,2,0
+1230.0, elevID,0,  pos,1,  cmd, goto,0
+1230.0, elevID,2,  pos,1,  cmd, goto,0
+1235.0,Elev,1,  arrived at src, 8, Elevator call,1037.5381863870532,8,11,2,1
+1235.0, elevID,1,  pos,8,  cmd, goto,9
+1240.0, elevID,3,  pos,13,  cmd, goto,14
+1241.0,Elev,0,  arrived at src, 0, Elevator call,1052.1533586579985,0,-1,2,0
+1241.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1096.1940935251605,1,0,3,0, Done, dt, 144.8059064748395
+1241.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1097.9943797079113,8,0,3,0, Done, dt, 143.00562029208868
+1241.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1109.5092579654965,4,0,3,0, Done, dt, 131.49074203450346
+1241.0,Elev,0,  arrived at src, 0, Elevator call,1113.4819378281786,0,-1,2,0
+1241.0,Elev,0,  arrived at src, 0, Elevator call,1124.2866803183526,0,-1,2,0
+1241.0,Elev,0,  arrived at src, 0, Elevator call,1137.7165617865576,0,-1,2,0
+1241.0,Elev,0,  arrived at src, 0, Elevator call,1156.9334725726774,0,-1,2,0
+1241.0,Elev,0,  arrived at src, 0, Elevator call,1175.8064061576379,0,-2,2,0
+1241.0,Elev,0,  arrived at src, 0, Elevator call,1178.015835246246,0,-1,2,0
+1241.0, elevID,0,  pos,0,  cmd, goto,-1
+1241.0, elevID,2,  pos,0,  cmd, goto,-1
+1246.0,Elev,1,  arrived at dest, 9, this call is done!, Elevator call,996.3578078670561,0,9,3,1, Done, dt, 249.64219213294393
+1246.0, elevID,1,  pos,9,  cmd, goto,10
+1251.0, elevID,3,  pos,14,  cmd, goto,15
+1252.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1052.1533586579985,0,-1,3,0, Done, dt, 199.84664134200148
+1252.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1113.4819378281786,0,-1,3,0, Done, dt, 138.51806217182138
+1252.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1124.2866803183526,0,-1,3,0, Done, dt, 127.71331968164736
+1252.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1137.7165617865576,0,-1,3,0, Done, dt, 114.28343821344242
+1252.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1156.9334725726774,0,-1,3,0, Done, dt, 95.06652742732263
+1252.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1178.015835246246,0,-1,3,0, Done, dt, 73.98416475375393
+1252.0, elevID,0,  pos,-1,  cmd, goto,-2
+1252.0, elevID,2,  pos,-1,  cmd, goto,-2
+1257.0,Elev,1,  arrived at dest, 10, this call is done!, Elevator call,1131.9386400734377,0,10,3,1, Done, dt, 125.06135992656232
+1257.0,Elev,1,  arrived at dest, 10, this call is done!, Elevator call,1140.1116595096928,1,10,3,1, Done, dt, 116.8883404903072
+1257.0, elevID,1,  pos,10,  cmd, goto,11
+1259.0,Elevator call,1258.6213960712685,-2,0,1,1, got allocated to elevator, 1
+1262.0,Elevator call,1261.00756521848,8,0,1,0, got allocated to elevator, 0
+1262.0, elevID,3,  pos,15,  cmd, goto,16
+1263.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,1175.8064061576379,0,-2,3,0, Done, dt, 87.19359384236213
+1263.0, elevID,0,  pos,-2,  cmd, goto,-3
+1263.0, elevID,2,  pos,-2,  cmd, goto,-3
+1268.0,Elev,1,  arrived at dest, 11, this call is done!, Elevator call,1037.5381863870532,8,11,3,1, Done, dt, 230.4618136129468
+1268.0, elevID,1,  pos,11,  cmd, goto,12
+1269.0,Elevator call,1268.5913848370521,0,-1,1,0, got allocated to elevator, 0
+1273.0, elevID,3,  pos,16,  cmd, goto,17
+1274.0, elevID,0,  pos,-3,  cmd, goto,20
+1274.0, elevID,2,  pos,-3,  cmd, goto,20
+1279.0,Elev,1,  arrived at dest, 12, this call is done!, Elevator call,1127.2771396873368,0,12,3,1, Done, dt, 151.72286031266322
+1279.0, elevID,1,  pos,12,  cmd, goto,13
+1284.0, elevID,3,  pos,17,  cmd, goto,18
+1290.0,Elev,1,  arrived at dest, 13, this call is done!, Elevator call,904.4493607498194,0,13,3,1, Done, dt, 385.55063925018055
+1290.0,Elev,1,  arrived at dest, 13, this call is done!, Elevator call,916.9117749072182,1,13,3,1, Done, dt, 373.08822509278184
+1290.0,Elev,1,  arrived at dest, 13, this call is done!, Elevator call,956.5930699726732,0,13,3,1, Done, dt, 333.4069300273268
+1290.0, elevID,1,  pos,13,  cmd, goto,14
+1294.0,Elevator call,1293.4065510053879,0,1,1,1, got allocated to elevator, 1
+1295.0, elevID,3,  pos,18,  cmd, goto,19
+1296.0,Elevator call,1295.1651335589634,0,17,1,1, got allocated to elevator, 1
+1301.0,Elev,1,  arrived at dest, 14, this call is done!, Elevator call,928.0707967206309,-1,14,3,1, Done, dt, 372.92920327936906
+1301.0, elevID,1,  pos,14,  cmd, goto,15
+1306.0, elevID,3,  pos,19,  cmd, goto,20
+1307.0,Elev,0,  arrived at src, 20, Elevator call,1151.658727358963,20,14,2,0
+1307.0, elevID,0,  pos,20,  cmd, goto,19
+1307.0, elevID,2,  pos,20,  cmd, goto,19
+1312.0,Elev,1,  arrived at dest, 15, this call is done!, Elevator call,904.7476220042074,-1,15,3,1, Done, dt, 407.2523779957926
+1312.0, elevID,1,  pos,15,  cmd, goto,16
+1317.0, elevID,3,  pos,20,  cmd, goto,-3
+1318.0,Elev,0,  arrived at src, 19, Elevator call,1056.025973584793,19,0,2,0
+1318.0, elevID,0,  pos,19,  cmd, goto,18
+1318.0, elevID,2,  pos,19,  cmd, goto,18
+1322.0,Elevator call,1321.8354086257034,4,-2,1,0, got allocated to elevator, 0
+1323.0,Elev,1,  arrived at dest, 16, this call is done!, Elevator call,986.5456660052421,0,16,3,1, Done, dt, 336.4543339947579
+1323.0, elevID,1,  pos,16,  cmd, goto,17
+1329.0, elevID,0,  pos,18,  cmd, goto,17
+1329.0, elevID,2,  pos,18,  cmd, goto,17
+1332.0,Elevator call,1331.2069623289547,0,-1,1,0, got allocated to elevator, 0
+1334.0,Elevator call,1333.039214889335,-2,-1,1,1, got allocated to elevator, 1
+1334.0, elevID,1,  pos,17,  cmd, goto,18
+1336.0,Elevator call,1335.7389474728477,-2,-1,1,1, got allocated to elevator, 1
+1340.0,Elev,0,  arrived at src, 17, Elevator call,1096.3608057449887,17,-2,2,0
+1340.0, elevID,0,  pos,17,  cmd, goto,16
+1340.0, elevID,2,  pos,17,  cmd, goto,16
+1345.0, elevID,1,  pos,18,  cmd, goto,19
+1350.0, elevID,3,  pos,-3,  cmd, goto,-2
+1351.0,Elev,0,  arrived at src, 16, Elevator call,1081.876341151392,16,-2,2,0
+1351.0,Elev,0,  arrived at src, 16, Elevator call,1155.2478699706228,16,-1,2,0
+1351.0, elevID,0,  pos,16,  cmd, goto,15
+1351.0, elevID,2,  pos,16,  cmd, goto,15
+1352.0,Elevator call,1351.7657314337291,3,0,1,0, got allocated to elevator, 0
+1356.0, elevID,1,  pos,19,  cmd, goto,20
+1361.0, elevID,3,  pos,-2,  cmd, goto,-1
+1362.0, elevID,0,  pos,15,  cmd, goto,14
+1362.0, elevID,2,  pos,15,  cmd, goto,14
+1367.0, elevID,1,  pos,20,  cmd, goto,-3
+1372.0, elevID,3,  pos,-1,  cmd, goto,0
+1373.0,Elev,0,  arrived at dest, 14, this call is done!, Elevator call,1151.658727358963,20,14,3,0, Done, dt, 221.341272641037
+1373.0, elevID,0,  pos,14,  cmd, goto,13
+1373.0, elevID,2,  pos,14,  cmd, goto,13
+1383.0,Elevator call,1382.6004668956462,0,-2,1,0, got allocated to elevator, 0
+1383.0, elevID,3,  pos,0,  cmd, goto,1
+1384.0, elevID,0,  pos,13,  cmd, goto,12
+1384.0, elevID,2,  pos,13,  cmd, goto,12
+1394.0, elevID,3,  pos,1,  cmd, goto,2
+1395.0, elevID,0,  pos,12,  cmd, goto,11
+1395.0, elevID,2,  pos,12,  cmd, goto,11
+1400.0, elevID,1,  pos,-3,  cmd, goto,-2
+1405.0, elevID,3,  pos,2,  cmd, goto,3
+1406.0, elevID,0,  pos,11,  cmd, goto,10
+1406.0, elevID,2,  pos,11,  cmd, goto,10
+1410.0,Elevator call,1409.0936787967266,10,0,1,0, got allocated to elevator, 0
+1411.0,Elev,1,  arrived at src, -2, Elevator call,1155.513869719589,-2,0,2,1
+1411.0,Elev,1,  arrived at src, -2, Elevator call,1164.728331519608,-2,5,2,1
+1411.0,Elev,1,  arrived at src, -2, Elevator call,1258.6213960712685,-2,0,2,1
+1411.0,Elev,1,  arrived at src, -2, Elevator call,1333.039214889335,-2,-1,2,1
+1411.0,Elev,1,  arrived at src, -2, Elevator call,1335.7389474728477,-2,-1,2,1
+1411.0, elevID,1,  pos,-2,  cmd, goto,-1
+1414.0,Elevator call,1413.057875353343,0,10,1,1, got allocated to elevator, 1
+1416.0,Elevator call,1415.2198614251874,20,0,1,0, got allocated to elevator, 0
+1416.0, elevID,3,  pos,3,  cmd, goto,4
+1417.0,Elev,0,  arrived at src, 10, Elevator call,1409.0936787967266,10,0,2,0
+1417.0, elevID,0,  pos,10,  cmd, goto,9
+1417.0, elevID,2,  pos,10,  cmd, goto,9
+1422.0,Elev,1,  arrived at src, -1, Elevator call,1212.9495496617437,-1,0,2,1
+1422.0,Elev,1,  arrived at dest, -1, this call is done!, Elevator call,1333.039214889335,-2,-1,3,1, Done, dt, 88.96078511066503
+1422.0,Elev,1,  arrived at dest, -1, this call is done!, Elevator call,1335.7389474728477,-2,-1,3,1, Done, dt, 86.26105252715229
+1422.0, elevID,1,  pos,-1,  cmd, goto,0
+1427.0, elevID,3,  pos,4,  cmd, goto,5
+1428.0, elevID,0,  pos,9,  cmd, goto,8
+1428.0, elevID,2,  pos,9,  cmd, goto,8
+1433.0,Elev,1,  arrived at src, 0, Elevator call,1147.586188832025,0,6,2,1
+1433.0,Elev,1,  arrived at src, 0, Elevator call,1150.267507837832,0,15,2,1
+1433.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,1155.513869719589,-2,0,3,1, Done, dt, 277.4861302804111
+1433.0,Elev,1,  arrived at src, 0, Elevator call,1196.736234981608,0,20,2,1
+1433.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,1212.9495496617437,-1,0,3,1, Done, dt, 220.05045033825627
+1433.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,1258.6213960712685,-2,0,3,1, Done, dt, 174.37860392873154
+1433.0,Elev,1,  arrived at src, 0, Elevator call,1293.4065510053879,0,1,2,1
+1433.0,Elev,1,  arrived at src, 0, Elevator call,1295.1651335589634,0,17,2,1
+1433.0,Elev,1,  arrived at src, 0, Elevator call,1413.057875353343,0,10,2,1
+1433.0, elevID,1,  pos,0,  cmd, goto,1
+1438.0, elevID,3,  pos,5,  cmd, goto,6
+1439.0,Elevator call,1438.9733911522667,0,2,1,1, got allocated to elevator, 1
+1439.0,Elev,0,  arrived at src, 8, Elevator call,1261.00756521848,8,0,2,0
+1439.0, elevID,0,  pos,8,  cmd, goto,7
+1439.0, elevID,2,  pos,8,  cmd, goto,7
+1444.0,Elev,1,  arrived at dest, 1, this call is done!, Elevator call,1293.4065510053879,0,1,3,1, Done, dt, 150.59344899461212
+1444.0, elevID,1,  pos,1,  cmd, goto,2
+1449.0,Elevator call,1448.363061045125,0,-1,1,0, got allocated to elevator, 0
+1449.0, elevID,3,  pos,6,  cmd, goto,7
+1450.0, elevID,0,  pos,7,  cmd, goto,6
+1450.0, elevID,2,  pos,7,  cmd, goto,6
+1454.0,Elevator call,1453.0719209259003,18,5,1,0, got allocated to elevator, 0
+1454.0,Elevator call,1453.9463870022385,0,-1,1,0, got allocated to elevator, 0
+1455.0,Elevator call,1454.8285009964547,-2,11,1,1, got allocated to elevator, 1
+1455.0, elevID,1,  pos,2,  cmd, goto,3
+1459.0,Elevator call,1458.6556107182482,-2,19,1,1, got allocated to elevator, 1
+1460.0, elevID,3,  pos,7,  cmd, goto,8
+1461.0, elevID,0,  pos,6,  cmd, goto,5
+1461.0, elevID,2,  pos,6,  cmd, goto,5
+1466.0, elevID,1,  pos,3,  cmd, goto,4
+1468.0,Elevator call,1467.0278870048103,17,-1,1,0, got allocated to elevator, 0
+1470.0,Elevator call,1469.4040181557145,6,-2,1,0, got allocated to elevator, 0
+1471.0,Elevator call,1470.0343725472844,-1,-2,1,0, got allocated to elevator, 0
+1471.0,Elevator call,1470.5915544130855,7,-1,1,0, got allocated to elevator, 0
+1471.0, elevID,3,  pos,8,  cmd, goto,9
+1472.0, elevID,0,  pos,5,  cmd, goto,4
+1472.0, elevID,2,  pos,5,  cmd, goto,4
+1477.0, elevID,1,  pos,4,  cmd, goto,5
+1481.0,Elevator call,1480.8499657928244,-2,0,1,1, got allocated to elevator, 1
+1482.0, elevID,3,  pos,9,  cmd, goto,10
+1483.0,Elev,0,  arrived at src, 4, Elevator call,1321.8354086257034,4,-2,2,0
+1483.0, elevID,0,  pos,4,  cmd, goto,3
+1483.0, elevID,2,  pos,4,  cmd, goto,3
+1485.0,Elevator call,1484.4219848364883,-1,11,1,1, got allocated to elevator, 1
+1485.0,Elevator call,1484.9843372457965,19,0,1,0, got allocated to elevator, 0
+1487.0,Elevator call,1486.4270603590999,4,6,1,1, got allocated to elevator, 1
+1488.0,Elev,1,  arrived at dest, 5, this call is done!, Elevator call,1164.728331519608,-2,5,3,1, Done, dt, 323.271668480392
+1488.0, elevID,1,  pos,5,  cmd, goto,6
+1492.0,Elevator call,1491.5501911539536,-2,0,1,1, got allocated to elevator, 1
+1493.0,Elevator call,1492.2050732571352,-2,17,1,1, got allocated to elevator, 1
+1493.0, elevID,3,  pos,10,  cmd, goto,11
+1494.0,Elevator call,1493.5040011527858,3,0,1,0, got allocated to elevator, 0
+1494.0,Elev,0,  arrived at src, 3, Elevator call,1351.7657314337291,3,0,2,0
+1494.0,Elev,0,  arrived at src, 3, Elevator call,1493.5040011527858,3,0,2,0
+1494.0, elevID,0,  pos,3,  cmd, goto,2
+1494.0, elevID,2,  pos,3,  cmd, goto,2
+1499.0,Elev,1,  arrived at dest, 6, this call is done!, Elevator call,1147.586188832025,0,6,3,1, Done, dt, 351.4138111679749
+1499.0, elevID,1,  pos,6,  cmd, goto,7
+1502.0,Elevator call,1501.9792231166773,-2,16,1,1, got allocated to elevator, 1
+1504.0, elevID,3,  pos,11,  cmd, goto,12
+1505.0, elevID,0,  pos,2,  cmd, goto,1
+1505.0, elevID,2,  pos,2,  cmd, goto,1
+1507.0,Elevator call,1506.6405513680484,9,0,1,0, got allocated to elevator, 0
+1510.0, elevID,1,  pos,7,  cmd, goto,8
+1512.0,Elevator call,1511.122814913926,14,-2,1,0, got allocated to elevator, 0
+1513.0,Elevator call,1512.0862103742395,-1,0,1,1, got allocated to elevator, 1
+1515.0, elevID,3,  pos,12,  cmd, goto,13
+1516.0, elevID,0,  pos,1,  cmd, goto,0
+1516.0, elevID,2,  pos,1,  cmd, goto,0
+1520.0,Elevator call,1519.0011868479132,19,-1,1,0, got allocated to elevator, 0
+1521.0, elevID,1,  pos,8,  cmd, goto,9
+1522.0,Elevator call,1521.3196549866036,-1,0,1,1, got allocated to elevator, 1
+1522.0,Elevator call,1521.9781647845343,0,-1,1,0, got allocated to elevator, 0
+1523.0,Elevator call,1522.6379258519248,0,15,1,1, got allocated to elevator, 1
+1526.0, elevID,3,  pos,13,  cmd, goto,14
+1527.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1056.025973584793,19,0,3,0, Done, dt, 470.97402641520694
+1527.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1261.00756521848,8,0,3,0, Done, dt, 265.99243478151993
+1527.0,Elev,0,  arrived at src, 0, Elevator call,1268.5913848370521,0,-1,2,0
+1527.0,Elev,0,  arrived at src, 0, Elevator call,1331.2069623289547,0,-1,2,0
+1527.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1351.7657314337291,3,0,3,0, Done, dt, 175.23426856627088
+1527.0,Elev,0,  arrived at src, 0, Elevator call,1382.6004668956462,0,-2,2,0
+1527.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1409.0936787967266,10,0,3,0, Done, dt, 117.90632120327336
+1527.0,Elev,0,  arrived at src, 0, Elevator call,1448.363061045125,0,-1,2,0
+1527.0,Elev,0,  arrived at src, 0, Elevator call,1453.9463870022385,0,-1,2,0
+1527.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1493.5040011527858,3,0,3,0, Done, dt, 33.495998847214196
+1527.0,Elev,0,  arrived at src, 0, Elevator call,1521.9781647845343,0,-1,2,0
+1527.0, elevID,0,  pos,0,  cmd, goto,-1
+1527.0, elevID,2,  pos,0,  cmd, goto,-1
+1531.0,Elevator call,1530.85754457119,0,18,1,1, got allocated to elevator, 1
+1532.0, elevID,1,  pos,9,  cmd, goto,10
+1537.0,Elevator call,1536.7016899722921,19,0,1,0, got allocated to elevator, 0
+1537.0, elevID,3,  pos,14,  cmd, goto,15
+1538.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1155.2478699706228,16,-1,3,0, Done, dt, 382.7521300293772
+1538.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1268.5913848370521,0,-1,3,0, Done, dt, 269.40861516294785
+1538.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1331.2069623289547,0,-1,3,0, Done, dt, 206.79303767104534
+1538.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1448.363061045125,0,-1,3,0, Done, dt, 89.63693895487495
+1538.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1453.9463870022385,0,-1,3,0, Done, dt, 84.05361299776155
+1538.0,Elev,0,  arrived at src, -1, Elevator call,1470.0343725472844,-1,-2,2,0
+1538.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1521.9781647845343,0,-1,3,0, Done, dt, 16.02183521546567
+1538.0, elevID,0,  pos,-1,  cmd, goto,-2
+1538.0, elevID,2,  pos,-1,  cmd, goto,-2
+1543.0,Elev,1,  arrived at dest, 10, this call is done!, Elevator call,1413.057875353343,0,10,3,1, Done, dt, 129.94212464665702
+1543.0, elevID,1,  pos,10,  cmd, goto,11
+1545.0,Elevator call,1544.548897024319,-2,8,1,1, got allocated to elevator, 1
+1548.0, elevID,3,  pos,15,  cmd, goto,16
+1549.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,1081.876341151392,16,-2,3,0, Done, dt, 467.1236588486081
+1549.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,1096.3608057449887,17,-2,3,0, Done, dt, 452.63919425501126
+1549.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,1321.8354086257034,4,-2,3,0, Done, dt, 227.1645913742966
+1549.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,1382.6004668956462,0,-2,3,0, Done, dt, 166.39953310435385
+1549.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,1470.0343725472844,-1,-2,3,0, Done, dt, 78.96562745271558
+1549.0, elevID,0,  pos,-2,  cmd, goto,-3
+1549.0, elevID,2,  pos,-2,  cmd, goto,-3
+1554.0, elevID,1,  pos,11,  cmd, goto,12
+1559.0, elevID,3,  pos,16,  cmd, goto,17
+1560.0, elevID,0,  pos,-3,  cmd, goto,20
+1560.0, elevID,2,  pos,-3,  cmd, goto,20
+1561.0,Elevator call,1560.2286689629939,-2,1,1,1, got allocated to elevator, 1
+1565.0, elevID,1,  pos,12,  cmd, goto,13
+1570.0, elevID,3,  pos,17,  cmd, goto,18
+1574.0,Elevator call,1573.8160167405301,7,0,1,0, got allocated to elevator, 0
+1576.0,Elevator call,1575.8128326474823,18,0,1,0, got allocated to elevator, 0
+1576.0, elevID,1,  pos,13,  cmd, goto,14
+1581.0, elevID,3,  pos,18,  cmd, goto,19
+1587.0,Elevator call,1586.8937915181255,-1,18,1,1, got allocated to elevator, 1
+1587.0, elevID,1,  pos,14,  cmd, goto,15
+1592.0, elevID,3,  pos,19,  cmd, goto,20
+1593.0,Elev,0,  arrived at src, 20, Elevator call,1415.2198614251874,20,0,2,0
+1593.0, elevID,0,  pos,20,  cmd, goto,19
+1593.0, elevID,2,  pos,20,  cmd, goto,19
+1597.0,Elevator call,1596.42375311512,5,-1,1,0, got allocated to elevator, 0
+1597.0,Elevator call,1596.498825648534,-2,2,1,1, got allocated to elevator, 1
+1598.0,Elev,1,  arrived at dest, 15, this call is done!, Elevator call,1150.267507837832,0,15,3,1, Done, dt, 447.732492162168
+1598.0, elevID,1,  pos,15,  cmd, goto,16
+1603.0, elevID,3,  pos,20,  cmd, goto,-3
+1604.0,Elev,0,  arrived at src, 19, Elevator call,1484.9843372457965,19,0,2,0
+1604.0,Elev,0,  arrived at src, 19, Elevator call,1519.0011868479132,19,-1,2,0
+1604.0,Elev,0,  arrived at src, 19, Elevator call,1536.7016899722921,19,0,2,0
+1604.0, elevID,0,  pos,19,  cmd, goto,18
+1604.0, elevID,2,  pos,19,  cmd, goto,18
+1607.0,Elevator call,1606.048199107591,-1,13,1,1, got allocated to elevator, 1
+1609.0, elevID,1,  pos,16,  cmd, goto,17
+1612.0,Elevator call,1611.625231787892,-1,0,1,1, got allocated to elevator, 1
+1615.0,Elev,0,  arrived at src, 18, Elevator call,1453.0719209259003,18,5,2,0
+1615.0,Elev,0,  arrived at src, 18, Elevator call,1575.8128326474823,18,0,2,0
+1615.0, elevID,0,  pos,18,  cmd, goto,17
+1615.0, elevID,2,  pos,18,  cmd, goto,17
+1620.0,Elev,1,  arrived at dest, 17, this call is done!, Elevator call,1295.1651335589634,0,17,3,1, Done, dt, 324.83486644103664
+1620.0, elevID,1,  pos,17,  cmd, goto,18
+1626.0,Elevator call,1625.9681052615276,0,20,1,1, got allocated to elevator, 1
+1626.0,Elev,0,  arrived at src, 17, Elevator call,1467.0278870048103,17,-1,2,0
+1626.0, elevID,0,  pos,17,  cmd, goto,16
+1626.0, elevID,2,  pos,17,  cmd, goto,16
+1631.0,Elevator call,1630.1516366527085,-2,-3,1,0, got allocated to elevator, 0
+1631.0, elevID,1,  pos,18,  cmd, goto,19
+1636.0, elevID,3,  pos,-3,  cmd, goto,-2
+1637.0, elevID,0,  pos,16,  cmd, goto,15
+1637.0, elevID,2,  pos,16,  cmd, goto,15
+1642.0, elevID,1,  pos,19,  cmd, goto,20
+1647.0, elevID,3,  pos,-2,  cmd, goto,-1
+1648.0,Elevator call,1647.6372030195641,5,0,1,0, got allocated to elevator, 0
+1648.0, elevID,0,  pos,15,  cmd, goto,14
+1648.0, elevID,2,  pos,15,  cmd, goto,14
+1653.0,Elev,1,  arrived at dest, 20, this call is done!, Elevator call,1196.736234981608,0,20,3,1, Done, dt, 456.26376501839195
+1653.0, elevID,1,  pos,20,  cmd, goto,-3
+1658.0, elevID,3,  pos,-1,  cmd, goto,0
+1659.0,Elev,0,  arrived at src, 14, Elevator call,1511.122814913926,14,-2,2,0
+1659.0, elevID,0,  pos,14,  cmd, goto,13
+1659.0, elevID,2,  pos,14,  cmd, goto,13
+1666.0,Elevator call,1665.195253462125,18,17,1,0, got allocated to elevator, 0
+1669.0, elevID,3,  pos,0,  cmd, goto,1
+1670.0, elevID,0,  pos,13,  cmd, goto,12
+1670.0, elevID,2,  pos,13,  cmd, goto,12
+1680.0, elevID,3,  pos,1,  cmd, goto,2
+1681.0, elevID,0,  pos,12,  cmd, goto,11
+1681.0, elevID,2,  pos,12,  cmd, goto,11
+1683.0,Elevator call,1682.3284965323571,0,15,1,1, got allocated to elevator, 1
+1686.0, elevID,1,  pos,-3,  cmd, goto,-2
+1691.0, elevID,3,  pos,2,  cmd, goto,3
+1692.0, elevID,0,  pos,11,  cmd, goto,10
+1692.0, elevID,2,  pos,11,  cmd, goto,10
+1697.0,Elev,1,  arrived at src, -2, Elevator call,1454.8285009964547,-2,11,2,1
+1697.0,Elev,1,  arrived at src, -2, Elevator call,1458.6556107182482,-2,19,2,1
+1697.0,Elev,1,  arrived at src, -2, Elevator call,1480.8499657928244,-2,0,2,1
+1697.0,Elev,1,  arrived at src, -2, Elevator call,1491.5501911539536,-2,0,2,1
+1697.0,Elev,1,  arrived at src, -2, Elevator call,1492.2050732571352,-2,17,2,1
+1697.0,Elev,1,  arrived at src, -2, Elevator call,1501.9792231166773,-2,16,2,1
+1697.0,Elev,1,  arrived at src, -2, Elevator call,1544.548897024319,-2,8,2,1
+1697.0,Elev,1,  arrived at src, -2, Elevator call,1560.2286689629939,-2,1,2,1
+1697.0,Elev,1,  arrived at src, -2, Elevator call,1596.498825648534,-2,2,2,1
+1697.0, elevID,1,  pos,-2,  cmd, goto,-1
+1699.0,Elevator call,1698.762803655117,0,5,1,1, got allocated to elevator, 1
+1702.0,Elevator call,1701.4201763845674,-1,0,1,1, got allocated to elevator, 1
+1702.0,Elevator call,1701.8803706148465,9,-2,1,0, got allocated to elevator, 0
+1702.0, elevID,3,  pos,3,  cmd, goto,4
+1703.0, elevID,0,  pos,10,  cmd, goto,9
+1703.0, elevID,2,  pos,10,  cmd, goto,9
+1707.0,Elevator call,1706.5142392407379,0,-1,1,0, got allocated to elevator, 0
+1708.0,Elev,1,  arrived at src, -1, Elevator call,1484.4219848364883,-1,11,2,1
+1708.0,Elev,1,  arrived at src, -1, Elevator call,1512.0862103742395,-1,0,2,1
+1708.0,Elev,1,  arrived at src, -1, Elevator call,1521.3196549866036,-1,0,2,1
+1708.0,Elev,1,  arrived at src, -1, Elevator call,1586.8937915181255,-1,18,2,1
+1708.0,Elev,1,  arrived at src, -1, Elevator call,1606.048199107591,-1,13,2,1
+1708.0,Elev,1,  arrived at src, -1, Elevator call,1611.625231787892,-1,0,2,1
+1708.0,Elev,1,  arrived at src, -1, Elevator call,1701.4201763845674,-1,0,2,1
+1708.0, elevID,1,  pos,-1,  cmd, goto,0
+1713.0, elevID,3,  pos,4,  cmd, goto,5
+1714.0,Elev,0,  arrived at src, 9, Elevator call,1506.6405513680484,9,0,2,0
+1714.0,Elev,0,  arrived at src, 9, Elevator call,1701.8803706148465,9,-2,2,0
+1714.0, elevID,0,  pos,9,  cmd, goto,8
+1714.0, elevID,2,  pos,9,  cmd, goto,8
+1718.0,Elevator call,1717.932502343578,18,8,1,0, got allocated to elevator, 0
+1719.0,Elev,1,  arrived at src, 0, Elevator call,1438.9733911522667,0,2,2,1
+1719.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,1480.8499657928244,-2,0,3,1, Done, dt, 238.15003420717562
+1719.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,1491.5501911539536,-2,0,3,1, Done, dt, 227.44980884604638
+1719.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,1512.0862103742395,-1,0,3,1, Done, dt, 206.9137896257605
+1719.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,1521.3196549866036,-1,0,3,1, Done, dt, 197.6803450133964
+1719.0,Elev,1,  arrived at src, 0, Elevator call,1522.6379258519248,0,15,2,1
+1719.0,Elev,1,  arrived at src, 0, Elevator call,1530.85754457119,0,18,2,1
+1719.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,1611.625231787892,-1,0,3,1, Done, dt, 107.37476821210794
+1719.0,Elev,1,  arrived at src, 0, Elevator call,1625.9681052615276,0,20,2,1
+1719.0,Elev,1,  arrived at src, 0, Elevator call,1682.3284965323571,0,15,2,1
+1719.0,Elev,1,  arrived at src, 0, Elevator call,1698.762803655117,0,5,2,1
+1719.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,1701.4201763845674,-1,0,3,1, Done, dt, 17.579823615432588
+1719.0, elevID,1,  pos,0,  cmd, goto,1
+1720.0,Elevator call,1719.963571290317,0,10,1,1, got allocated to elevator, 1
+1724.0, elevID,3,  pos,5,  cmd, goto,6
+1725.0, elevID,0,  pos,8,  cmd, goto,7
+1725.0, elevID,2,  pos,8,  cmd, goto,7
+1726.0,Elevator call,1725.9393946095554,1,-2,1,0, got allocated to elevator, 0
+1730.0,Elev,1,  arrived at dest, 1, this call is done!, Elevator call,1560.2286689629939,-2,1,3,1, Done, dt, 169.77133103700612
+1730.0, elevID,1,  pos,1,  cmd, goto,2
+1735.0, elevID,3,  pos,6,  cmd, goto,7
+1736.0,Elev,0,  arrived at src, 7, Elevator call,1470.5915544130855,7,-1,2,0
+1736.0,Elev,0,  arrived at src, 7, Elevator call,1573.8160167405301,7,0,2,0
+1736.0, elevID,0,  pos,7,  cmd, goto,6
+1736.0, elevID,2,  pos,7,  cmd, goto,6
+1741.0,Elev,1,  arrived at dest, 2, this call is done!, Elevator call,1438.9733911522667,0,2,3,1, Done, dt, 302.0266088477333
+1741.0,Elev,1,  arrived at dest, 2, this call is done!, Elevator call,1596.498825648534,-2,2,3,1, Done, dt, 144.50117435146603
+1741.0, elevID,1,  pos,2,  cmd, goto,3
+1746.0, elevID,3,  pos,7,  cmd, goto,8
+1747.0,Elev,0,  arrived at src, 6, Elevator call,1469.4040181557145,6,-2,2,0
+1747.0, elevID,0,  pos,6,  cmd, goto,5
+1747.0, elevID,2,  pos,6,  cmd, goto,5
+1751.0,Elevator call,1750.164102800524,0,12,1,1, got allocated to elevator, 1
+1752.0,Elevator call,1751.6678216247053,7,-2,1,0, got allocated to elevator, 0
+1752.0, elevID,1,  pos,3,  cmd, goto,4
+1757.0, elevID,3,  pos,8,  cmd, goto,9
+1758.0,Elev,0,  arrived at dest, 5, this call is done!, Elevator call,1453.0719209259003,18,5,3,0, Done, dt, 304.92807907409974
+1758.0,Elev,0,  arrived at src, 5, Elevator call,1596.42375311512,5,-1,2,0
+1758.0,Elev,0,  arrived at src, 5, Elevator call,1647.6372030195641,5,0,2,0
+1758.0, elevID,0,  pos,5,  cmd, goto,4
+1758.0, elevID,2,  pos,5,  cmd, goto,4
+1763.0,Elev,1,  arrived at src, 4, Elevator call,1486.4270603590999,4,6,2,1
+1763.0, elevID,1,  pos,4,  cmd, goto,5
+1768.0, elevID,3,  pos,9,  cmd, goto,10
+1769.0, elevID,0,  pos,4,  cmd, goto,3
+1769.0, elevID,2,  pos,4,  cmd, goto,3
+1770.0,Elevator call,1769.8389626703392,-2,-1,1,1, got allocated to elevator, 1
+1774.0,Elev,1,  arrived at dest, 5, this call is done!, Elevator call,1698.762803655117,0,5,3,1, Done, dt, 75.23719634488293
+1774.0, elevID,1,  pos,5,  cmd, goto,6
+1779.0, elevID,3,  pos,10,  cmd, goto,11
+1780.0, elevID,0,  pos,3,  cmd, goto,2
+1780.0, elevID,2,  pos,3,  cmd, goto,2
+1784.0,Elevator call,1783.460185580543,0,8,1,1, got allocated to elevator, 1
+1785.0,Elev,1,  arrived at dest, 6, this call is done!, Elevator call,1486.4270603590999,4,6,3,1, Done, dt, 298.57293964090013
+1785.0, elevID,1,  pos,6,  cmd, goto,7
+1790.0, elevID,3,  pos,11,  cmd, goto,12
+1791.0, elevID,0,  pos,2,  cmd, goto,1
+1791.0, elevID,2,  pos,2,  cmd, goto,1
+1796.0, elevID,1,  pos,7,  cmd, goto,8
+1801.0, elevID,3,  pos,12,  cmd, goto,13
+1802.0,Elevator call,1801.3363361988281,15,-2,1,0, got allocated to elevator, 0
+1802.0,Elev,0,  arrived at src, 1, Elevator call,1725.9393946095554,1,-2,2,0
+1802.0, elevID,0,  pos,1,  cmd, goto,0
+1802.0, elevID,2,  pos,1,  cmd, goto,0
+1806.0,Elevator call,1805.9677687934318,-2,0,1,1, got allocated to elevator, 1
+1807.0,Elev,1,  arrived at dest, 8, this call is done!, Elevator call,1544.548897024319,-2,8,3,1, Done, dt, 262.4511029756809
+1807.0, elevID,1,  pos,8,  cmd, goto,9
+1811.0,Elevator call,1810.4987269971934,14,0,1,0, got allocated to elevator, 0
+1812.0,Elevator call,1811.2985223081496,2,-1,1,0, got allocated to elevator, 0
+1812.0, elevID,3,  pos,13,  cmd, goto,14
+1813.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1415.2198614251874,20,0,3,0, Done, dt, 397.78013857481255
+1813.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1484.9843372457965,19,0,3,0, Done, dt, 328.0156627542035
+1813.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1506.6405513680484,9,0,3,0, Done, dt, 306.35944863195164
+1813.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1536.7016899722921,19,0,3,0, Done, dt, 276.2983100277079
+1813.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1573.8160167405301,7,0,3,0, Done, dt, 239.18398325946987
+1813.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1575.8128326474823,18,0,3,0, Done, dt, 237.1871673525177
+1813.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1647.6372030195641,5,0,3,0, Done, dt, 165.36279698043586
+1813.0,Elev,0,  arrived at src, 0, Elevator call,1706.5142392407379,0,-1,2,0
+1813.0, elevID,0,  pos,0,  cmd, goto,-1
+1813.0, elevID,2,  pos,0,  cmd, goto,-1
+1816.0,Elevator call,1815.9544591774759,0,-1,1,0, got allocated to elevator, 0
+1818.0, elevID,1,  pos,9,  cmd, goto,10
+1823.0, elevID,3,  pos,14,  cmd, goto,15
+1824.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1467.0278870048103,17,-1,3,0, Done, dt, 356.9721129951897
+1824.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1470.5915544130855,7,-1,3,0, Done, dt, 353.40844558691447
+1824.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1519.0011868479132,19,-1,3,0, Done, dt, 304.99881315208677
+1824.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1596.42375311512,5,-1,3,0, Done, dt, 227.57624688488
+1824.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1706.5142392407379,0,-1,3,0, Done, dt, 117.48576075926212
+1824.0, elevID,0,  pos,-1,  cmd, goto,-2
+1824.0, elevID,2,  pos,-1,  cmd, goto,-2
+1825.0,Elevator call,1824.5142257256014,-1,0,1,1, got allocated to elevator, 1
+1826.0,Elevator call,1825.222850516972,-2,-1,1,1, got allocated to elevator, 1
+1829.0, elevID,1,  pos,10,  cmd, goto,11
+1834.0, elevID,3,  pos,15,  cmd, goto,16
+1835.0,Elevator call,1834.5108518114855,-1,2,1,1, got allocated to elevator, 1
+1835.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,1469.4040181557145,6,-2,3,0, Done, dt, 365.59598184428546
+1835.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,1511.122814913926,14,-2,3,0, Done, dt, 323.87718508607395
+1835.0,Elev,0,  arrived at src, -2, Elevator call,1630.1516366527085,-2,-3,2,0
+1835.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,1701.8803706148465,9,-2,3,0, Done, dt, 133.11962938515353
+1835.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,1725.9393946095554,1,-2,3,0, Done, dt, 109.06060539044461
+1835.0, elevID,0,  pos,-2,  cmd, goto,-3
+1835.0, elevID,2,  pos,-2,  cmd, goto,-3
+1840.0,Elev,1,  arrived at dest, 11, this call is done!, Elevator call,1454.8285009964547,-2,11,3,1, Done, dt, 385.17149900354525
+1840.0,Elev,1,  arrived at dest, 11, this call is done!, Elevator call,1484.4219848364883,-1,11,3,1, Done, dt, 355.57801516351174
+1840.0, elevID,1,  pos,11,  cmd, goto,12
+1841.0,Elevator call,1840.6184402802592,-1,5,1,1, got allocated to elevator, 1
+1845.0, elevID,3,  pos,16,  cmd, goto,17
+1846.0,Elev,0,  arrived at dest, -3, this call is done!, Elevator call,1630.1516366527085,-2,-3,3,0, Done, dt, 215.84836334729152
+1846.0, elevID,0,  pos,-3,  cmd, goto,20
+1846.0, elevID,2,  pos,-3,  cmd, goto,20
+1847.0,Elevator call,1846.7868554713177,18,0,1,0, got allocated to elevator, 0
+1851.0, elevID,1,  pos,12,  cmd, goto,13
+1856.0, elevID,3,  pos,17,  cmd, goto,18
+1860.0,Elevator call,1859.349320167251,-2,16,1,1, got allocated to elevator, 1
+1862.0,Elev,1,  arrived at dest, 13, this call is done!, Elevator call,1606.048199107591,-1,13,3,1, Done, dt, 255.95180089240898
+1862.0, elevID,1,  pos,13,  cmd, goto,14
+1867.0, elevID,3,  pos,18,  cmd, goto,19
+1873.0, elevID,1,  pos,14,  cmd, goto,15
+1878.0, elevID,3,  pos,19,  cmd, goto,20
+1879.0, elevID,0,  pos,20,  cmd, goto,19
+1879.0, elevID,2,  pos,20,  cmd, goto,19
+1884.0,Elev,1,  arrived at dest, 15, this call is done!, Elevator call,1522.6379258519248,0,15,3,1, Done, dt, 361.3620741480752
+1884.0,Elev,1,  arrived at dest, 15, this call is done!, Elevator call,1682.3284965323571,0,15,3,1, Done, dt, 201.67150346764288
+1884.0, elevID,1,  pos,15,  cmd, goto,16
+1888.0,Elevator call,1887.0557642165068,-2,0,1,1, got allocated to elevator, 1
+1889.0, elevID,3,  pos,20,  cmd, goto,-3
+1890.0, elevID,0,  pos,19,  cmd, goto,18
+1890.0, elevID,2,  pos,19,  cmd, goto,18
+1895.0,Elev,1,  arrived at dest, 16, this call is done!, Elevator call,1501.9792231166773,-2,16,3,1, Done, dt, 393.0207768833227
+1895.0, elevID,1,  pos,16,  cmd, goto,17
+1899.0,Elevator call,1898.8634607597169,0,13,1,1, got allocated to elevator, 1
+1901.0,Elevator call,1900.9976263527983,-1,3,1,1, got allocated to elevator, 1
+1901.0,Elev,0,  arrived at src, 18, Elevator call,1665.195253462125,18,17,2,0
+1901.0,Elev,0,  arrived at src, 18, Elevator call,1717.932502343578,18,8,2,0
+1901.0,Elev,0,  arrived at src, 18, Elevator call,1846.7868554713177,18,0,2,0
+1901.0, elevID,0,  pos,18,  cmd, goto,17
+1901.0, elevID,2,  pos,18,  cmd, goto,17
+1902.0,Elevator call,1901.607017830804,12,18,1,3, got allocated to elevator, 3
+1906.0,Elev,1,  arrived at dest, 17, this call is done!, Elevator call,1492.2050732571352,-2,17,3,1, Done, dt, 413.79492674286485
+1906.0, elevID,1,  pos,17,  cmd, goto,18
+1907.0,Elevator call,1906.6598899662258,8,-1,1,0, got allocated to elevator, 0
+1912.0,Elev,0,  arrived at dest, 17, this call is done!, Elevator call,1665.195253462125,18,17,3,0, Done, dt, 246.80474653787496
+1912.0, elevID,0,  pos,17,  cmd, goto,16
+1912.0, elevID,2,  pos,17,  cmd, goto,16
+1913.0,Elevator call,1912.2314885532705,-2,-3,1,0, got allocated to elevator, 0
+1916.0,Elevator call,1915.2291894348991,-2,15,1,3, got allocated to elevator, 3
+1917.0,Elev,1,  arrived at dest, 18, this call is done!, Elevator call,1530.85754457119,0,18,3,1, Done, dt, 386.1424554288101
+1917.0,Elev,1,  arrived at dest, 18, this call is done!, Elevator call,1586.8937915181255,-1,18,3,1, Done, dt, 330.10620848187455
+1917.0, elevID,1,  pos,18,  cmd, goto,19
+1920.0,Elevator call,1919.3074429779163,0,-1,1,0, got allocated to elevator, 0
+1920.0,Elevator call,1919.6716972342283,-1,-2,1,0, got allocated to elevator, 0
+1922.0, elevID,3,  pos,-3,  cmd, goto,-2
+1923.0, elevID,0,  pos,16,  cmd, goto,15
+1923.0, elevID,2,  pos,16,  cmd, goto,15
+1928.0,Elev,1,  arrived at dest, 19, this call is done!, Elevator call,1458.6556107182482,-2,19,3,1, Done, dt, 469.3443892817518
+1928.0, elevID,1,  pos,19,  cmd, goto,20
+1933.0,Elev,3,  arrived at src, -2, Elevator call,1915.2291894348991,-2,15,2,3
+1933.0, elevID,3,  pos,-2,  cmd, goto,-1
+1934.0,Elevator call,1933.0337015632977,12,-1,1,0, got allocated to elevator, 0
+1934.0,Elev,0,  arrived at src, 15, Elevator call,1801.3363361988281,15,-2,2,0
+1934.0, elevID,0,  pos,15,  cmd, goto,14
+1934.0, elevID,2,  pos,15,  cmd, goto,14
+1937.0,Elevator call,1936.0320781299527,-2,4,1,3, got allocated to elevator, 3
+1938.0,Elevator call,1937.925728003978,9,0,1,0, got allocated to elevator, 0
+1939.0,Elevator call,1938.0762716201752,12,0,1,0, got allocated to elevator, 0
+1939.0,Elev,1,  arrived at dest, 20, this call is done!, Elevator call,1625.9681052615276,0,20,3,1, Done, dt, 313.0318947384724
+1939.0, elevID,1,  pos,20,  cmd, goto,-3
+1944.0, elevID,3,  pos,-1,  cmd, goto,0
+1945.0,Elev,0,  arrived at src, 14, Elevator call,1810.4987269971934,14,0,2,0
+1945.0, elevID,0,  pos,14,  cmd, goto,13
+1945.0, elevID,2,  pos,14,  cmd, goto,13
+1955.0, elevID,3,  pos,0,  cmd, goto,1
+1956.0, elevID,0,  pos,13,  cmd, goto,12
+1956.0, elevID,2,  pos,13,  cmd, goto,12
+1962.0,Elevator call,1961.0240553170938,-1,-2,1,0, got allocated to elevator, 0
+1962.0,Elevator call,1961.2369411325635,13,-2,1,0, got allocated to elevator, 0
+1964.0,Elevator call,1963.2447780873338,0,19,1,1, got allocated to elevator, 1
+1966.0, elevID,3,  pos,1,  cmd, goto,2
+1967.0,Elev,0,  arrived at src, 12, Elevator call,1933.0337015632977,12,-1,2,0
+1967.0,Elev,0,  arrived at src, 12, Elevator call,1938.0762716201752,12,0,2,0
+1967.0, elevID,0,  pos,12,  cmd, goto,11
+1967.0, elevID,2,  pos,12,  cmd, goto,11
+1972.0, elevID,1,  pos,-3,  cmd, goto,-2
+1977.0, elevID,3,  pos,2,  cmd, goto,3
+1978.0, elevID,0,  pos,11,  cmd, goto,10
+1978.0, elevID,2,  pos,11,  cmd, goto,10
+1982.0,Elevator call,1981.7856707361307,9,0,1,0, got allocated to elevator, 0
+1983.0,Elev,1,  arrived at src, -2, Elevator call,1769.8389626703392,-2,-1,2,1
+1983.0,Elev,1,  arrived at src, -2, Elevator call,1805.9677687934318,-2,0,2,1
+1983.0,Elev,1,  arrived at src, -2, Elevator call,1825.222850516972,-2,-1,2,1
+1983.0,Elev,1,  arrived at src, -2, Elevator call,1859.349320167251,-2,16,2,1
+1983.0,Elev,1,  arrived at src, -2, Elevator call,1887.0557642165068,-2,0,2,1
+1983.0, elevID,1,  pos,-2,  cmd, goto,-1
+1988.0,Elevator call,1987.0127160886243,-1,12,1,1, got allocated to elevator, 1
+1988.0,Elevator call,1987.9478433322706,0,15,1,1, got allocated to elevator, 1
+1988.0, elevID,3,  pos,3,  cmd, goto,4
+1989.0,Elevator call,1988.3117574500216,-1,4,1,1, got allocated to elevator, 1
+1989.0, elevID,0,  pos,10,  cmd, goto,9
+1989.0, elevID,2,  pos,10,  cmd, goto,9
+1994.0,Elev,1,  arrived at dest, -1, this call is done!, Elevator call,1769.8389626703392,-2,-1,3,1, Done, dt, 224.16103732966076
+1994.0,Elev,1,  arrived at src, -1, Elevator call,1824.5142257256014,-1,0,2,1
+1994.0,Elev,1,  arrived at dest, -1, this call is done!, Elevator call,1825.222850516972,-2,-1,3,1, Done, dt, 168.7771494830281
+1994.0,Elev,1,  arrived at src, -1, Elevator call,1834.5108518114855,-1,2,2,1
+1994.0,Elev,1,  arrived at src, -1, Elevator call,1840.6184402802592,-1,5,2,1
+1994.0,Elev,1,  arrived at src, -1, Elevator call,1900.9976263527983,-1,3,2,1
+1994.0,Elev,1,  arrived at src, -1, Elevator call,1987.0127160886243,-1,12,2,1
+1994.0,Elev,1,  arrived at src, -1, Elevator call,1988.3117574500216,-1,4,2,1
+1994.0, elevID,1,  pos,-1,  cmd, goto,0
+1995.0,Elevator call,1994.1579094560807,0,19,1,1, got allocated to elevator, 1
+1995.0,Elevator call,1994.7214522513736,4,0,1,0, got allocated to elevator, 0
+1999.0, elevID,3,  pos,4,  cmd, goto,5
+2000.0,Elev,0,  arrived at src, 9, Elevator call,1937.925728003978,9,0,2,0
+2000.0,Elev,0,  arrived at src, 9, Elevator call,1981.7856707361307,9,0,2,0
+2000.0, elevID,0,  pos,9,  cmd, goto,8
+2000.0, elevID,2,  pos,9,  cmd, goto,8
+2005.0,Elev,1,  arrived at src, 0, Elevator call,1719.963571290317,0,10,2,1
+2005.0,Elev,1,  arrived at src, 0, Elevator call,1750.164102800524,0,12,2,1
+2005.0,Elev,1,  arrived at src, 0, Elevator call,1783.460185580543,0,8,2,1
+2005.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,1805.9677687934318,-2,0,3,1, Done, dt, 199.0322312065682
+2005.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,1824.5142257256014,-1,0,3,1, Done, dt, 180.48577427439864
+2005.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,1887.0557642165068,-2,0,3,1, Done, dt, 117.94423578349324
+2005.0,Elev,1,  arrived at src, 0, Elevator call,1898.8634607597169,0,13,2,1
+2005.0,Elev,1,  arrived at src, 0, Elevator call,1963.2447780873338,0,19,2,1
+2005.0,Elev,1,  arrived at src, 0, Elevator call,1987.9478433322706,0,15,2,1
+2005.0,Elev,1,  arrived at src, 0, Elevator call,1994.1579094560807,0,19,2,1
+2005.0, elevID,1,  pos,0,  cmd, goto,1
+2007.0,Elevator call,2006.0789004130793,9,0,1,0, got allocated to elevator, 0
+2010.0, elevID,3,  pos,5,  cmd, goto,6
+2011.0,Elev,0,  arrived at dest, 8, this call is done!, Elevator call,1717.932502343578,18,8,3,0, Done, dt, 293.0674976564219
+2011.0,Elev,0,  arrived at src, 8, Elevator call,1906.6598899662258,8,-1,2,0
+2011.0, elevID,0,  pos,8,  cmd, goto,7
+2011.0, elevID,2,  pos,8,  cmd, goto,7
+2016.0, elevID,1,  pos,1,  cmd, goto,2
+2021.0, elevID,3,  pos,6,  cmd, goto,7
+2022.0,Elev,0,  arrived at src, 7, Elevator call,1751.6678216247053,7,-2,2,0
+2022.0, elevID,0,  pos,7,  cmd, goto,6
+2022.0, elevID,2,  pos,7,  cmd, goto,6
+2027.0,Elev,1,  arrived at dest, 2, this call is done!, Elevator call,1834.5108518114855,-1,2,3,1, Done, dt, 192.4891481885145
+2027.0, elevID,1,  pos,2,  cmd, goto,3
+2032.0, elevID,3,  pos,7,  cmd, goto,8
+2033.0, elevID,0,  pos,6,  cmd, goto,5
+2033.0, elevID,2,  pos,6,  cmd, goto,5
+2034.0,Elevator call,2033.6829780053977,0,-1,1,0, got allocated to elevator, 0
+2035.0,Elevator call,2034.0703878283923,0,-1,1,0, got allocated to elevator, 0
+2038.0,Elevator call,2037.5403520097275,0,-2,1,0, got allocated to elevator, 0
+2038.0,Elev,1,  arrived at dest, 3, this call is done!, Elevator call,1900.9976263527983,-1,3,3,1, Done, dt, 137.0023736472017
+2038.0, elevID,1,  pos,3,  cmd, goto,4
+2041.0,Elevator call,2040.5403912392665,20,0,1,0, got allocated to elevator, 0
+2043.0, elevID,3,  pos,8,  cmd, goto,9
+2044.0, elevID,0,  pos,5,  cmd, goto,4
+2044.0, elevID,2,  pos,5,  cmd, goto,4
+2049.0,Elev,1,  arrived at dest, 4, this call is done!, Elevator call,1988.3117574500216,-1,4,3,1, Done, dt, 60.68824254997844
+2049.0, elevID,1,  pos,4,  cmd, goto,5
+2053.0,Elevator call,2052.1381634545337,0,19,1,1, got allocated to elevator, 1
+2054.0, elevID,3,  pos,9,  cmd, goto,10
+2055.0,Elev,0,  arrived at src, 4, Elevator call,1994.7214522513736,4,0,2,0
+2055.0, elevID,0,  pos,4,  cmd, goto,3
+2055.0, elevID,2,  pos,4,  cmd, goto,3
+2056.0,Elevator call,2055.2048584188574,0,15,1,1, got allocated to elevator, 1
+2060.0,Elev,1,  arrived at dest, 5, this call is done!, Elevator call,1840.6184402802592,-1,5,3,1, Done, dt, 219.38155971974084
+2060.0, elevID,1,  pos,5,  cmd, goto,6
+2065.0, elevID,3,  pos,10,  cmd, goto,11
+2066.0, elevID,0,  pos,3,  cmd, goto,2
+2066.0, elevID,2,  pos,3,  cmd, goto,2
+2071.0, elevID,1,  pos,6,  cmd, goto,7
+2075.0,Elevator call,2074.827971861633,0,-2,1,0, got allocated to elevator, 0
+2076.0, elevID,3,  pos,11,  cmd, goto,12
+2077.0,Elev,0,  arrived at src, 2, Elevator call,1811.2985223081496,2,-1,2,0
+2077.0, elevID,0,  pos,2,  cmd, goto,1
+2077.0, elevID,2,  pos,2,  cmd, goto,1
+2082.0, elevID,1,  pos,7,  cmd, goto,8
+2087.0,Elev,3,  arrived at src, 12, Elevator call,1901.607017830804,12,18,2,3
+2087.0, elevID,3,  pos,12,  cmd, goto,13
+2088.0, elevID,0,  pos,1,  cmd, goto,0
+2088.0, elevID,2,  pos,1,  cmd, goto,0
+2093.0,Elev,1,  arrived at dest, 8, this call is done!, Elevator call,1783.460185580543,0,8,3,1, Done, dt, 309.5398144194569
+2093.0, elevID,1,  pos,8,  cmd, goto,9
+2095.0,Elevator call,2094.733112485749,0,7,1,1, got allocated to elevator, 1
+2098.0, elevID,3,  pos,13,  cmd, goto,14
+2099.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1810.4987269971934,14,0,3,0, Done, dt, 288.50127300280656
+2099.0,Elev,0,  arrived at src, 0, Elevator call,1815.9544591774759,0,-1,2,0
+2099.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1846.7868554713177,18,0,3,0, Done, dt, 252.21314452868228
+2099.0,Elev,0,  arrived at src, 0, Elevator call,1919.3074429779163,0,-1,2,0
+2099.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1937.925728003978,9,0,3,0, Done, dt, 161.07427199602193
+2099.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1938.0762716201752,12,0,3,0, Done, dt, 160.92372837982475
+2099.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1981.7856707361307,9,0,3,0, Done, dt, 117.21432926386933
+2099.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,1994.7214522513736,4,0,3,0, Done, dt, 104.27854774862635
+2099.0,Elev,0,  arrived at src, 0, Elevator call,2033.6829780053977,0,-1,2,0
+2099.0,Elev,0,  arrived at src, 0, Elevator call,2034.0703878283923,0,-1,2,0
+2099.0,Elev,0,  arrived at src, 0, Elevator call,2037.5403520097275,0,-2,2,0
+2099.0,Elev,0,  arrived at src, 0, Elevator call,2074.827971861633,0,-2,2,0
+2099.0, elevID,0,  pos,0,  cmd, goto,-1
+2099.0, elevID,2,  pos,0,  cmd, goto,-1
+2104.0, elevID,1,  pos,9,  cmd, goto,10
+2107.0,Elevator call,2106.798348438753,6,-2,1,0, got allocated to elevator, 0
+2108.0,Elevator call,2107.243942145056,-2,14,1,1, got allocated to elevator, 1
+2109.0, elevID,3,  pos,14,  cmd, goto,15
+2110.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1811.2985223081496,2,-1,3,0, Done, dt, 298.7014776918504
+2110.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1815.9544591774759,0,-1,3,0, Done, dt, 294.0455408225241
+2110.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1906.6598899662258,8,-1,3,0, Done, dt, 203.34011003377418
+2110.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1919.3074429779163,0,-1,3,0, Done, dt, 190.69255702208375
+2110.0,Elev,0,  arrived at src, -1, Elevator call,1919.6716972342283,-1,-2,2,0
+2110.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,1933.0337015632977,12,-1,3,0, Done, dt, 176.96629843670235
+2110.0,Elev,0,  arrived at src, -1, Elevator call,1961.0240553170938,-1,-2,2,0
+2110.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2033.6829780053977,0,-1,3,0, Done, dt, 76.31702199460233
+2110.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2034.0703878283923,0,-1,3,0, Done, dt, 75.92961217160769
+2110.0, elevID,0,  pos,-1,  cmd, goto,-2
+2110.0, elevID,2,  pos,-1,  cmd, goto,-2
+2115.0,Elev,1,  arrived at dest, 10, this call is done!, Elevator call,1719.963571290317,0,10,3,1, Done, dt, 395.0364287096829
+2115.0, elevID,1,  pos,10,  cmd, goto,11
+2120.0,Elev,3,  arrived at dest, 15, this call is done!, Elevator call,1915.2291894348991,-2,15,3,3, Done, dt, 204.77081056510087
+2120.0, elevID,3,  pos,15,  cmd, goto,16
+2121.0,Elevator call,2120.03235734159,0,-1,1,0, got allocated to elevator, 0
+2121.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,1751.6678216247053,7,-2,3,0, Done, dt, 369.3321783752947
+2121.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,1801.3363361988281,15,-2,3,0, Done, dt, 319.6636638011719
+2121.0,Elev,0,  arrived at src, -2, Elevator call,1912.2314885532705,-2,-3,2,0
+2121.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,1919.6716972342283,-1,-2,3,0, Done, dt, 201.3283027657717
+2121.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,1961.0240553170938,-1,-2,3,0, Done, dt, 159.97594468290617
+2121.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2037.5403520097275,0,-2,3,0, Done, dt, 83.45964799027252
+2121.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2074.827971861633,0,-2,3,0, Done, dt, 46.17202813836684
+2121.0, elevID,0,  pos,-2,  cmd, goto,-3
+2121.0, elevID,2,  pos,-2,  cmd, goto,-3
+2122.0,Elevator call,2121.3783153766067,12,0,1,0, got allocated to elevator, 0
+2126.0, elevID,1,  pos,11,  cmd, goto,12
+2130.0,Elevator call,2129.2611835497505,14,0,1,0, got allocated to elevator, 0
+2131.0, elevID,3,  pos,16,  cmd, goto,17
+2132.0,Elev,0,  arrived at dest, -3, this call is done!, Elevator call,1912.2314885532705,-2,-3,3,0, Done, dt, 219.76851144672946
+2132.0, elevID,0,  pos,-3,  cmd, goto,20
+2132.0, elevID,2,  pos,-3,  cmd, goto,20
+2137.0,Elev,1,  arrived at dest, 12, this call is done!, Elevator call,1750.164102800524,0,12,3,1, Done, dt, 386.835897199476
+2137.0,Elev,1,  arrived at dest, 12, this call is done!, Elevator call,1987.0127160886243,-1,12,3,1, Done, dt, 149.9872839113757
+2137.0, elevID,1,  pos,12,  cmd, goto,13
+2142.0, elevID,3,  pos,17,  cmd, goto,18
+2147.0,Elevator call,2146.043528234148,2,0,1,0, got allocated to elevator, 0
+2147.0,Elevator call,2146.5467075788324,0,15,1,1, got allocated to elevator, 1
+2148.0,Elev,1,  arrived at dest, 13, this call is done!, Elevator call,1898.8634607597169,0,13,3,1, Done, dt, 249.13653924028313
+2148.0, elevID,1,  pos,13,  cmd, goto,14
+2153.0,Elev,3,  arrived at dest, 18, this call is done!, Elevator call,1901.607017830804,12,18,3,3, Done, dt, 251.3929821691961
+2153.0, elevID,3,  pos,18,  cmd, goto,19
+2159.0, elevID,1,  pos,14,  cmd, goto,15
+2164.0,Elevator call,2163.3526366870346,8,0,1,0, got allocated to elevator, 0
+2164.0, elevID,3,  pos,19,  cmd, goto,20
+2165.0,Elev,0,  arrived at src, 20, Elevator call,2040.5403912392665,20,0,2,0
+2165.0, elevID,0,  pos,20,  cmd, goto,19
+2165.0, elevID,2,  pos,20,  cmd, goto,19
+2170.0,Elev,1,  arrived at dest, 15, this call is done!, Elevator call,1987.9478433322706,0,15,3,1, Done, dt, 182.05215666772938
+2170.0, elevID,1,  pos,15,  cmd, goto,16
+2175.0,Elevator call,2174.16323771391,14,0,1,0, got allocated to elevator, 0
+2175.0, elevID,3,  pos,20,  cmd, goto,-3
+2176.0, elevID,0,  pos,19,  cmd, goto,18
+2176.0, elevID,2,  pos,19,  cmd, goto,18
+2179.0,Elevator call,2178.1451183918025,0,18,1,1, got allocated to elevator, 1
+2181.0,Elev,1,  arrived at dest, 16, this call is done!, Elevator call,1859.349320167251,-2,16,3,1, Done, dt, 321.6506798327489
+2181.0, elevID,1,  pos,16,  cmd, goto,17
+2186.0,Elevator call,2185.3963906660806,2,-1,1,0, got allocated to elevator, 0
+2187.0, elevID,0,  pos,18,  cmd, goto,17
+2187.0, elevID,2,  pos,18,  cmd, goto,17
+2188.0,Elevator call,2187.657378164671,12,0,1,0, got allocated to elevator, 0
+2192.0, elevID,1,  pos,17,  cmd, goto,18
+2197.0,Elevator call,2196.9779474754614,-1,6,1,1, got allocated to elevator, 1
+2198.0, elevID,0,  pos,17,  cmd, goto,16
+2198.0, elevID,2,  pos,17,  cmd, goto,16
+2203.0, elevID,1,  pos,18,  cmd, goto,19
+2208.0, elevID,3,  pos,-3,  cmd, goto,-2
+2209.0, elevID,0,  pos,16,  cmd, goto,15
+2209.0, elevID,2,  pos,16,  cmd, goto,15
+2214.0,Elev,1,  arrived at dest, 19, this call is done!, Elevator call,1963.2447780873338,0,19,3,1, Done, dt, 250.75522191266623
+2214.0,Elev,1,  arrived at dest, 19, this call is done!, Elevator call,1994.1579094560807,0,19,3,1, Done, dt, 219.8420905439193
+2214.0, elevID,1,  pos,19,  cmd, goto,20
+2219.0,Elev,3,  arrived at src, -2, Elevator call,1936.0320781299527,-2,4,2,3
+2219.0, elevID,3,  pos,-2,  cmd, goto,-1
+2220.0,Elevator call,2219.465030465447,0,-1,1,0, got allocated to elevator, 0
+2220.0, elevID,0,  pos,15,  cmd, goto,14
+2220.0, elevID,2,  pos,15,  cmd, goto,14
+2222.0,Elevator call,2221.536680482424,0,9,1,3, got allocated to elevator, 3
+2225.0,Elevator call,2224.6662018751736,0,2,1,3, got allocated to elevator, 3
+2225.0, elevID,1,  pos,20,  cmd, goto,-3
+2230.0, elevID,3,  pos,-1,  cmd, goto,0
+2231.0,Elevator call,2230.7235109092044,3,0,1,0, got allocated to elevator, 0
+2231.0,Elev,0,  arrived at src, 14, Elevator call,2129.2611835497505,14,0,2,0
+2231.0,Elev,0,  arrived at src, 14, Elevator call,2174.16323771391,14,0,2,0
+2231.0, elevID,0,  pos,14,  cmd, goto,13
+2231.0, elevID,2,  pos,14,  cmd, goto,13
+2233.0,Elevator call,2232.3214983791286,13,-2,1,0, got allocated to elevator, 0
+2241.0,Elev,3,  arrived at src, 0, Elevator call,2221.536680482424,0,9,2,3
+2241.0,Elev,3,  arrived at src, 0, Elevator call,2224.6662018751736,0,2,2,3
+2241.0, elevID,3,  pos,0,  cmd, goto,1
+2242.0,Elevator call,2241.170720452289,16,-2,1,0, got allocated to elevator, 0
+2242.0,Elev,0,  arrived at src, 13, Elevator call,1961.2369411325635,13,-2,2,0
+2242.0,Elev,0,  arrived at src, 13, Elevator call,2232.3214983791286,13,-2,2,0
+2242.0, elevID,0,  pos,13,  cmd, goto,12
+2242.0, elevID,2,  pos,13,  cmd, goto,12
+2252.0, elevID,3,  pos,1,  cmd, goto,2
+2253.0,Elev,0,  arrived at src, 12, Elevator call,2121.3783153766067,12,0,2,0
+2253.0,Elev,0,  arrived at src, 12, Elevator call,2187.657378164671,12,0,2,0
+2253.0, elevID,0,  pos,12,  cmd, goto,11
+2253.0, elevID,2,  pos,12,  cmd, goto,11
+2255.0,Elevator call,2254.3618219372593,0,5,1,1, got allocated to elevator, 1
+2258.0, elevID,1,  pos,-3,  cmd, goto,-2
+2263.0,Elev,3,  arrived at dest, 2, this call is done!, Elevator call,2224.6662018751736,0,2,3,3, Done, dt, 38.333798124826444
+2263.0, elevID,3,  pos,2,  cmd, goto,3
+2264.0, elevID,0,  pos,11,  cmd, goto,10
+2264.0, elevID,2,  pos,11,  cmd, goto,10
+2269.0,Elev,1,  arrived at src, -2, Elevator call,2107.243942145056,-2,14,2,1
+2269.0, elevID,1,  pos,-2,  cmd, goto,-1
+2274.0, elevID,3,  pos,3,  cmd, goto,4
+2275.0, elevID,0,  pos,10,  cmd, goto,9
+2275.0, elevID,2,  pos,10,  cmd, goto,9
+2280.0,Elevator call,2279.9622007779158,4,0,1,0, got allocated to elevator, 0
+2280.0,Elev,1,  arrived at src, -1, Elevator call,2196.9779474754614,-1,6,2,1
+2280.0, elevID,1,  pos,-1,  cmd, goto,0
+2285.0,Elev,3,  arrived at dest, 4, this call is done!, Elevator call,1936.0320781299527,-2,4,3,3, Done, dt, 348.96792187004735
+2285.0, elevID,3,  pos,4,  cmd, goto,5
+2286.0,Elev,0,  arrived at src, 9, Elevator call,2006.0789004130793,9,0,2,0
+2286.0, elevID,0,  pos,9,  cmd, goto,8
+2286.0, elevID,2,  pos,9,  cmd, goto,8
+2291.0,Elev,1,  arrived at src, 0, Elevator call,2052.1381634545337,0,19,2,1
+2291.0,Elev,1,  arrived at src, 0, Elevator call,2055.2048584188574,0,15,2,1
+2291.0,Elev,1,  arrived at src, 0, Elevator call,2094.733112485749,0,7,2,1
+2291.0,Elev,1,  arrived at src, 0, Elevator call,2146.5467075788324,0,15,2,1
+2291.0,Elev,1,  arrived at src, 0, Elevator call,2178.1451183918025,0,18,2,1
+2291.0,Elev,1,  arrived at src, 0, Elevator call,2254.3618219372593,0,5,2,1
+2291.0, elevID,1,  pos,0,  cmd, goto,1
+2295.0,Elevator call,2294.4424718164473,-2,0,1,1, got allocated to elevator, 1
+2296.0, elevID,3,  pos,5,  cmd, goto,6
+2297.0,Elev,0,  arrived at src, 8, Elevator call,2163.3526366870346,8,0,2,0
+2297.0, elevID,0,  pos,8,  cmd, goto,7
+2297.0, elevID,2,  pos,8,  cmd, goto,7
+2302.0, elevID,1,  pos,1,  cmd, goto,2
+2307.0, elevID,3,  pos,6,  cmd, goto,7
+2308.0, elevID,0,  pos,7,  cmd, goto,6
+2308.0, elevID,2,  pos,7,  cmd, goto,6
+2313.0, elevID,1,  pos,2,  cmd, goto,3
+2318.0,Elevator call,2317.8771053839428,-2,6,1,1, got allocated to elevator, 1
+2318.0, elevID,3,  pos,7,  cmd, goto,8
+2319.0,Elev,0,  arrived at src, 6, Elevator call,2106.798348438753,6,-2,2,0
+2319.0, elevID,0,  pos,6,  cmd, goto,5
+2319.0, elevID,2,  pos,6,  cmd, goto,5
+2323.0,Elevator call,2322.899527495319,-1,0,1,1, got allocated to elevator, 1
+2324.0, elevID,1,  pos,3,  cmd, goto,4
+2329.0, elevID,3,  pos,8,  cmd, goto,9
+2330.0, elevID,0,  pos,5,  cmd, goto,4
+2330.0, elevID,2,  pos,5,  cmd, goto,4
+2335.0, elevID,1,  pos,4,  cmd, goto,5
+2340.0,Elev,3,  arrived at dest, 9, this call is done!, Elevator call,2221.536680482424,0,9,3,3, Done, dt, 118.46331951757611
+2340.0, elevID,3,  pos,9,  cmd, goto,10
+2341.0,Elevator call,2340.1601898674744,14,0,1,0, got allocated to elevator, 0
+2341.0,Elev,0,  arrived at src, 4, Elevator call,2279.9622007779158,4,0,2,0
+2341.0, elevID,0,  pos,4,  cmd, goto,3
+2341.0, elevID,2,  pos,4,  cmd, goto,3
+2346.0,Elev,1,  arrived at dest, 5, this call is done!, Elevator call,2254.3618219372593,0,5,3,1, Done, dt, 91.63817806274074
+2346.0, elevID,1,  pos,5,  cmd, goto,6
+2351.0, elevID,3,  pos,10,  cmd, goto,11
+2352.0,Elev,0,  arrived at src, 3, Elevator call,2230.7235109092044,3,0,2,0
+2352.0, elevID,0,  pos,3,  cmd, goto,2
+2352.0, elevID,2,  pos,3,  cmd, goto,2
+2357.0,Elev,1,  arrived at dest, 6, this call is done!, Elevator call,2196.9779474754614,-1,6,3,1, Done, dt, 160.0220525245386
+2357.0, elevID,1,  pos,6,  cmd, goto,7
+2360.0,Elevator call,2359.4536108053444,-2,19,1,1, got allocated to elevator, 1
+2362.0, elevID,3,  pos,11,  cmd, goto,12
+2363.0,Elev,0,  arrived at src, 2, Elevator call,2146.043528234148,2,0,2,0
+2363.0,Elev,0,  arrived at src, 2, Elevator call,2185.3963906660806,2,-1,2,0
+2363.0, elevID,0,  pos,2,  cmd, goto,1
+2363.0, elevID,2,  pos,2,  cmd, goto,1
+2368.0,Elev,1,  arrived at dest, 7, this call is done!, Elevator call,2094.733112485749,0,7,3,1, Done, dt, 273.2668875142508
+2368.0, elevID,1,  pos,7,  cmd, goto,8
+2373.0, elevID,3,  pos,12,  cmd, goto,13
+2374.0,Elevator call,2373.781177200145,0,12,1,1, got allocated to elevator, 1
+2374.0, elevID,0,  pos,1,  cmd, goto,0
+2374.0, elevID,2,  pos,1,  cmd, goto,0
+2377.0,Elevator call,2376.2638468069654,0,12,1,1, got allocated to elevator, 1
+2379.0,Elevator call,2378.13998607122,18,0,1,0, got allocated to elevator, 0
+2379.0, elevID,1,  pos,8,  cmd, goto,9
+2380.0,Elevator call,2379.7514952967376,-1,10,1,1, got allocated to elevator, 1
+2384.0,Elevator call,2383.8229899074795,-2,0,1,1, got allocated to elevator, 1
+2384.0, elevID,3,  pos,13,  cmd, goto,14
+2385.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2006.0789004130793,9,0,3,0, Done, dt, 378.9210995869207
+2385.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2040.5403912392665,20,0,3,0, Done, dt, 344.45960876073354
+2385.0,Elev,0,  arrived at src, 0, Elevator call,2120.03235734159,0,-1,2,0
+2385.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2121.3783153766067,12,0,3,0, Done, dt, 263.6216846233933
+2385.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2129.2611835497505,14,0,3,0, Done, dt, 255.7388164502495
+2385.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2146.043528234148,2,0,3,0, Done, dt, 238.9564717658518
+2385.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2163.3526366870346,8,0,3,0, Done, dt, 221.64736331296535
+2385.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2174.16323771391,14,0,3,0, Done, dt, 210.8367622860901
+2385.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2187.657378164671,12,0,3,0, Done, dt, 197.34262183532883
+2385.0,Elev,0,  arrived at src, 0, Elevator call,2219.465030465447,0,-1,2,0
+2385.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2230.7235109092044,3,0,3,0, Done, dt, 154.27648909079562
+2385.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2279.9622007779158,4,0,3,0, Done, dt, 105.03779922208423
+2385.0, elevID,0,  pos,0,  cmd, goto,-1
+2385.0, elevID,2,  pos,0,  cmd, goto,-1
+2388.0,Elevator call,2387.241648330506,-2,7,1,1, got allocated to elevator, 1
+2390.0, elevID,1,  pos,9,  cmd, goto,10
+2391.0,Elevator call,2390.1445902747987,0,10,1,1, got allocated to elevator, 1
+2395.0,Elevator call,2394.41599747194,-2,16,1,1, got allocated to elevator, 1
+2395.0, elevID,3,  pos,14,  cmd, goto,15
+2396.0,Elevator call,2395.8785663049275,0,8,1,1, got allocated to elevator, 1
+2396.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2120.03235734159,0,-1,3,0, Done, dt, 275.9676426584101
+2396.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2185.3963906660806,2,-1,3,0, Done, dt, 210.6036093339194
+2396.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2219.465030465447,0,-1,3,0, Done, dt, 176.53496953455306
+2396.0, elevID,0,  pos,-1,  cmd, goto,-2
+2396.0, elevID,2,  pos,-1,  cmd, goto,-2
+2398.0,Elevator call,2397.7225060581127,3,0,1,0, got allocated to elevator, 0
+2399.0,Elevator call,2398.4681711994945,10,-2,1,0, got allocated to elevator, 0
+2400.0,Elevator call,2399.0243058960814,17,12,1,0, got allocated to elevator, 0
+2401.0, elevID,1,  pos,10,  cmd, goto,11
+2406.0,Elevator call,2405.3879915923358,0,16,1,1, got allocated to elevator, 1
+2406.0, elevID,3,  pos,15,  cmd, goto,16
+2407.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,1961.2369411325635,13,-2,3,0, Done, dt, 445.7630588674365
+2407.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2106.798348438753,6,-2,3,0, Done, dt, 300.2016515612472
+2407.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2232.3214983791286,13,-2,3,0, Done, dt, 174.67850162087143
+2407.0, elevID,0,  pos,-2,  cmd, goto,-3
+2407.0, elevID,2,  pos,-2,  cmd, goto,-3
+2411.0,Elevator call,2410.518570067554,18,5,1,0, got allocated to elevator, 0
+2412.0, elevID,1,  pos,11,  cmd, goto,12
+2417.0, elevID,3,  pos,16,  cmd, goto,17
+2418.0, elevID,0,  pos,-3,  cmd, goto,20
+2418.0, elevID,2,  pos,-3,  cmd, goto,20
+2422.0,Elevator call,2421.638330965294,0,-2,1,0, got allocated to elevator, 0
+2423.0,Elevator call,2422.047762487187,11,0,1,0, got allocated to elevator, 0
+2423.0, elevID,1,  pos,12,  cmd, goto,13
+2427.0,Elevator call,2426.9353012743386,13,-1,1,0, got allocated to elevator, 0
+2428.0, elevID,3,  pos,17,  cmd, goto,18
+2434.0,Elevator call,2433.0514032357246,7,-2,1,0, got allocated to elevator, 0
+2434.0, elevID,1,  pos,13,  cmd, goto,14
+2439.0, elevID,3,  pos,18,  cmd, goto,19
+2440.0,Elevator call,2439.8431014194407,0,-1,1,0, got allocated to elevator, 0
+2443.0,Elevator call,2442.6227976628834,0,-1,1,0, got allocated to elevator, 0
+2445.0,Elevator call,2444.3832905692334,-1,-2,1,0, got allocated to elevator, 0
+2445.0,Elev,1,  arrived at dest, 14, this call is done!, Elevator call,2107.243942145056,-2,14,3,1, Done, dt, 337.7560578549442
+2445.0, elevID,1,  pos,14,  cmd, goto,15
+2448.0,Elevator call,2447.435116341085,20,2,1,0, got allocated to elevator, 0
+2448.0,Elevator call,2447.8692982438984,0,-1,1,0, got allocated to elevator, 0
+2450.0,Elevator call,2449.118020548336,18,8,1,0, got allocated to elevator, 0
+2450.0, elevID,3,  pos,19,  cmd, goto,20
+2451.0,Elev,0,  arrived at src, 20, Elevator call,2447.435116341085,20,2,2,0
+2451.0, elevID,0,  pos,20,  cmd, goto,19
+2451.0, elevID,2,  pos,20,  cmd, goto,19
+2456.0,Elev,1,  arrived at dest, 15, this call is done!, Elevator call,2055.2048584188574,0,15,3,1, Done, dt, 400.7951415811426
+2456.0,Elev,1,  arrived at dest, 15, this call is done!, Elevator call,2146.5467075788324,0,15,3,1, Done, dt, 309.4532924211676
+2456.0, elevID,1,  pos,15,  cmd, goto,16
+2461.0, elevID,3,  pos,20,  cmd, goto,-3
+2462.0, elevID,0,  pos,19,  cmd, goto,18
+2462.0, elevID,2,  pos,19,  cmd, goto,18
+2464.0,Elevator call,2463.3545199987684,-1,-2,1,0, got allocated to elevator, 0
+2467.0, elevID,1,  pos,16,  cmd, goto,17
+2468.0,Elevator call,2467.302332462817,1,0,1,0, got allocated to elevator, 0
+2473.0,Elev,0,  arrived at src, 18, Elevator call,2378.13998607122,18,0,2,0
+2473.0,Elev,0,  arrived at src, 18, Elevator call,2410.518570067554,18,5,2,0
+2473.0,Elev,0,  arrived at src, 18, Elevator call,2449.118020548336,18,8,2,0
+2473.0, elevID,0,  pos,18,  cmd, goto,17
+2473.0, elevID,2,  pos,18,  cmd, goto,17
+2478.0, elevID,1,  pos,17,  cmd, goto,18
+2479.0,Elevator call,2478.0322772670493,0,-1,1,0, got allocated to elevator, 0
+2484.0,Elev,0,  arrived at src, 17, Elevator call,2399.0243058960814,17,12,2,0
+2484.0, elevID,0,  pos,17,  cmd, goto,16
+2484.0, elevID,2,  pos,17,  cmd, goto,16
+2489.0,Elev,1,  arrived at dest, 18, this call is done!, Elevator call,2178.1451183918025,0,18,3,1, Done, dt, 310.8548816081975
+2489.0, elevID,1,  pos,18,  cmd, goto,19
+2491.0,Elevator call,2490.3953829909597,1,-2,1,0, got allocated to elevator, 0
+2494.0, elevID,3,  pos,-3,  cmd, goto,-2
+2495.0,Elev,0,  arrived at src, 16, Elevator call,2241.170720452289,16,-2,2,0
+2495.0, elevID,0,  pos,16,  cmd, goto,15
+2495.0, elevID,2,  pos,16,  cmd, goto,15
+2500.0,Elev,1,  arrived at dest, 19, this call is done!, Elevator call,2052.1381634545337,0,19,3,1, Done, dt, 447.8618365454663
+2500.0, elevID,1,  pos,19,  cmd, goto,20
+2501.0,Elevator call,2500.7941977189357,0,-1,1,0, got allocated to elevator, 0
+2503.0,Elevator call,2502.806357364092,0,18,1,3, got allocated to elevator, 3
+2505.0, elevID,3,  pos,-2,  cmd, goto,-1
+2506.0, elevID,0,  pos,15,  cmd, goto,14
+2506.0, elevID,2,  pos,15,  cmd, goto,14
+2511.0, elevID,1,  pos,20,  cmd, goto,-3
+2516.0, elevID,3,  pos,-1,  cmd, goto,0
+2517.0,Elev,0,  arrived at src, 14, Elevator call,2340.1601898674744,14,0,2,0
+2517.0, elevID,0,  pos,14,  cmd, goto,13
+2517.0, elevID,2,  pos,14,  cmd, goto,13
+2527.0,Elevator call,2526.277384105768,13,-1,1,0, got allocated to elevator, 0
+2527.0,Elev,3,  arrived at src, 0, Elevator call,2502.806357364092,0,18,2,3
+2527.0, elevID,3,  pos,0,  cmd, goto,1
+2528.0,Elev,0,  arrived at src, 13, Elevator call,2426.9353012743386,13,-1,2,0
+2528.0,Elev,0,  arrived at src, 13, Elevator call,2526.277384105768,13,-1,2,0
+2528.0, elevID,0,  pos,13,  cmd, goto,12
+2528.0, elevID,2,  pos,13,  cmd, goto,12
+2538.0, elevID,3,  pos,1,  cmd, goto,2
+2539.0,Elevator call,2538.4992621567803,0,-1,1,0, got allocated to elevator, 0
+2539.0,Elev,0,  arrived at dest, 12, this call is done!, Elevator call,2399.0243058960814,17,12,3,0, Done, dt, 139.9756941039186
+2539.0, elevID,0,  pos,12,  cmd, goto,11
+2539.0, elevID,2,  pos,12,  cmd, goto,11
+2543.0,Elevator call,2542.1700509997077,-1,-2,1,0, got allocated to elevator, 0
+2544.0,Elevator call,2543.0478247984524,13,0,1,0, got allocated to elevator, 0
+2544.0, elevID,1,  pos,-3,  cmd, goto,-2
+2548.0,Elevator call,2547.157617575322,14,-1,1,0, got allocated to elevator, 0
+2549.0, elevID,3,  pos,2,  cmd, goto,3
+2550.0,Elev,0,  arrived at src, 11, Elevator call,2422.047762487187,11,0,2,0
+2550.0, elevID,0,  pos,11,  cmd, goto,10
+2550.0, elevID,2,  pos,11,  cmd, goto,10
+2555.0,Elev,1,  arrived at src, -2, Elevator call,2294.4424718164473,-2,0,2,1
+2555.0,Elev,1,  arrived at src, -2, Elevator call,2317.8771053839428,-2,6,2,1
+2555.0,Elev,1,  arrived at src, -2, Elevator call,2359.4536108053444,-2,19,2,1
+2555.0,Elev,1,  arrived at src, -2, Elevator call,2383.8229899074795,-2,0,2,1
+2555.0,Elev,1,  arrived at src, -2, Elevator call,2387.241648330506,-2,7,2,1
+2555.0,Elev,1,  arrived at src, -2, Elevator call,2394.41599747194,-2,16,2,1
+2555.0, elevID,1,  pos,-2,  cmd, goto,-1
+2558.0,Elevator call,2557.16991721484,0,11,1,1, got allocated to elevator, 1
+2560.0, elevID,3,  pos,3,  cmd, goto,4
+2561.0,Elev,0,  arrived at src, 10, Elevator call,2398.4681711994945,10,-2,2,0
+2561.0, elevID,0,  pos,10,  cmd, goto,9
+2561.0, elevID,2,  pos,10,  cmd, goto,9
+2565.0,Elevator call,2564.1433162864314,4,0,1,0, got allocated to elevator, 0
+2566.0,Elev,1,  arrived at src, -1, Elevator call,2322.899527495319,-1,0,2,1
+2566.0,Elev,1,  arrived at src, -1, Elevator call,2379.7514952967376,-1,10,2,1
+2566.0, elevID,1,  pos,-1,  cmd, goto,0
+2567.0,Elevator call,2566.8691097034225,12,0,1,0, got allocated to elevator, 0
+2568.0,Elevator call,2567.6999159129373,19,-2,1,0, got allocated to elevator, 0
+2571.0, elevID,3,  pos,4,  cmd, goto,5
+2572.0, elevID,0,  pos,9,  cmd, goto,8
+2572.0, elevID,2,  pos,9,  cmd, goto,8
+2577.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,2294.4424718164473,-2,0,3,1, Done, dt, 282.5575281835527
+2577.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,2322.899527495319,-1,0,3,1, Done, dt, 254.10047250468097
+2577.0,Elev,1,  arrived at src, 0, Elevator call,2373.781177200145,0,12,2,1
+2577.0,Elev,1,  arrived at src, 0, Elevator call,2376.2638468069654,0,12,2,1
+2577.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,2383.8229899074795,-2,0,3,1, Done, dt, 193.1770100925205
+2577.0,Elev,1,  arrived at src, 0, Elevator call,2390.1445902747987,0,10,2,1
+2577.0,Elev,1,  arrived at src, 0, Elevator call,2395.8785663049275,0,8,2,1
+2577.0,Elev,1,  arrived at src, 0, Elevator call,2405.3879915923358,0,16,2,1
+2577.0,Elev,1,  arrived at src, 0, Elevator call,2557.16991721484,0,11,2,1
+2577.0, elevID,1,  pos,0,  cmd, goto,1
+2582.0, elevID,3,  pos,5,  cmd, goto,6
+2583.0,Elev,0,  arrived at dest, 8, this call is done!, Elevator call,2449.118020548336,18,8,3,0, Done, dt, 133.88197945166394
+2583.0, elevID,0,  pos,8,  cmd, goto,7
+2583.0, elevID,2,  pos,8,  cmd, goto,7
+2588.0, elevID,1,  pos,1,  cmd, goto,2
+2593.0, elevID,3,  pos,6,  cmd, goto,7
+2594.0,Elev,0,  arrived at src, 7, Elevator call,2433.0514032357246,7,-2,2,0
+2594.0, elevID,0,  pos,7,  cmd, goto,6
+2594.0, elevID,2,  pos,7,  cmd, goto,6
+2599.0,Elevator call,2598.630298221444,0,-2,1,0, got allocated to elevator, 0
+2599.0, elevID,1,  pos,2,  cmd, goto,3
+2602.0,Elevator call,2601.418036607822,20,0,1,0, got allocated to elevator, 0
+2604.0, elevID,3,  pos,7,  cmd, goto,8
+2605.0, elevID,0,  pos,6,  cmd, goto,5
+2605.0, elevID,2,  pos,6,  cmd, goto,5
+2610.0, elevID,1,  pos,3,  cmd, goto,4
+2612.0,Elevator call,2611.476950047295,4,0,1,0, got allocated to elevator, 0
+2613.0,Elevator call,2612.2071362421257,8,-2,1,0, got allocated to elevator, 0
+2615.0, elevID,3,  pos,8,  cmd, goto,9
+2616.0,Elev,0,  arrived at dest, 5, this call is done!, Elevator call,2410.518570067554,18,5,3,0, Done, dt, 205.4814299324462
+2616.0, elevID,0,  pos,5,  cmd, goto,4
+2616.0, elevID,2,  pos,5,  cmd, goto,4
+2619.0,Elevator call,2618.332370458634,1,0,1,0, got allocated to elevator, 0
+2620.0,Elevator call,2619.052570306915,-2,0,1,1, got allocated to elevator, 1
+2621.0, elevID,1,  pos,4,  cmd, goto,5
+2622.0,Elevator call,2621.2009609587844,-2,0,1,1, got allocated to elevator, 1
+2626.0, elevID,3,  pos,9,  cmd, goto,10
+2627.0,Elev,0,  arrived at src, 4, Elevator call,2564.1433162864314,4,0,2,0
+2627.0,Elev,0,  arrived at src, 4, Elevator call,2611.476950047295,4,0,2,0
+2627.0, elevID,0,  pos,4,  cmd, goto,3
+2627.0, elevID,2,  pos,4,  cmd, goto,3
+2632.0, elevID,1,  pos,5,  cmd, goto,6
+2637.0, elevID,3,  pos,10,  cmd, goto,11
+2638.0,Elevator call,2637.4299364854637,13,0,1,0, got allocated to elevator, 0
+2638.0,Elev,0,  arrived at src, 3, Elevator call,2397.7225060581127,3,0,2,0
+2638.0, elevID,0,  pos,3,  cmd, goto,2
+2638.0, elevID,2,  pos,3,  cmd, goto,2
+2639.0,Elevator call,2638.7086828856395,3,-2,1,0, got allocated to elevator, 0
+2643.0,Elev,1,  arrived at dest, 6, this call is done!, Elevator call,2317.8771053839428,-2,6,3,1, Done, dt, 325.12289461605724
+2643.0, elevID,1,  pos,6,  cmd, goto,7
+2648.0, elevID,3,  pos,11,  cmd, goto,12
+2649.0,Elev,0,  arrived at dest, 2, this call is done!, Elevator call,2447.435116341085,20,2,3,0, Done, dt, 201.56488365891482
+2649.0, elevID,0,  pos,2,  cmd, goto,1
+2649.0, elevID,2,  pos,2,  cmd, goto,1
+2654.0,Elev,1,  arrived at dest, 7, this call is done!, Elevator call,2387.241648330506,-2,7,3,1, Done, dt, 266.758351669494
+2654.0, elevID,1,  pos,7,  cmd, goto,8
+2655.0,Elevator call,2654.3329927682726,20,0,1,0, got allocated to elevator, 0
+2659.0, elevID,3,  pos,12,  cmd, goto,13
+2660.0,Elev,0,  arrived at src, 1, Elevator call,2467.302332462817,1,0,2,0
+2660.0,Elev,0,  arrived at src, 1, Elevator call,2490.3953829909597,1,-2,2,0
+2660.0,Elev,0,  arrived at src, 1, Elevator call,2618.332370458634,1,0,2,0
+2660.0, elevID,0,  pos,1,  cmd, goto,0
+2660.0, elevID,2,  pos,1,  cmd, goto,0
+2665.0,Elevator call,2664.710815831351,0,11,1,1, got allocated to elevator, 1
+2665.0,Elev,1,  arrived at dest, 8, this call is done!, Elevator call,2395.8785663049275,0,8,3,1, Done, dt, 269.1214336950725
+2665.0, elevID,1,  pos,8,  cmd, goto,9
+2670.0, elevID,3,  pos,13,  cmd, goto,14
+2671.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2340.1601898674744,14,0,3,0, Done, dt, 330.8398101325256
+2671.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2378.13998607122,18,0,3,0, Done, dt, 292.86001392878006
+2671.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2397.7225060581127,3,0,3,0, Done, dt, 273.2774939418873
+2671.0,Elev,0,  arrived at src, 0, Elevator call,2421.638330965294,0,-2,2,0
+2671.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2422.047762487187,11,0,3,0, Done, dt, 248.9522375128131
+2671.0,Elev,0,  arrived at src, 0, Elevator call,2439.8431014194407,0,-1,2,0
+2671.0,Elev,0,  arrived at src, 0, Elevator call,2442.6227976628834,0,-1,2,0
+2671.0,Elev,0,  arrived at src, 0, Elevator call,2447.8692982438984,0,-1,2,0
+2671.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2467.302332462817,1,0,3,0, Done, dt, 203.69766753718295
+2671.0,Elev,0,  arrived at src, 0, Elevator call,2478.0322772670493,0,-1,2,0
+2671.0,Elev,0,  arrived at src, 0, Elevator call,2500.7941977189357,0,-1,2,0
+2671.0,Elev,0,  arrived at src, 0, Elevator call,2538.4992621567803,0,-1,2,0
+2671.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2564.1433162864314,4,0,3,0, Done, dt, 106.8566837135686
+2671.0,Elev,0,  arrived at src, 0, Elevator call,2598.630298221444,0,-2,2,0
+2671.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2611.476950047295,4,0,3,0, Done, dt, 59.52304995270515
+2671.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2618.332370458634,1,0,3,0, Done, dt, 52.66762954136584
+2671.0, elevID,0,  pos,0,  cmd, goto,-1
+2671.0, elevID,2,  pos,0,  cmd, goto,-1
+2675.0,Elevator call,2674.0416723032395,2,0,1,0, got allocated to elevator, 0
+2676.0, elevID,1,  pos,9,  cmd, goto,10
+2681.0, elevID,3,  pos,14,  cmd, goto,15
+2682.0,Elevator call,2681.5748691173508,7,16,1,1, got allocated to elevator, 1
+2682.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2426.9353012743386,13,-1,3,0, Done, dt, 255.0646987256614
+2682.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2439.8431014194407,0,-1,3,0, Done, dt, 242.1568985805593
+2682.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2442.6227976628834,0,-1,3,0, Done, dt, 239.37720233711661
+2682.0,Elev,0,  arrived at src, -1, Elevator call,2444.3832905692334,-1,-2,2,0
+2682.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2447.8692982438984,0,-1,3,0, Done, dt, 234.13070175610164
+2682.0,Elev,0,  arrived at src, -1, Elevator call,2463.3545199987684,-1,-2,2,0
+2682.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2478.0322772670493,0,-1,3,0, Done, dt, 203.96772273295073
+2682.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2500.7941977189357,0,-1,3,0, Done, dt, 181.20580228106428
+2682.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2526.277384105768,13,-1,3,0, Done, dt, 155.72261589423215
+2682.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2538.4992621567803,0,-1,3,0, Done, dt, 143.50073784321967
+2682.0,Elev,0,  arrived at src, -1, Elevator call,2542.1700509997077,-1,-2,2,0
+2682.0, elevID,0,  pos,-1,  cmd, goto,-2
+2682.0, elevID,2,  pos,-1,  cmd, goto,-2
+2687.0,Elev,1,  arrived at dest, 10, this call is done!, Elevator call,2379.7514952967376,-1,10,3,1, Done, dt, 307.24850470326237
+2687.0,Elev,1,  arrived at dest, 10, this call is done!, Elevator call,2390.1445902747987,0,10,3,1, Done, dt, 296.8554097252013
+2687.0, elevID,1,  pos,10,  cmd, goto,11
+2692.0, elevID,3,  pos,15,  cmd, goto,16
+2693.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2241.170720452289,16,-2,3,0, Done, dt, 451.82927954771094
+2693.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2398.4681711994945,10,-2,3,0, Done, dt, 294.53182880050554
+2693.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2421.638330965294,0,-2,3,0, Done, dt, 271.3616690347062
+2693.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2433.0514032357246,7,-2,3,0, Done, dt, 259.9485967642754
+2693.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2444.3832905692334,-1,-2,3,0, Done, dt, 248.6167094307666
+2693.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2463.3545199987684,-1,-2,3,0, Done, dt, 229.6454800012316
+2693.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2490.3953829909597,1,-2,3,0, Done, dt, 202.60461700904034
+2693.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2542.1700509997077,-1,-2,3,0, Done, dt, 150.82994900029234
+2693.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2598.630298221444,0,-2,3,0, Done, dt, 94.36970177855619
+2693.0, elevID,0,  pos,-2,  cmd, goto,-3
+2693.0, elevID,2,  pos,-2,  cmd, goto,-3
+2698.0,Elevator call,2697.03138109063,1,0,1,0, got allocated to elevator, 0
+2698.0,Elev,1,  arrived at dest, 11, this call is done!, Elevator call,2557.16991721484,0,11,3,1, Done, dt, 140.8300827851599
+2698.0, elevID,1,  pos,11,  cmd, goto,12
+2703.0, elevID,3,  pos,16,  cmd, goto,17
+2704.0, elevID,0,  pos,-3,  cmd, goto,20
+2704.0, elevID,2,  pos,-3,  cmd, goto,20
+2708.0,Elevator call,2707.2369562874496,-2,-3,1,0, got allocated to elevator, 0
+2709.0,Elev,1,  arrived at dest, 12, this call is done!, Elevator call,2373.781177200145,0,12,3,1, Done, dt, 335.21882279985493
+2709.0,Elev,1,  arrived at dest, 12, this call is done!, Elevator call,2376.2638468069654,0,12,3,1, Done, dt, 332.7361531930346
+2709.0, elevID,1,  pos,12,  cmd, goto,13
+2714.0, elevID,3,  pos,17,  cmd, goto,18
+2720.0, elevID,1,  pos,13,  cmd, goto,14
+2725.0,Elev,3,  arrived at dest, 18, this call is done!, Elevator call,2502.806357364092,0,18,3,3, Done, dt, 222.19364263590796
+2725.0, elevID,3,  pos,18,  cmd, goto,19
+2731.0, elevID,1,  pos,14,  cmd, goto,15
+2736.0, elevID,3,  pos,19,  cmd, goto,20
+2737.0,Elev,0,  arrived at src, 20, Elevator call,2601.418036607822,20,0,2,0
+2737.0,Elev,0,  arrived at src, 20, Elevator call,2654.3329927682726,20,0,2,0
+2737.0, elevID,0,  pos,20,  cmd, goto,19
+2737.0, elevID,2,  pos,20,  cmd, goto,19
+2742.0,Elevator call,2741.296573070143,-2,14,1,1, got allocated to elevator, 1
+2742.0, elevID,1,  pos,15,  cmd, goto,16
+2747.0, elevID,3,  pos,20,  cmd, goto,-3
+2748.0,Elev,0,  arrived at src, 19, Elevator call,2567.6999159129373,19,-2,2,0
+2748.0, elevID,0,  pos,19,  cmd, goto,18
+2748.0, elevID,2,  pos,19,  cmd, goto,18
+2753.0,Elev,1,  arrived at dest, 16, this call is done!, Elevator call,2394.41599747194,-2,16,3,1, Done, dt, 358.58400252805995
+2753.0,Elev,1,  arrived at dest, 16, this call is done!, Elevator call,2405.3879915923358,0,16,3,1, Done, dt, 347.61200840766423
+2753.0, elevID,1,  pos,16,  cmd, goto,17
+2759.0, elevID,0,  pos,18,  cmd, goto,17
+2759.0, elevID,2,  pos,18,  cmd, goto,17
+2764.0, elevID,1,  pos,17,  cmd, goto,18
+2770.0, elevID,0,  pos,17,  cmd, goto,16
+2770.0, elevID,2,  pos,17,  cmd, goto,16
+2774.0,Elevator call,2773.683167721264,15,3,1,0, got allocated to elevator, 0
+2774.0,Elevator call,2773.8220714880235,7,-1,1,0, got allocated to elevator, 0
+2775.0, elevID,1,  pos,18,  cmd, goto,19
+2780.0, elevID,3,  pos,-3,  cmd, goto,-2
+2781.0, elevID,0,  pos,16,  cmd, goto,15
+2781.0, elevID,2,  pos,16,  cmd, goto,15
+2786.0,Elev,1,  arrived at dest, 19, this call is done!, Elevator call,2359.4536108053444,-2,19,3,1, Done, dt, 426.5463891946556
+2786.0, elevID,1,  pos,19,  cmd, goto,20
+2788.0,Elevator call,2787.081034480574,18,-1,1,0, got allocated to elevator, 0
+2791.0, elevID,3,  pos,-2,  cmd, goto,-1
+2792.0,Elev,0,  arrived at src, 15, Elevator call,2773.683167721264,15,3,2,0
+2792.0, elevID,0,  pos,15,  cmd, goto,14
+2792.0, elevID,2,  pos,15,  cmd, goto,14
+2797.0, elevID,1,  pos,20,  cmd, goto,-3
+2802.0, elevID,3,  pos,-1,  cmd, goto,0
+2803.0,Elev,0,  arrived at src, 14, Elevator call,2547.157617575322,14,-1,2,0
+2803.0, elevID,0,  pos,14,  cmd, goto,13
+2803.0, elevID,2,  pos,14,  cmd, goto,13
+2806.0,Elevator call,2805.838888991666,-2,7,1,1, got allocated to elevator, 1
+2813.0, elevID,3,  pos,0,  cmd, goto,1
+2814.0,Elev,0,  arrived at src, 13, Elevator call,2543.0478247984524,13,0,2,0
+2814.0,Elev,0,  arrived at src, 13, Elevator call,2637.4299364854637,13,0,2,0
+2814.0, elevID,0,  pos,13,  cmd, goto,12
+2814.0, elevID,2,  pos,13,  cmd, goto,12
+2819.0,Elevator call,2818.14643263412,14,0,1,0, got allocated to elevator, 0
+2821.0,Elevator call,2820.3960110026246,20,-2,1,0, got allocated to elevator, 0
+2824.0, elevID,3,  pos,1,  cmd, goto,2
+2825.0,Elev,0,  arrived at src, 12, Elevator call,2566.8691097034225,12,0,2,0
+2825.0, elevID,0,  pos,12,  cmd, goto,11
+2825.0, elevID,2,  pos,12,  cmd, goto,11
+2828.0,Elevator call,2827.8628481914875,16,12,1,0, got allocated to elevator, 0
+2830.0,Elevator call,2829.0363434020783,9,-1,1,0, got allocated to elevator, 0
+2830.0, elevID,1,  pos,-3,  cmd, goto,-2
+2835.0,Elevator call,2834.227618965505,8,0,1,0, got allocated to elevator, 0
+2835.0, elevID,3,  pos,2,  cmd, goto,3
+2836.0, elevID,0,  pos,11,  cmd, goto,10
+2836.0, elevID,2,  pos,11,  cmd, goto,10
+2841.0,Elev,1,  arrived at src, -2, Elevator call,2619.052570306915,-2,0,2,1
+2841.0,Elev,1,  arrived at src, -2, Elevator call,2621.2009609587844,-2,0,2,1
+2841.0,Elev,1,  arrived at src, -2, Elevator call,2741.296573070143,-2,14,2,1
+2841.0,Elev,1,  arrived at src, -2, Elevator call,2805.838888991666,-2,7,2,1
+2841.0, elevID,1,  pos,-2,  cmd, goto,-1
+2844.0,Elevator call,2843.66076345678,0,-2,1,0, got allocated to elevator, 0
+2845.0,Elevator call,2844.0390257165845,3,0,1,0, got allocated to elevator, 0
+2846.0, elevID,3,  pos,3,  cmd, goto,4
+2847.0, elevID,0,  pos,10,  cmd, goto,9
+2847.0, elevID,2,  pos,10,  cmd, goto,9
+2852.0, elevID,1,  pos,-1,  cmd, goto,0
+2857.0, elevID,3,  pos,4,  cmd, goto,5
+2858.0,Elev,0,  arrived at src, 9, Elevator call,2829.0363434020783,9,-1,2,0
+2858.0, elevID,0,  pos,9,  cmd, goto,8
+2858.0, elevID,2,  pos,9,  cmd, goto,8
+2863.0,Elevator call,2862.0687944501838,20,0,1,0, got allocated to elevator, 0
+2863.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,2619.052570306915,-2,0,3,1, Done, dt, 243.9474296930848
+2863.0,Elev,1,  arrived at dest, 0, this call is done!, Elevator call,2621.2009609587844,-2,0,3,1, Done, dt, 241.79903904121556
+2863.0,Elev,1,  arrived at src, 0, Elevator call,2664.710815831351,0,11,2,1
+2863.0, elevID,1,  pos,0,  cmd, goto,1
+2868.0, elevID,3,  pos,5,  cmd, goto,6
+2869.0,Elev,0,  arrived at src, 8, Elevator call,2612.2071362421257,8,-2,2,0
+2869.0,Elev,0,  arrived at src, 8, Elevator call,2834.227618965505,8,0,2,0
+2869.0, elevID,0,  pos,8,  cmd, goto,7
+2869.0, elevID,2,  pos,8,  cmd, goto,7
+2874.0, elevID,1,  pos,1,  cmd, goto,2
+2875.0,Elevator call,2874.76871708427,6,0,1,0, got allocated to elevator, 0
+2876.0,Elevator call,2875.728652175877,-2,15,1,1, got allocated to elevator, 1
+2879.0, elevID,3,  pos,6,  cmd, goto,7
+2880.0,Elev,0,  arrived at src, 7, Elevator call,2773.8220714880235,7,-1,2,0
+2880.0, elevID,0,  pos,7,  cmd, goto,6
+2880.0, elevID,2,  pos,7,  cmd, goto,6
+2885.0, elevID,1,  pos,2,  cmd, goto,3
+2887.0,Elevator call,2886.7780741986526,6,-2,1,0, got allocated to elevator, 0
+2890.0, elevID,3,  pos,7,  cmd, goto,8
+2891.0,Elev,0,  arrived at src, 6, Elevator call,2874.76871708427,6,0,2,0
+2891.0,Elev,0,  arrived at src, 6, Elevator call,2886.7780741986526,6,-2,2,0
+2891.0, elevID,0,  pos,6,  cmd, goto,5
+2891.0, elevID,2,  pos,6,  cmd, goto,5
+2896.0,Elevator call,2895.7750519621804,-1,-2,1,0, got allocated to elevator, 0
+2896.0, elevID,1,  pos,3,  cmd, goto,4
+2901.0,Elevator call,2900.431707590713,-1,-2,1,0, got allocated to elevator, 0
+2901.0, elevID,3,  pos,8,  cmd, goto,9
+2902.0, elevID,0,  pos,5,  cmd, goto,4
+2902.0, elevID,2,  pos,5,  cmd, goto,4
+2905.0,Elevator call,2904.8293372438766,8,-1,1,0, got allocated to elevator, 0
+2907.0, elevID,1,  pos,4,  cmd, goto,5
+2912.0, elevID,3,  pos,9,  cmd, goto,10
+2913.0, elevID,0,  pos,4,  cmd, goto,3
+2913.0, elevID,2,  pos,4,  cmd, goto,3
+2918.0,Elevator call,2917.608872169569,11,0,1,0, got allocated to elevator, 0
+2918.0, elevID,1,  pos,5,  cmd, goto,6
+2921.0,Elevator call,2920.584401237239,0,-1,1,0, got allocated to elevator, 0
+2923.0, elevID,3,  pos,10,  cmd, goto,11
+2924.0,Elev,0,  arrived at src, 3, Elevator call,2638.7086828856395,3,-2,2,0
+2924.0,Elev,0,  arrived at dest, 3, this call is done!, Elevator call,2773.683167721264,15,3,3,0, Done, dt, 150.316832278736
+2924.0,Elev,0,  arrived at src, 3, Elevator call,2844.0390257165845,3,0,2,0
+2924.0, elevID,0,  pos,3,  cmd, goto,2
+2924.0, elevID,2,  pos,3,  cmd, goto,2
+2929.0, elevID,1,  pos,6,  cmd, goto,7
+2934.0, elevID,3,  pos,11,  cmd, goto,12
+2935.0,Elev,0,  arrived at src, 2, Elevator call,2674.0416723032395,2,0,2,0
+2935.0, elevID,0,  pos,2,  cmd, goto,1
+2935.0, elevID,2,  pos,2,  cmd, goto,1
+2939.0,Elevator call,2938.146119420455,11,-1,1,0, got allocated to elevator, 0
+2940.0,Elev,1,  arrived at src, 7, Elevator call,2681.5748691173508,7,16,2,1
+2940.0,Elev,1,  arrived at dest, 7, this call is done!, Elevator call,2805.838888991666,-2,7,3,1, Done, dt, 134.16111100833405
+2940.0, elevID,1,  pos,7,  cmd, goto,8
+2944.0,Elevator call,2943.4590584950756,9,7,1,0, got allocated to elevator, 0
+2945.0,Elevator call,2944.207987957163,14,4,1,0, got allocated to elevator, 0
+2945.0, elevID,3,  pos,12,  cmd, goto,13
+2946.0,Elevator call,2945.6043821056865,0,9,1,1, got allocated to elevator, 1
+2946.0,Elev,0,  arrived at src, 1, Elevator call,2697.03138109063,1,0,2,0
+2946.0, elevID,0,  pos,1,  cmd, goto,0
+2946.0, elevID,2,  pos,1,  cmd, goto,0
+2947.0,Elevator call,2946.920514890693,12,-1,1,0, got allocated to elevator, 0
+2951.0, elevID,1,  pos,8,  cmd, goto,9
+2956.0, elevID,3,  pos,13,  cmd, goto,14
+2957.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2543.0478247984524,13,0,3,0, Done, dt, 413.95217520154756
+2957.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2566.8691097034225,12,0,3,0, Done, dt, 390.1308902965775
+2957.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2601.418036607822,20,0,3,0, Done, dt, 355.58196339217784
+2957.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2637.4299364854637,13,0,3,0, Done, dt, 319.5700635145363
+2957.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2654.3329927682726,20,0,3,0, Done, dt, 302.66700723172744
+2957.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2674.0416723032395,2,0,3,0, Done, dt, 282.95832769676053
+2957.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2697.03138109063,1,0,3,0, Done, dt, 259.96861890937
+2957.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2834.227618965505,8,0,3,0, Done, dt, 122.77238103449508
+2957.0,Elev,0,  arrived at src, 0, Elevator call,2843.66076345678,0,-2,2,0
+2957.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2844.0390257165845,3,0,3,0, Done, dt, 112.96097428341545
+2957.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2874.76871708427,6,0,3,0, Done, dt, 82.23128291572993
+2957.0,Elev,0,  arrived at src, 0, Elevator call,2920.584401237239,0,-1,2,0
+2957.0, elevID,0,  pos,0,  cmd, goto,-1
+2957.0, elevID,2,  pos,0,  cmd, goto,-1
+2959.0,Elevator call,2958.2461483307566,2,0,1,0, got allocated to elevator, 0
+2959.0,Elevator call,2958.964174984712,7,0,1,0, got allocated to elevator, 0
+2962.0, elevID,1,  pos,9,  cmd, goto,10
+2967.0, elevID,3,  pos,14,  cmd, goto,15
+2968.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2547.157617575322,14,-1,3,0, Done, dt, 420.8423824246779
+2968.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2773.8220714880235,7,-1,3,0, Done, dt, 194.17792851197646
+2968.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2829.0363434020783,9,-1,3,0, Done, dt, 138.96365659792173
+2968.0,Elev,0,  arrived at src, -1, Elevator call,2895.7750519621804,-1,-2,2,0
+2968.0,Elev,0,  arrived at src, -1, Elevator call,2900.431707590713,-1,-2,2,0
+2968.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2920.584401237239,0,-1,3,0, Done, dt, 47.415598762760965
+2968.0, elevID,0,  pos,-1,  cmd, goto,-2
+2968.0, elevID,2,  pos,-1,  cmd, goto,-2
+2972.0,Elevator call,2971.6470664510807,10,0,1,0, got allocated to elevator, 0
+2973.0,Elevator call,2972.7286975708316,15,-2,1,0, got allocated to elevator, 0
+2973.0, elevID,1,  pos,10,  cmd, goto,11
+2978.0, elevID,3,  pos,15,  cmd, goto,16
+2979.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2567.6999159129373,19,-2,3,0, Done, dt, 411.3000840870627
+2979.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2612.2071362421257,8,-2,3,0, Done, dt, 366.79286375787433
+2979.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2638.7086828856395,3,-2,3,0, Done, dt, 340.2913171143605
+2979.0,Elev,0,  arrived at src, -2, Elevator call,2707.2369562874496,-2,-3,2,0
+2979.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2843.66076345678,0,-2,3,0, Done, dt, 135.33923654322007
+2979.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2886.7780741986526,6,-2,3,0, Done, dt, 92.22192580134742
+2979.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2895.7750519621804,-1,-2,3,0, Done, dt, 83.22494803781956
+2979.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2900.431707590713,-1,-2,3,0, Done, dt, 78.5682924092871
+2979.0, elevID,0,  pos,-2,  cmd, goto,-3
+2979.0, elevID,2,  pos,-2,  cmd, goto,-3
+2983.0,Elevator call,2982.4038921139677,0,-2,1,0, got allocated to elevator, 0
+2984.0,Elev,1,  arrived at dest, 11, this call is done!, Elevator call,2664.710815831351,0,11,3,1, Done, dt, 319.2891841686492
+2984.0, elevID,1,  pos,11,  cmd, goto,12
+2989.0, elevID,3,  pos,16,  cmd, goto,17
+2990.0,Elev,0,  arrived at dest, -3, this call is done!, Elevator call,2707.2369562874496,-2,-3,3,0, Done, dt, 282.76304371255037
+2990.0, elevID,0,  pos,-3,  cmd, goto,20
+2990.0, elevID,2,  pos,-3,  cmd, goto,20
+2992.0,Elevator call,2991.8921386600255,13,0,1,0, got allocated to elevator, 0
+2995.0,Elevator call,2994.0590371699163,14,-1,1,0, got allocated to elevator, 0
+2995.0, elevID,1,  pos,12,  cmd, goto,13
+3000.0, elevID,3,  pos,17,  cmd, goto,18
+3006.0, elevID,1,  pos,13,  cmd, goto,14
+3011.0, elevID,3,  pos,18,  cmd, goto,19
+3017.0,Elev,1,  arrived at dest, 14, this call is done!, Elevator call,2741.296573070143,-2,14,3,1, Done, dt, 275.70342692985696
+3017.0, elevID,1,  pos,14,  cmd, goto,15
+3022.0, elevID,3,  pos,19,  cmd, goto,20
+3023.0,Elev,0,  arrived at src, 20, Elevator call,2820.3960110026246,20,-2,2,0
+3023.0,Elev,0,  arrived at src, 20, Elevator call,2862.0687944501838,20,0,2,0
+3023.0, elevID,0,  pos,20,  cmd, goto,19
+3023.0, elevID,2,  pos,20,  cmd, goto,19
+3024.0,Elevator call,3023.4692349433917,0,13,1,1, got allocated to elevator, 1
+3026.0,Elevator call,3025.3526240938145,1,-2,1,0, got allocated to elevator, 0
+3028.0, elevID,1,  pos,15,  cmd, goto,16
+3033.0, elevID,3,  pos,20,  cmd, goto,-3
+3034.0, elevID,0,  pos,19,  cmd, goto,18
+3034.0, elevID,2,  pos,19,  cmd, goto,18
+3039.0,Elev,1,  arrived at dest, 16, this call is done!, Elevator call,2681.5748691173508,7,16,3,1, Done, dt, 357.4251308826492
+3039.0, elevID,1,  pos,16,  cmd, goto,17
+3045.0,Elev,0,  arrived at src, 18, Elevator call,2787.081034480574,18,-1,2,0
+3045.0, elevID,0,  pos,18,  cmd, goto,17
+3045.0, elevID,2,  pos,18,  cmd, goto,17
+3050.0,Elevator call,3049.629128216686,-1,-2,1,0, got allocated to elevator, 0
+3050.0, elevID,1,  pos,17,  cmd, goto,18
+3056.0, elevID,0,  pos,17,  cmd, goto,16
+3056.0, elevID,2,  pos,17,  cmd, goto,16
+3060.0,Elevator call,3059.428634128863,-2,3,1,3, got allocated to elevator, 3
+3061.0, elevID,1,  pos,18,  cmd, goto,19
+3066.0, elevID,3,  pos,-3,  cmd, goto,-2
+3067.0,Elev,0,  arrived at src, 16, Elevator call,2827.8628481914875,16,12,2,0
+3067.0, elevID,0,  pos,16,  cmd, goto,15
+3067.0, elevID,2,  pos,16,  cmd, goto,15
+3072.0, elevID,1,  pos,19,  cmd, goto,20
+3076.0,Elevator call,3075.120820110886,3,-2,1,0, got allocated to elevator, 0
+3077.0,Elev,3,  arrived at src, -2, Elevator call,3059.428634128863,-2,3,2,3
+3077.0, elevID,3,  pos,-2,  cmd, goto,-1
+3078.0,Elev,0,  arrived at src, 15, Elevator call,2972.7286975708316,15,-2,2,0
+3078.0, elevID,0,  pos,15,  cmd, goto,14
+3078.0, elevID,2,  pos,15,  cmd, goto,14
+3083.0, elevID,1,  pos,20,  cmd, goto,-3
+3088.0, elevID,3,  pos,-1,  cmd, goto,0
+3089.0,Elev,0,  arrived at src, 14, Elevator call,2818.14643263412,14,0,2,0
+3089.0,Elev,0,  arrived at src, 14, Elevator call,2944.207987957163,14,4,2,0
+3089.0,Elev,0,  arrived at src, 14, Elevator call,2994.0590371699163,14,-1,2,0
+3089.0, elevID,0,  pos,14,  cmd, goto,13
+3089.0, elevID,2,  pos,14,  cmd, goto,13
+3099.0, elevID,3,  pos,0,  cmd, goto,1
+3100.0,Elev,0,  arrived at src, 13, Elevator call,2991.8921386600255,13,0,2,0
+3100.0, elevID,0,  pos,13,  cmd, goto,12
+3100.0, elevID,2,  pos,13,  cmd, goto,12
+3102.0,Elevator call,3101.386930291006,-2,2,1,1, got allocated to elevator, 1
+3110.0, elevID,3,  pos,1,  cmd, goto,2
+3111.0,Elevator call,3110.0158485826128,0,-1,1,0, got allocated to elevator, 0
+3111.0,Elev,0,  arrived at dest, 12, this call is done!, Elevator call,2827.8628481914875,16,12,3,0, Done, dt, 283.1371518085125
+3111.0,Elev,0,  arrived at src, 12, Elevator call,2946.920514890693,12,-1,2,0
+3111.0, elevID,0,  pos,12,  cmd, goto,11
+3111.0, elevID,2,  pos,12,  cmd, goto,11
+3114.0,Elevator call,3113.030779557331,0,-2,1,0, got allocated to elevator, 0
+3114.0,Elevator call,3113.910412649525,13,4,1,0, got allocated to elevator, 0
+3116.0, elevID,1,  pos,-3,  cmd, goto,-2
+3117.0,Elevator call,3116.537004178288,11,-1,1,0, got allocated to elevator, 0
+3121.0, elevID,3,  pos,2,  cmd, goto,3
+3122.0,Elev,0,  arrived at src, 11, Elevator call,2917.608872169569,11,0,2,0
+3122.0,Elev,0,  arrived at src, 11, Elevator call,2938.146119420455,11,-1,2,0
+3122.0,Elev,0,  arrived at src, 11, Elevator call,3116.537004178288,11,-1,2,0
+3122.0, elevID,0,  pos,11,  cmd, goto,10
+3122.0, elevID,2,  pos,11,  cmd, goto,10
+3127.0,Elev,1,  arrived at src, -2, Elevator call,2875.728652175877,-2,15,2,1
+3127.0,Elev,1,  arrived at src, -2, Elevator call,3101.386930291006,-2,2,2,1
+3127.0, elevID,1,  pos,-2,  cmd, goto,-1
+3132.0,Elev,3,  arrived at dest, 3, this call is done!, Elevator call,3059.428634128863,-2,3,3,3, Done, dt, 72.571365871137
+3132.0, elevID,3,  pos,3,  cmd, goto,4
+3133.0,Elev,0,  arrived at src, 10, Elevator call,2971.6470664510807,10,0,2,0
+3133.0, elevID,0,  pos,10,  cmd, goto,9
+3133.0, elevID,2,  pos,10,  cmd, goto,9
+3134.0,Elevator call,3133.766119224859,10,0,1,0, got allocated to elevator, 0
+3134.0,Elevator call,3133.819088567094,0,7,1,1, got allocated to elevator, 1
+3138.0, elevID,1,  pos,-1,  cmd, goto,0
+3143.0, elevID,3,  pos,4,  cmd, goto,5
+3144.0,Elev,0,  arrived at src, 9, Elevator call,2943.4590584950756,9,7,2,0
+3144.0, elevID,0,  pos,9,  cmd, goto,8
+3144.0, elevID,2,  pos,9,  cmd, goto,8
+3149.0,Elev,1,  arrived at src, 0, Elevator call,2945.6043821056865,0,9,2,1
+3149.0,Elev,1,  arrived at src, 0, Elevator call,3023.4692349433917,0,13,2,1
+3149.0,Elev,1,  arrived at src, 0, Elevator call,3133.819088567094,0,7,2,1
+3149.0, elevID,1,  pos,0,  cmd, goto,1
+3152.0,Elevator call,3151.613776276552,20,19,1,0, got allocated to elevator, 0
+3154.0,Elevator call,3153.222867197947,-1,7,1,1, got allocated to elevator, 1
+3154.0, elevID,3,  pos,5,  cmd, goto,6
+3155.0,Elev,0,  arrived at src, 8, Elevator call,2904.8293372438766,8,-1,2,0
+3155.0, elevID,0,  pos,8,  cmd, goto,7
+3155.0, elevID,2,  pos,8,  cmd, goto,7
+3160.0,Elevator call,3159.4678660380837,4,-1,1,0, got allocated to elevator, 0
+3160.0, elevID,1,  pos,1,  cmd, goto,2
+3165.0, elevID,3,  pos,6,  cmd, goto,7
+3166.0,Elev,0,  arrived at dest, 7, this call is done!, Elevator call,2943.4590584950756,9,7,3,0, Done, dt, 222.54094150492438
+3166.0,Elev,0,  arrived at src, 7, Elevator call,2958.964174984712,7,0,2,0
+3166.0, elevID,0,  pos,7,  cmd, goto,6
+3166.0, elevID,2,  pos,7,  cmd, goto,6
+3171.0,Elev,1,  arrived at dest, 2, this call is done!, Elevator call,3101.386930291006,-2,2,3,1, Done, dt, 69.61306970899386
+3171.0, elevID,1,  pos,2,  cmd, goto,3
+3176.0, elevID,3,  pos,7,  cmd, goto,8
+3177.0, elevID,0,  pos,6,  cmd, goto,5
+3177.0, elevID,2,  pos,6,  cmd, goto,5
+3182.0, elevID,1,  pos,3,  cmd, goto,4
+3187.0, elevID,3,  pos,8,  cmd, goto,9
+3188.0, elevID,0,  pos,5,  cmd, goto,4
+3188.0, elevID,2,  pos,5,  cmd, goto,4
+3189.0,Elevator call,3188.0658377694995,-1,1,1,1, got allocated to elevator, 1
+3189.0,Elevator call,3188.9007106348195,0,-1,1,0, got allocated to elevator, 0
+3192.0,Elevator call,3191.633997566205,-2,-1,1,1, got allocated to elevator, 1
+3193.0, elevID,1,  pos,4,  cmd, goto,5
+3198.0, elevID,3,  pos,9,  cmd, goto,10
+3199.0,Elev,0,  arrived at dest, 4, this call is done!, Elevator call,2944.207987957163,14,4,3,0, Done, dt, 254.7920120428371
+3199.0,Elev,0,  arrived at src, 4, Elevator call,3159.4678660380837,4,-1,2,0
+3199.0, elevID,0,  pos,4,  cmd, goto,3
+3199.0, elevID,2,  pos,4,  cmd, goto,3
+3204.0, elevID,1,  pos,5,  cmd, goto,6
+3209.0,Elevator call,3208.4796943822043,16,-2,1,0, got allocated to elevator, 0
+3209.0, elevID,3,  pos,10,  cmd, goto,11
+3210.0,Elev,0,  arrived at src, 3, Elevator call,3075.120820110886,3,-2,2,0
+3210.0, elevID,0,  pos,3,  cmd, goto,2
+3210.0, elevID,2,  pos,3,  cmd, goto,2
+3214.0,Elevator call,3213.0763742127674,8,-2,1,0, got allocated to elevator, 0
+3215.0, elevID,1,  pos,6,  cmd, goto,7
+3220.0, elevID,3,  pos,11,  cmd, goto,12
+3221.0,Elev,0,  arrived at src, 2, Elevator call,2958.2461483307566,2,0,2,0
+3221.0, elevID,0,  pos,2,  cmd, goto,1
+3221.0, elevID,2,  pos,2,  cmd, goto,1
+3226.0,Elev,1,  arrived at dest, 7, this call is done!, Elevator call,3133.819088567094,0,7,3,1, Done, dt, 92.18091143290621
+3226.0, elevID,1,  pos,7,  cmd, goto,8
+3231.0, elevID,3,  pos,12,  cmd, goto,13
+3232.0,Elev,0,  arrived at src, 1, Elevator call,3025.3526240938145,1,-2,2,0
+3232.0, elevID,0,  pos,1,  cmd, goto,0
+3232.0, elevID,2,  pos,1,  cmd, goto,0
+3234.0,Elevator call,3233.6496084741684,8,-1,1,0, got allocated to elevator, 0
+3237.0, elevID,1,  pos,8,  cmd, goto,9
+3242.0, elevID,3,  pos,13,  cmd, goto,14
+3243.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2818.14643263412,14,0,3,0, Done, dt, 424.8535673658798
+3243.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2862.0687944501838,20,0,3,0, Done, dt, 380.93120554981624
+3243.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2917.608872169569,11,0,3,0, Done, dt, 325.39112783043083
+3243.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2958.2461483307566,2,0,3,0, Done, dt, 284.75385166924343
+3243.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2958.964174984712,7,0,3,0, Done, dt, 284.0358250152881
+3243.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2971.6470664510807,10,0,3,0, Done, dt, 271.3529335489193
+3243.0,Elev,0,  arrived at src, 0, Elevator call,2982.4038921139677,0,-2,2,0
+3243.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,2991.8921386600255,13,0,3,0, Done, dt, 251.10786133997453
+3243.0,Elev,0,  arrived at src, 0, Elevator call,3110.0158485826128,0,-1,2,0
+3243.0,Elev,0,  arrived at src, 0, Elevator call,3113.030779557331,0,-2,2,0
+3243.0,Elev,0,  arrived at src, 0, Elevator call,3188.9007106348195,0,-1,2,0
+3243.0, elevID,0,  pos,0,  cmd, goto,-1
+3243.0, elevID,2,  pos,0,  cmd, goto,-1
+3248.0,Elev,1,  arrived at dest, 9, this call is done!, Elevator call,2945.6043821056865,0,9,3,1, Done, dt, 302.39561789431355
+3248.0, elevID,1,  pos,9,  cmd, goto,10
+3253.0, elevID,3,  pos,14,  cmd, goto,15
+3254.0,Elevator call,3253.919892175599,7,0,1,0, got allocated to elevator, 0
+3254.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2787.081034480574,18,-1,3,0, Done, dt, 466.9189655194259
+3254.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2904.8293372438766,8,-1,3,0, Done, dt, 349.1706627561234
+3254.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2938.146119420455,11,-1,3,0, Done, dt, 315.85388057954515
+3254.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2946.920514890693,12,-1,3,0, Done, dt, 307.0794851093069
+3254.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,2994.0590371699163,14,-1,3,0, Done, dt, 259.94096283008366
+3254.0,Elev,0,  arrived at src, -1, Elevator call,3049.629128216686,-1,-2,2,0
+3254.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,3110.0158485826128,0,-1,3,0, Done, dt, 143.98415141738724
+3254.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,3116.537004178288,11,-1,3,0, Done, dt, 137.46299582171196
+3254.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,3159.4678660380837,4,-1,3,0, Done, dt, 94.53213396191632
+3254.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,3188.9007106348195,0,-1,3,0, Done, dt, 65.09928936518054
+3254.0, elevID,0,  pos,-1,  cmd, goto,-2
+3254.0, elevID,2,  pos,-1,  cmd, goto,-2
+3257.0,Elevator call,3256.2986436672563,17,0,1,0, got allocated to elevator, 0
+3259.0, elevID,1,  pos,10,  cmd, goto,11
+3260.0,Elevator call,3259.9142215307706,15,0,1,0, got allocated to elevator, 0
+3264.0, elevID,3,  pos,15,  cmd, goto,16
+3265.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2820.3960110026246,20,-2,3,0, Done, dt, 444.6039889973754
+3265.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2972.7286975708316,15,-2,3,0, Done, dt, 292.2713024291684
+3265.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,2982.4038921139677,0,-2,3,0, Done, dt, 282.5961078860323
+3265.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,3025.3526240938145,1,-2,3,0, Done, dt, 239.64737590618552
+3265.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,3049.629128216686,-1,-2,3,0, Done, dt, 215.37087178331421
+3265.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,3075.120820110886,3,-2,3,0, Done, dt, 189.87917988911386
+3265.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,3113.030779557331,0,-2,3,0, Done, dt, 151.9692204426692
+3265.0, elevID,0,  pos,-2,  cmd, goto,-3
+3265.0, elevID,2,  pos,-2,  cmd, goto,-3
+3270.0, elevID,1,  pos,11,  cmd, goto,12
+3274.0,Elevator call,3273.391151964396,20,0,1,0, got allocated to elevator, 0
+3275.0, elevID,3,  pos,16,  cmd, goto,17
+3276.0, elevID,0,  pos,-3,  cmd, goto,20
+3276.0, elevID,2,  pos,-3,  cmd, goto,20
+3278.0,Elevator call,3277.9398813904254,10,9,1,0, got allocated to elevator, 0
+3279.0,Elevator call,3278.7262348762774,4,0,1,0, got allocated to elevator, 0
+3281.0, elevID,1,  pos,12,  cmd, goto,13
+3286.0, elevID,3,  pos,17,  cmd, goto,18
+3288.0,Elevator call,3287.5252167862673,3,0,1,0, got allocated to elevator, 0
+3289.0,Elevator call,3288.104053145415,14,13,1,0, got allocated to elevator, 0
+3290.0,Elevator call,3289.098903553297,1,14,1,1, got allocated to elevator, 1
+3292.0,Elev,1,  arrived at dest, 13, this call is done!, Elevator call,3023.4692349433917,0,13,3,1, Done, dt, 268.5307650566083
+3292.0, elevID,1,  pos,13,  cmd, goto,14
+3297.0, elevID,3,  pos,18,  cmd, goto,19
+3298.0,Elevator call,3297.416606859175,20,-2,1,0, got allocated to elevator, 0
+3303.0, elevID,1,  pos,14,  cmd, goto,15
+3308.0, elevID,3,  pos,19,  cmd, goto,20
+3309.0,Elev,0,  arrived at src, 20, Elevator call,3151.613776276552,20,19,2,0
+3309.0,Elev,0,  arrived at src, 20, Elevator call,3273.391151964396,20,0,2,0
+3309.0,Elev,0,  arrived at src, 20, Elevator call,3297.416606859175,20,-2,2,0
+3309.0, elevID,0,  pos,20,  cmd, goto,19
+3309.0, elevID,2,  pos,20,  cmd, goto,19
+3314.0,Elev,1,  arrived at dest, 15, this call is done!, Elevator call,2875.728652175877,-2,15,3,1, Done, dt, 438.27134782412304
+3314.0, elevID,1,  pos,15,  cmd, goto,16
+3319.0, elevID,3,  pos,20,  cmd, goto,-3
+3320.0,Elev,0,  arrived at dest, 19, this call is done!, Elevator call,3151.613776276552,20,19,3,0, Done, dt, 168.38622372344798
+3320.0, elevID,0,  pos,19,  cmd, goto,18
+3320.0, elevID,2,  pos,19,  cmd, goto,18
+3321.0,Elevator call,3320.4066654146523,0,-1,1,0, got allocated to elevator, 0
+3325.0, elevID,1,  pos,16,  cmd, goto,17
+3331.0,Elevator call,3330.156910309705,2,0,1,0, got allocated to elevator, 0
+3331.0, elevID,0,  pos,18,  cmd, goto,17
+3331.0, elevID,2,  pos,18,  cmd, goto,17
+3334.0,Elevator call,3333.8432831826594,17,0,1,0, got allocated to elevator, 0
+3336.0, elevID,1,  pos,17,  cmd, goto,18
+3342.0,Elev,0,  arrived at src, 17, Elevator call,3256.2986436672563,17,0,2,0
+3342.0,Elev,0,  arrived at src, 17, Elevator call,3333.8432831826594,17,0,2,0
+3342.0, elevID,0,  pos,17,  cmd, goto,16
+3342.0, elevID,2,  pos,17,  cmd, goto,16
+3347.0, elevID,1,  pos,18,  cmd, goto,19
+3352.0, elevID,3,  pos,-3,  cmd, goto,-2
+3353.0,Elev,0,  arrived at src, 16, Elevator call,3208.4796943822043,16,-2,2,0
+3353.0, elevID,0,  pos,16,  cmd, goto,15
+3353.0, elevID,2,  pos,16,  cmd, goto,15
+3358.0, elevID,1,  pos,19,  cmd, goto,20
+3359.0,Elevator call,3358.6678313228704,-1,-2,1,0, got allocated to elevator, 0
+3362.0,Elevator call,3361.888962895955,12,3,1,0, got allocated to elevator, 0
+3363.0, elevID,3,  pos,-2,  cmd, goto,-1
+3364.0,Elev,0,  arrived at src, 15, Elevator call,3259.9142215307706,15,0,2,0
+3364.0, elevID,0,  pos,15,  cmd, goto,14
+3364.0, elevID,2,  pos,15,  cmd, goto,14
+3367.0,Elevator call,3366.4656977708864,20,-2,1,0, got allocated to elevator, 0
+3368.0,Elevator call,3367.638428158384,8,-1,1,0, got allocated to elevator, 0
+3369.0, elevID,1,  pos,20,  cmd, goto,-3
+3374.0, elevID,3,  pos,-1,  cmd, goto,0
+3375.0,Elev,0,  arrived at src, 14, Elevator call,3288.104053145415,14,13,2,0
+3375.0, elevID,0,  pos,14,  cmd, goto,13
+3375.0, elevID,2,  pos,14,  cmd, goto,13
+3385.0, elevID,3,  pos,0,  cmd, goto,1
+3386.0,Elevator call,3385.8833917378406,15,0,1,0, got allocated to elevator, 0
+3386.0,Elev,0,  arrived at src, 13, Elevator call,3113.910412649525,13,4,2,0
+3386.0,Elev,0,  arrived at dest, 13, this call is done!, Elevator call,3288.104053145415,14,13,3,0, Done, dt, 97.89594685458496
+3386.0, elevID,0,  pos,13,  cmd, goto,12
+3386.0, elevID,2,  pos,13,  cmd, goto,12
+3389.0,Elevator call,3388.4137627005866,8,2,1,0, got allocated to elevator, 0
+3395.0,Elevator call,3394.987033397337,6,0,1,0, got allocated to elevator, 0
+3396.0, elevID,3,  pos,1,  cmd, goto,2
+3397.0,Elev,0,  arrived at src, 12, Elevator call,3361.888962895955,12,3,2,0
+3397.0, elevID,0,  pos,12,  cmd, goto,11
+3397.0, elevID,2,  pos,12,  cmd, goto,11
+3402.0, elevID,1,  pos,-3,  cmd, goto,-2
+3407.0, elevID,3,  pos,2,  cmd, goto,3
+3408.0, elevID,0,  pos,11,  cmd, goto,10
+3408.0, elevID,2,  pos,11,  cmd, goto,10
+3413.0,Elev,1,  arrived at src, -2, Elevator call,3191.633997566205,-2,-1,2,1
+3413.0, elevID,1,  pos,-2,  cmd, goto,-1
+3418.0, elevID,3,  pos,3,  cmd, goto,4
+3419.0,Elevator call,3418.8509131488263,1,0,1,0, got allocated to elevator, 0
+3419.0,Elev,0,  arrived at src, 10, Elevator call,3133.766119224859,10,0,2,0
+3419.0,Elev,0,  arrived at src, 10, Elevator call,3277.9398813904254,10,9,2,0
+3419.0, elevID,0,  pos,10,  cmd, goto,9
+3419.0, elevID,2,  pos,10,  cmd, goto,9
+3424.0,Elev,1,  arrived at src, -1, Elevator call,3153.222867197947,-1,7,2,1
+3424.0,Elev,1,  arrived at src, -1, Elevator call,3188.0658377694995,-1,1,2,1
+3424.0,Elev,1,  arrived at dest, -1, this call is done!, Elevator call,3191.633997566205,-2,-1,3,1, Done, dt, 232.36600243379507
+3424.0, elevID,1,  pos,-1,  cmd, goto,0
+3429.0, elevID,3,  pos,4,  cmd, goto,5
+3430.0,Elev,0,  arrived at dest, 9, this call is done!, Elevator call,3277.9398813904254,10,9,3,0, Done, dt, 152.0601186095746
+3430.0, elevID,0,  pos,9,  cmd, goto,8
+3430.0, elevID,2,  pos,9,  cmd, goto,8
+3435.0, elevID,1,  pos,0,  cmd, goto,1
+3440.0, elevID,3,  pos,5,  cmd, goto,6
+3441.0,Elev,0,  arrived at src, 8, Elevator call,3213.0763742127674,8,-2,2,0
+3441.0,Elev,0,  arrived at src, 8, Elevator call,3233.6496084741684,8,-1,2,0
+3441.0,Elev,0,  arrived at src, 8, Elevator call,3367.638428158384,8,-1,2,0
+3441.0,Elev,0,  arrived at src, 8, Elevator call,3388.4137627005866,8,2,2,0
+3441.0, elevID,0,  pos,8,  cmd, goto,7
+3441.0, elevID,2,  pos,8,  cmd, goto,7
+3446.0,Elev,1,  arrived at dest, 1, this call is done!, Elevator call,3188.0658377694995,-1,1,3,1, Done, dt, 257.93416223050053
+3446.0,Elev,1,  arrived at src, 1, Elevator call,3289.098903553297,1,14,2,1
+3446.0, elevID,1,  pos,1,  cmd, goto,2
+3449.0,Elevator call,3448.4456421894647,9,-1,1,0, got allocated to elevator, 0
+3451.0, elevID,3,  pos,6,  cmd, goto,7
+3452.0,Elevator call,3451.750826337353,7,0,1,0, got allocated to elevator, 0
+3452.0,Elev,0,  arrived at src, 7, Elevator call,3253.919892175599,7,0,2,0
+3452.0,Elev,0,  arrived at src, 7, Elevator call,3451.750826337353,7,0,2,0
+3452.0, elevID,0,  pos,7,  cmd, goto,6
+3452.0, elevID,2,  pos,7,  cmd, goto,6
+3453.0,Elevator call,3452.6704248820165,5,-1,1,0, got allocated to elevator, 0
+3457.0, elevID,1,  pos,2,  cmd, goto,3
+3460.0,Elevator call,3459.4036188763357,20,17,1,0, got allocated to elevator, 0
+3462.0, elevID,3,  pos,7,  cmd, goto,8
+3463.0,Elevator call,3462.070628054928,20,-1,1,0, got allocated to elevator, 0
+3463.0,Elevator call,3462.075199754012,12,0,1,0, got allocated to elevator, 0
+3463.0,Elev,0,  arrived at src, 6, Elevator call,3394.987033397337,6,0,2,0
+3463.0, elevID,0,  pos,6,  cmd, goto,5
+3463.0, elevID,2,  pos,6,  cmd, goto,5
+3468.0, elevID,1,  pos,3,  cmd, goto,4
+3472.0,Elevator call,3471.5025233652577,16,0,1,0, got allocated to elevator, 0
+3473.0, elevID,3,  pos,8,  cmd, goto,9
+3474.0,Elevator call,3473.310881079986,14,0,1,0, got allocated to elevator, 0
+3474.0,Elev,0,  arrived at src, 5, Elevator call,3452.6704248820165,5,-1,2,0
+3474.0, elevID,0,  pos,5,  cmd, goto,4
+3474.0, elevID,2,  pos,5,  cmd, goto,4
+3479.0, elevID,1,  pos,4,  cmd, goto,5
+3484.0, elevID,3,  pos,9,  cmd, goto,10
+3485.0,Elev,0,  arrived at dest, 4, this call is done!, Elevator call,3113.910412649525,13,4,3,0, Done, dt, 371.0895873504751
+3485.0,Elev,0,  arrived at src, 4, Elevator call,3278.7262348762774,4,0,2,0
+3485.0, elevID,0,  pos,4,  cmd, goto,3
+3485.0, elevID,2,  pos,4,  cmd, goto,3
+3490.0, elevID,1,  pos,5,  cmd, goto,6
+3492.0,Elevator call,3491.642056360314,12,0,1,0, got allocated to elevator, 0
+3495.0, elevID,3,  pos,10,  cmd, goto,11
+3496.0,Elev,0,  arrived at src, 3, Elevator call,3287.5252167862673,3,0,2,0
+3496.0,Elev,0,  arrived at dest, 3, this call is done!, Elevator call,3361.888962895955,12,3,3,0, Done, dt, 134.11103710404495
+3496.0, elevID,0,  pos,3,  cmd, goto,2
+3496.0, elevID,2,  pos,3,  cmd, goto,2
+3501.0, elevID,1,  pos,6,  cmd, goto,7
+3503.0,Elevator call,3502.0915653681823,2,0,1,0, got allocated to elevator, 0
+3506.0, elevID,3,  pos,11,  cmd, goto,12
+3507.0,Elev,0,  arrived at src, 2, Elevator call,3330.156910309705,2,0,2,0
+3507.0,Elev,0,  arrived at dest, 2, this call is done!, Elevator call,3388.4137627005866,8,2,3,0, Done, dt, 118.58623729941337
+3507.0,Elev,0,  arrived at src, 2, Elevator call,3502.0915653681823,2,0,2,0
+3507.0, elevID,0,  pos,2,  cmd, goto,1
+3507.0, elevID,2,  pos,2,  cmd, goto,1
+3512.0,Elev,1,  arrived at dest, 7, this call is done!, Elevator call,3153.222867197947,-1,7,3,1, Done, dt, 358.7771328020531
+3512.0, elevID,1,  pos,7,  cmd, goto,8
+3514.0,Elevator call,3513.0100329913203,18,-2,1,0, got allocated to elevator, 0
+3517.0, elevID,3,  pos,12,  cmd, goto,13
+3518.0,Elev,0,  arrived at src, 1, Elevator call,3418.8509131488263,1,0,2,0
+3518.0, elevID,0,  pos,1,  cmd, goto,0
+3518.0, elevID,2,  pos,1,  cmd, goto,0
+3523.0,Elevator call,3522.9330534833266,19,0,1,0, got allocated to elevator, 0
+3523.0, elevID,1,  pos,8,  cmd, goto,9
+3524.0,Elevator call,3523.035780230918,2,-1,1,0, got allocated to elevator, 0
+3528.0, elevID,3,  pos,13,  cmd, goto,14
+3529.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,3133.766119224859,10,0,3,0, Done, dt, 395.2338807751412
+3529.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,3253.919892175599,7,0,3,0, Done, dt, 275.0801078244008
+3529.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,3256.2986436672563,17,0,3,0, Done, dt, 272.70135633274367
+3529.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,3259.9142215307706,15,0,3,0, Done, dt, 269.08577846922935
+3529.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,3273.391151964396,20,0,3,0, Done, dt, 255.60884803560384
+3529.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,3278.7262348762774,4,0,3,0, Done, dt, 250.27376512372257
+3529.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,3287.5252167862673,3,0,3,0, Done, dt, 241.47478321373274
+3529.0,Elev,0,  arrived at src, 0, Elevator call,3320.4066654146523,0,-1,2,0
+3529.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,3330.156910309705,2,0,3,0, Done, dt, 198.84308969029507
+3529.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,3333.8432831826594,17,0,3,0, Done, dt, 195.15671681734057
+3529.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,3394.987033397337,6,0,3,0, Done, dt, 134.0129666026628
+3529.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,3418.8509131488263,1,0,3,0, Done, dt, 110.1490868511737
+3529.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,3451.750826337353,7,0,3,0, Done, dt, 77.24917366264708
+3529.0,Elev,0,  arrived at dest, 0, this call is done!, Elevator call,3502.0915653681823,2,0,3,0, Done, dt, 26.908434631817727
+3529.0, elevID,0,  pos,0,  cmd, goto,-1
+3529.0, elevID,2,  pos,0,  cmd, goto,-1
+3534.0,Elevator call,3533.2398652773627,0,-1,1,0, got allocated to elevator, 0
+3534.0, elevID,1,  pos,9,  cmd, goto,10
+3539.0, elevID,3,  pos,14,  cmd, goto,15
+3540.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,3233.6496084741684,8,-1,3,0, Done, dt, 306.3503915258316
+3540.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,3320.4066654146523,0,-1,3,0, Done, dt, 219.59333458534775
+3540.0,Elev,0,  arrived at src, -1, Elevator call,3358.6678313228704,-1,-2,2,0
+3540.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,3367.638428158384,8,-1,3,0, Done, dt, 172.36157184161584
+3540.0,Elev,0,  arrived at dest, -1, this call is done!, Elevator call,3452.6704248820165,5,-1,3,0, Done, dt, 87.3295751179835
+3540.0, elevID,0,  pos,-1,  cmd, goto,-2
+3540.0, elevID,2,  pos,-1,  cmd, goto,-2
+3544.0,Elevator call,3543.062466806994,10,0,1,0, got allocated to elevator, 0
+3545.0, elevID,1,  pos,10,  cmd, goto,11
+3550.0, elevID,3,  pos,15,  cmd, goto,16
+3551.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,3208.4796943822043,16,-2,3,0, Done, dt, 342.52030561779566
+3551.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,3213.0763742127674,8,-2,3,0, Done, dt, 337.9236257872326
+3551.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,3297.416606859175,20,-2,3,0, Done, dt, 253.58339314082514
+3551.0,Elev,0,  arrived at dest, -2, this call is done!, Elevator call,3358.6678313228704,-1,-2,3,0, Done, dt, 192.33216867712963
+3551.0, elevID,0,  pos,-2,  cmd, goto,-3
+3551.0, elevID,2,  pos,-2,  cmd, goto,-3
+3556.0, elevID,1,  pos,11,  cmd, goto,12
+3561.0, elevID,3,  pos,16,  cmd, goto,17
+3562.0, elevID,0,  pos,-3,  cmd, goto,20
+3562.0, elevID,2,  pos,-3,  cmd, goto,20
+3567.0, elevID,1,  pos,12,  cmd, goto,13
+3571.0,Elevator call,3570.3036949573066,-2,0,1,1, got allocated to elevator, 1
+3572.0, elevID,3,  pos,17,  cmd, goto,18
+3578.0, elevID,1,  pos,13,  cmd, goto,14
+3583.0, elevID,3,  pos,18,  cmd, goto,19
+3589.0,Elev,1,  arrived at dest, 14, this call is done!, Elevator call,3289.098903553297,1,14,3,1, Done, dt, 299.9010964467029
+3589.0, elevID,1,  pos,14,  cmd, goto,15
+3590.0,Elevator call,3589.038047558616,2,0,1,0, got allocated to elevator, 0
+3594.0, elevID,3,  pos,19,  cmd, goto,20
+3595.0,Elev,0,  arrived at src, 20, Elevator call,3366.4656977708864,20,-2,2,0
+3595.0,Elev,0,  arrived at src, 20, Elevator call,3459.4036188763357,20,17,2,0
+3595.0,Elev,0,  arrived at src, 20, Elevator call,3462.070628054928,20,-1,2,0
+3595.0, elevID,0,  pos,20,  cmd, goto,19
+3595.0, elevID,2,  pos,20,  cmd, goto,19
+3600.0,************* Simulation Ended ************
+Code Owners,207051707,208785154,  Case,3,  Total waiting time: 89933.53828433307,  average waiting time per call: 224.8338457108327,  unCompleted calls,16,  certificate, -7706911831
